@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 getObs
-Reads two files
-    - list of Epic Patient Id
+Reads...
+    - one or more files containing a list of Epic Patient FHIR IDs
     - tab delimited table of LOINC codes
-For each patient, searches the Epic R4 sandbox for any observations with any of the LOINC codes
+For each patient, searches the Epic sandbox for any observations with any of the LOINC codes
 """
 import json
 import requests
@@ -17,6 +17,19 @@ def chunks(lst, n):
         yield lst[i:i + n]
 
 
+def getAuthParams():
+    """
+    Reads a 'authparm.file containing Authorization and Epic-Client-ID parameters for header
+    """
+    with open('authparam.json', 'r') as infile:
+        authparam = json.load(infile)
+
+    authheaders = {'Authorization': authparam['Authorization'],
+                   'Epic-Client-ID': authparam['Epic-Client-ID']
+                   }
+    return(authheaders)
+
+
 def main():
     """
     """
@@ -24,17 +37,8 @@ def main():
     # fhirversion = "R4"
     fhirversion = "STU3"
     resource = "Observation"
-    # baseurl = 'https://apporchard.epic.com/interconnect-aocurprd-username/api/FHIR/R4/'+resource+'?_format=json'
-    baseurl = 'https://apporchard.epic.com/interconnect-aocurprd-username/api/FHIR/'+fhirversion+'/'+resource+'?_format=json'
-    # headers = {"Authorization":"Basic ZW1wJE5BVElPTkFMTUFSUk9XOkdNWUVNUHFsdWpRaA==",
-            #    "Epic-Client-ID": "95900b2b-2e52-4cca-8a6a-f30687e7a2c3"}
-    
-    with open('authparam.json', 'r') as infile:
-        authparam = json.load(infile)
-
-    headers = {'Authorization': authparam['Authorization'],
-               'Epic-Client-ID': authparam['Epic-Client-ID']
-               }
+    baseurl = 'https://apporchard.epic.com/interconnect-aocurprd-username/api/FHIR/'+fhirversion+'/'+resource+'?_format=json'   
+    headers = getAuthParams()
 
     # patient FHIR IDs files from sheets in Epic spreadsheet, e.g., inpatient, oncology, surgery, etc
     # each group is a sheet in the Epic spreadsheet
@@ -50,10 +54,8 @@ def main():
         for row in codes:
             codelist.append(row['Code'])
     
+    # divide codelist into chunks of 140 because Epic doesn't allow more in search parameter
     codechunks = list(chunks(codelist, 140))
-    for i in codechunks:
-        codestr = ",".join(i)
-
 
     for index, item in enumerate(codechunks):
         codestr = ",".join(item)
