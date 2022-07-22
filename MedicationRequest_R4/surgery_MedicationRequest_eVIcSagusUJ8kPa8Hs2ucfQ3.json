@@ -1,0 +1,1199 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 9,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=eVIcSagusUJ8kPa8Hs2ucfQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eHEXfe6O.gfJJJArX6LlnhR4ted9fjpeq7mM2LB7w-uo3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eHEXfe6O.gfJJJArX6LlnhR4ted9fjpeq7mM2LB7w-uo3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eHEXfe6O.gfJJJArX6LlnhR4ted9fjpeq7mM2LB7w-uo3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004238"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e8GO990rKqty1H7kDmIZJOuPXpGUqL4mmaE.vfr9ShjCwHu1p2QvikkxiWPiadErc3",
+                    "display": "albuterol (PROVENTIL HFA;VENTOLIN HFA) inhaler"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T15:54:17Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 2 puffs if needed for wheezing., Historical Med",
+                        "patientInstruction": "Inhale 2 puffs if needed for wheezing.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "puff",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{puff}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eLJHnjJgQnk1OcM4OnFc1nyhutygmCnmDexgI4Bpgkeo3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eLJHnjJgQnk1OcM4OnFc1nyhutygmCnmDexgI4Bpgkeo3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eLJHnjJgQnk1OcM4OnFc1nyhutygmCnmDexgI4Bpgkeo3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004235"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eWsLe1Oy1sGigN-S13IvXNshenUINfhM8iJPSC7yGSXYe10oyWhkmJBELHd7JAQxc3",
+                    "display": "acetaminophen (TYLENOL) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T15:54:17Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 650 mg by mouth continuously if needed for mild pain., Starting Fri 7/21/2023, Historical Med",
+                        "patientInstruction": "Take 650 mg by mouth continuously if needed for mild pain.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-07-21"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous PRN"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 650,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eOs80blhuSDxZpdEL.yMMxDYH6u40EdoXWAKU-lb.1EI3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eOs80blhuSDxZpdEL.yMMxDYH6u40EdoXWAKU-lb.1EI3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eOs80blhuSDxZpdEL.yMMxDYH6u40EdoXWAKU-lb.1EI3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004231"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eHU8Hpcpm5bOGGO4WplufhLrzcmMfn8IsnMpofcvmYZAsfphO5sSw91gpO6VKQJE43",
+                    "display": "sodium chloride 0.9 % infusion"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T15:50:33Z",
+                "requester": {
+                    "reference": "Practitioner/e4F0GaS0Ff7NjSUD66cUu-Q3",
+                    "type": "Practitioner",
+                    "display": "Cornea Ophth Physician Kaleidoscope, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4F0GaS0Ff7NjSUD66cUu-Q3",
+                    "type": "Practitioner",
+                    "display": "Cornea Ophth Physician Kaleidoscope, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "100 mL/hr, Intravenous, Continuous, Starting on Sun 7/21/24 at 1100, Pre-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T16:00:00Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL/hr",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL/h"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL/hr",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL/h"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eQwQnS8Qx2w4RKwa01OravZi9DJuz18KumH-yeS4FFOw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eQwQnS8Qx2w4RKwa01OravZi9DJuz18KumH-yeS4FFOw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eQwQnS8Qx2w4RKwa01OravZi9DJuz18KumH-yeS4FFOw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004229"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eZVmBwYr9zORh-vWUWJoZsQqRyxIsU.ChVEcruu7YjuxorpT7gRSVzHwrkudnD9ho3",
+                    "display": "proparacaine (ALCAINE) ophthalmic solution 0.5%"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T15:50:34Z",
+                "requester": {
+                    "reference": "Practitioner/e4F0GaS0Ff7NjSUD66cUu-Q3",
+                    "type": "Practitioner",
+                    "display": "Cornea Ophth Physician Kaleidoscope, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4F0GaS0Ff7NjSUD66cUu-Q3",
+                    "type": "Practitioner",
+                    "display": "Cornea Ophth Physician Kaleidoscope, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 drop, Left Eye, Once, On Sun 7/21/24 at 1100, For 1 dose, Pre-op\nTo operative eye(s).\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T16:00:00Z",
+                                    "end": "2024-07-21T16:00:00Z"
+                                },
+                                "count": 1
+                            },
+                            "code": {
+                                "text": "Once"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "81",
+                                    "display": "Left Eye"
+                                }
+                            ],
+                            "text": "Left Eye"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "drop",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[drp]"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "drop",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[drp]"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "drop",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[drp]"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eYu6VxGzR-nBNcGlDKTtUl1824Zzo9wXG2r9ZN4P4AaM3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eYu6VxGzR-nBNcGlDKTtUl1824Zzo9wXG2r9ZN4P4AaM3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eYu6VxGzR-nBNcGlDKTtUl1824Zzo9wXG2r9ZN4P4AaM3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004230"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eL56FGxXt..qr5Eeb7EiXgcY.2vKpU5hUQ5MGyq2FWEgYOw-SFpL5ucqmBeeEAaM33",
+                    "display": "ofloxacin (OCUFLOX) ophthalmic solution 0.3%"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T15:50:34Z",
+                "requester": {
+                    "reference": "Practitioner/e4F0GaS0Ff7NjSUD66cUu-Q3",
+                    "type": "Practitioner",
+                    "display": "Cornea Ophth Physician Kaleidoscope, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4F0GaS0Ff7NjSUD66cUu-Q3",
+                    "type": "Practitioner",
+                    "display": "Cornea Ophth Physician Kaleidoscope, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 drop, Left Eye, Once, On Sun 7/21/24 at 1100, For 1 dose, Pre-op\nTo operative eye(s).\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T16:00:00Z",
+                                    "end": "2024-07-21T16:00:00Z"
+                                },
+                                "count": 1
+                            },
+                            "code": {
+                                "text": "Once"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "81",
+                                    "display": "Left Eye"
+                                }
+                            ],
+                            "text": "Left Eye"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "drop",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[drp]"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "drop",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[drp]"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "drop",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[drp]"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eZCOqDGpDl0v1ItZwkLRYC9XcqhpewIfWZ0KZcpy3Nq03"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eZCOqDGpDl0v1ItZwkLRYC9XcqhpewIfWZ0KZcpy3Nq03",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eZCOqDGpDl0v1ItZwkLRYC9XcqhpewIfWZ0KZcpy3Nq03",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004237"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eJtJ6NMndESioT03jqmLOc6GiY89BNISQfNXzwQUQavun.9MVL59NW3VZEOPHj67e3",
+                    "display": "fluticasone-salmeterol (ADVAIR DISKUS)  inhaler 100-50mcg/dose"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T15:54:17Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 1 puff 2 (two) times a day. Rinse mouth with water after use to reduce aftertaste and incidence of candidiasis. Do not swallow., Starting Wed 7/21/2021, Historical Med",
+                        "patientInstruction": "Inhale 1 puff 2 (two) times a day. Rinse mouth with water after use to reduce aftertaste and incidence of candidiasis. Do not swallow.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2021-07-21"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "21:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "Respiratory use only - 0900, 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "puff",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{puff}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/egGIjCA.mBw3Q-NXtxc9dnLbhLJpT5wx0-66EOUyQTmU3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/egGIjCA.mBw3Q-NXtxc9dnLbhLJpT5wx0-66EOUyQTmU3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "egGIjCA.mBw3Q-NXtxc9dnLbhLJpT5wx0-66EOUyQTmU3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004223"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eSE.lzw6WwR8RkK6lleDxF3xaSqR-g2a8njJDZsIKrTFVvRk.WnLQgBbuAvs3Fk873",
+                    "display": "ceFAZolin (ANCEF) vial 1 g"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26501"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-21T16:20:57Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Sun 7/21/24 at 1119, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T16:19:00Z",
+                                    "end": "2024-07-21T16:37:02Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/egjB3HkivEq6KMDvMONR-QabPRnUwJw-vE4eC-I7zdAo3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/egjB3HkivEq6KMDvMONR-QabPRnUwJw-vE4eC-I7zdAo3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "egjB3HkivEq6KMDvMONR-QabPRnUwJw-vE4eC-I7zdAo3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004236"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e0MRW-yr3g0tfFbBC0LC9MzJLPzUGZn5s9Rkx2eiXfJVQOCEELslviBxDICn95vlQ3",
+                    "display": "fexofenadine (ALLEGRA) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T15:54:17Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 180 mg by mouth 1 (one) time each day., Starting Wed 7/21/2021, Historical Med",
+                        "patientInstruction": "Take 180 mg by mouth 1 (one) time each day.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2021-07-21"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 180,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ev9MWETcyV-I9tk5mn7l2M5EeRiNDFGXjX9j4KkP2BGk3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ev9MWETcyV-I9tk5mn7l2M5EeRiNDFGXjX9j4KkP2BGk3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ev9MWETcyV-I9tk5mn7l2M5EeRiNDFGXjX9j4KkP2BGk3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004222"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eVdppcKeaA6OlBzEC6ZUH-ZJjrrmAumgWdrWQH4M.OETLzAf33DJIa3YhbtPmGPwygTbk16IPlB-YwqbKzyvElA3",
+                    "display": "propofol (DIPRIVAN) injection 10 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26501"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-21T16:20:10Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Sun 7/21/24 at 1119, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T16:19:00Z",
+                                    "end": "2024-07-21T16:37:02Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

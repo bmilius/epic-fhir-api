@@ -1,0 +1,981 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 9,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=e-esoRnRQoum0Hag2Z-67Jw3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eJQr1bgpvBaW-4vyQdTm63Q3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eJQr1bgpvBaW-4vyQdTm63Q3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eJQr1bgpvBaW-4vyQdTm63Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967924"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/erPDTHR6K2WA2zNgYrjQmNy6CKEHxZtaJwILeiPXZ9r5xDBKLOjBoMIwXZKd3ao4O3",
+                    "display": "ondansetron (ZOFRAN) 2 mg/mL injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:43:03Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, nausea, vomiting, Starting Tue 4/28/15 at 1338, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:38:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eNvSbFuPStCORQAQHJe0NDw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eNvSbFuPStCORQAQHJe0NDw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eNvSbFuPStCORQAQHJe0NDw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967922"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e-e7rF1gpTp3iYJeSJW.Z5KgzzvqLdbJwQu627vWx.vpgU97JQ-yw-n6lir76lrMw3",
+                    "display": "morphine PF injection 1 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:42:53Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, severe pain, Starting Tue 4/28/15 at 1338, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:38:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eQ8pAm5UgwS3xPJUKB4SbBA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eQ8pAm5UgwS3xPJUKB4SbBA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eQ8pAm5UgwS3xPJUKB4SbBA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967905"
+                    }
+                ],
+                "status": "on-hold",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eM8.hjkXiezydALIcs4edJ4rEGUVq81NRdB62BHTTR1NbYAWeqGi7.Hku1VKiNAEB3",
+                    "display": "PRENATAL VIT W/ FE BISG-FA PO"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22844"
+                    },
+                    "display": "Routine Prenatal"
+                },
+                "authoredOn": "2015-04-28T15:49:40Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/eyOHsvt3quDQ4aJ38tl.ywQ3",
+                    "type": "Practitioner",
+                    "display": "Nurse Obstetrics, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take by mouth., Until Discontinued, Historical Med",
+                        "patientInstruction": "Take by mouth.",
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eR0EEsE9G9M4BfXf6KOdgcQ3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eR0EEsE9G9M4BfXf6KOdgcQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eR0EEsE9G9M4BfXf6KOdgcQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967923"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ekprtn7K1tf3e5-zSb1iM-pDaZh22y46HuG3pHcqKys0fbgZ2CqMbvUOpU-WMm7CF3",
+                    "display": "ePHEDrine injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:42:55Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting Tue 4/28/15 at 1338, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:38:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ebGaEDFriER3cncWrV9Ggrw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ebGaEDFriER3cncWrV9Ggrw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ebGaEDFriER3cncWrV9Ggrw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967926"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLSmw4.Hohw6Y.tKyg5VnVaW2HXnKFz0ivA63MY-7JflCQwWa..q9eDvofgk0-LLh3",
+                    "display": "lactated Ringer's infusion"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:43:17Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, Continuous PRN, Starting Tue 4/28/15 at 1338, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:38:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous PRN"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eeEHmZozNtGAIK89hqJG8Dg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eeEHmZozNtGAIK89hqJG8Dg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eeEHmZozNtGAIK89hqJG8Dg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967925"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eEyuBEGXSLzkqSqT8aC9C2nTqbAB99NaczLcGf1R8TnvKjG7hDunShWrpnjTiY79H3",
+                    "display": "ketorolac (TORADOL) injection 15 mg"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:43:06Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intramuscular, As needed, moderate pain, Starting Tue 4/28/15 at 1338, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:38:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "6",
+                                    "display": "Intramuscular"
+                                }
+                            ],
+                            "text": "Intramuscular"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ekcEXnrre2V97Oqpdg8s9og3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ekcEXnrre2V97Oqpdg8s9og3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ekcEXnrre2V97Oqpdg8s9og3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967921"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e.IZlEDKZ-g4tmlTgs2a0WO3cu2MamjIllzO.WBQtXdlI9xtuq9fo.Ubbbvoa30WQ3",
+                    "display": "fentaNYL (SUBLIMAZE) injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:42:51Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, severe pain, Starting Tue 4/28/15 at 1338, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:38:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/el3BgLks9C2nGWfbbhqo6Dw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/el3BgLks9C2nGWfbbhqo6Dw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "el3BgLks9C2nGWfbbhqo6Dw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967920"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLu2VdOC6P5lcOo4zwFLXkQdXHO.X5j8-FnwnW5L.lwLsLgaSjmGR3jj5rtode0A53",
+                    "display": "bupivacaine PF (MARCAINE) injection 0.25%"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:42:48Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Injection, As needed, Starting Tue 4/28/15 at 1338, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:38:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "4",
+                                    "display": "Injection"
+                                }
+                            ],
+                            "text": "Injection"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/enb8L15v68cFSU64c0inOaA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/enb8L15v68cFSU64c0inOaA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "enb8L15v68cFSU64c0inOaA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "967917"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eGUnUHxgpUOrPKnHGnb1CICk9KYyTBBwP4MZyA0G5OmAYC.szHmuG-pfkX8CHPIOO3",
+                    "display": "VANCOMYCIN HCL 1000 MG IV SOLR"
+                },
+                "subject": {
+                    "reference": "Patient/e-esoRnRQoum0Hag2Z-67Jw3",
+                    "display": "Lmrtest, Pregnant Mom"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "22852"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2015-04-28T18:40:29Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting Tue 4/28/15 at 1339, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2015-04-28T18:39:00Z",
+                                    "end": "2015-04-28T18:45:10Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

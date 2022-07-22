@@ -1,0 +1,110 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation?_format=json&patient=eZDAtWYf-J3VhuSKZ.HFmag3&code=http://loinc.org%7C50190-8,14800-7,2500-7,22753-8,2501-5,14801-5,2502-3,2498-4,44326-7,14798-3,34442-4,35672-5,14631-6,1975-2,77137-8,50189-0,78961-0,1754-1,1753-3,50949-7,6942-7,77158-4,14957-5,53531-0,11218-5,95232-5,1755-8,89999-7,9318-7,1916-6,16325-3,2325-9,1920-8,44786-2,30239-8,88112-8,48136-6,54500-4,76625-3,16324-6,96586-3,77144-4,48134-1,1742-6,1743-4,1744-2,44785-4,14119-2,2540-3,2549-4,2537-9,2543-7,2546-0,14804-9,14805-6,2541-1,2544-5,2547-8,2535-3,2538-7,19248-4,93905-8,883-9,14580-5,882-1,57743-7,51892-8,93906-6,44086-7,77397-8,19057-9,884-7,54417-1,34474-7,1303-7,54416-3,14906-2,13225-8,16714-8,16715-5,16716-3,22241-4,22246-3,22247-1,22249-7,29590-7,29604-6,30247-1,32170-3,49349-4,5121-9,5122-7,5124-3,5125-0,5126-8,5127-6,52976-8,54206-8,72493-0,72494-8,7851-9,7852-7,7853-5,88545-9,9513-3,32791-6,32835-1,52984-2,78445-4,67805-2,59838-3,30325-5,13949-3,22239-8,24119-0,6377-6,6376-8,5835-4,54164-9,4996-5,49539-0,43703-8,31795-8,30246-3,15377-5,16718-9,22244-8,28008-1,20475-0,87424-8,88535-0,95184-8,78006-4,96591-3,69405-9,96592-1,50384-7,50210-4,62238-1,77147-7"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eFYsZFeQxFH2z86b429BZryjpQBedqpmpejD9o5dugHQngzgkf3YoUo1NFwYECBWx3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eFYsZFeQxFH2z86b429BZryjpQBedqpmpejD9o5dugHQngzgkf3YoUo1NFwYECBWx3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eFYsZFeQxFH2z86b429BZryjpQBedqpmpejD9o5dugHQngzgkf3YoUo1NFwYECBWx3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eo21mZNDws3QhiZCVxqLtU-ij9n5GBOVLs9yMwYTluwg3",
+                        "display": "Hepatic function panel"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "1920-8",
+                            "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1526000",
+                            "display": "AST"
+                        }
+                    ],
+                    "text": "AST"
+                },
+                "subject": {
+                    "reference": "Patient/eZDAtWYf-J3VhuSKZ.HFmag3",
+                    "display": "Beacon, Paula"
+                },
+                "encounter": {
+                    "reference": "Encounter/ePnIfnZU07DHeUcadNYGAgw3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2013-09-12T05:00:00Z",
+                "issued": "2013-09-12T22:18:48Z",
+                "valueQuantity": {
+                    "value": 25,
+                    "unit": "U/L",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "U/L"
+                },
+                "specimen": {
+                    "reference": "Specimen/eQ7StxwXIb.niihVdxhZKXg3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 12,
+                            "unit": "U/L",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "U/L"
+                        },
+                        "high": {
+                            "value": 31,
+                            "unit": "U/L",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "U/L"
+                        },
+                        "text": "12 - 31 U/L"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

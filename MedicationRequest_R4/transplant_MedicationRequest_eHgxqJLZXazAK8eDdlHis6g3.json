@@ -1,0 +1,2117 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 16,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=eHgxqJLZXazAK8eDdlHis6g3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e2OINH3RbNnh1T5IN0oWhqQ3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e2OINH3RbNnh1T5IN0oWhqQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e2OINH3RbNnh1T5IN0oWhqQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895159"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eGqlUOle7zUr849XGeFXxBvJmW4u2S6iPFNgptZliKjAywOQ4-lAgHsNzSyblJb1A3",
+                    "display": "lisinopril (PRINIVIL,ZESTRIL) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 10 mg by mouth daily.  , Starting 1/12/2012, Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 10 mg by mouth daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eAk3gMlCgKZgWVjMRXKeDFg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eAk3gMlCgKZgWVjMRXKeDFg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eAk3gMlCgKZgWVjMRXKeDFg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895154"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/exSXDHYrXaHiuQGfmwCzniZMX5xz56qVcoDjFr9ZOVsU3uoDjsUxDS3NaRfd.w-u93",
+                    "display": "omeprazole (PriLOSEC) DR capsule"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 20 mg by mouth daily.  , Starting 1/12/2012, Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 20 mg by mouth daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 20,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eGwG7o6sQW.bPRjbK.tcxog3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eGwG7o6sQW.bPRjbK.tcxog3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eGwG7o6sQW.bPRjbK.tcxog3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895158"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e9u.N-XcqYsSHL52b1kWK7SDF3ZJhLfMhrACsWS4oT1FDqZWTATENNHchpQ3fd7403",
+                    "display": "insulin regular (HumuLIN R,NovoLIN R) injection"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inject 100 Units/kg into the skin 3 (three) times daily before meals.  , Starting 1/12/2012, Until Discontinued, Historical Med",
+                        "patientInstruction": "Inject 100 Units/kg into the skin 3 (three) times daily before meals.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "07:30:00",
+                                    "11:30:00",
+                                    "17:30:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0730, 1130, 1730"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "18",
+                                    "display": "Subcutaneous"
+                                }
+                            ],
+                            "text": "Subcutaneous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "Units/kg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "U/kg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eITLrP-ZqLhts22.xEdgvLw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eITLrP-ZqLhts22.xEdgvLw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eITLrP-ZqLhts22.xEdgvLw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895145"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e58k4kBi.9RBgTislR9cWd6L5JZq6fPfo05hSzmMFIw2yEFw33Rvq01-Cz5ZDMRdI3",
+                    "display": "tacrolimus (PROGRAF) capsule"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/exQZ845S8zsZT8WKJ3HV0UQ3",
+                    "display": "Refill"
+                },
+                "authoredOn": "2013-11-16",
+                "requester": {
+                    "reference": "Practitioner/emhilH6WzKBpangkpuWtgdQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Phoenix, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4fBRdwCD6bWDI76z9Bn9WA3",
+                    "type": "Practitioner",
+                    "display": "Coordinator Phoenix, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 2 capsules (1 mg total) by mouth 2 (two) times daily., Starting 11/16/2013, Until Discontinued, Print",
+                        "patientInstruction": "Take 2 capsules (1 mg total) by mouth 2 (two) times daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-11-16"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "capsule",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{capsule}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2013-11-16"
+                    },
+                    "numberOfRepeatsAllowed": 2,
+                    "quantity": {
+                        "value": 90,
+                        "unit": "capsule"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 23,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                },
+                "priorPrescription": {
+                    "reference": "MedicationRequest/enwbXxjwMDYuOmwfmbji4vw3",
+                    "display": "tacrolimus (PROGRAF) 0.5 MG capsule"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eRJvN1fga0039VdMsGH3z5A3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eRJvN1fga0039VdMsGH3z5A3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eRJvN1fga0039VdMsGH3z5A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895152"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eSR92tIr.d1wT9yR-sG1uzIvKA0URoopPfR17tfJLeGleLafwxPTDzut3JM.CbZt-3",
+                    "display": "HYDROmorphone (DILAUDID) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 1 mg by mouth every 4 (four) hours as needed.  , Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 1 mg by mouth every 4 (four) hours as needed.  ",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 4,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 4 (four) hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eRk7Xf-0MI2Kw-GXosDwCCw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eRk7Xf-0MI2Kw-GXosDwCCw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eRk7Xf-0MI2Kw-GXosDwCCw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895153"
+                    }
+                ],
+                "status": "completed",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/ezTgnGdqID1yk.dB9FtbnScPeT4Q6mny2CQzNGbqoldw.YCeF3KuUhp1OZE0p4vaH3",
+                    "display": "ofloxacin (FLOXIN) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 400 mg by mouth 2 (two) times daily.  , Starting 1/12/2012, Until Thu 2/9/12, Historical Med",
+                        "patientInstruction": "Take 400 mg by mouth 2 (two) times daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 400,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVI0U9Wv38U8WqoFFEV4EIA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVI0U9Wv38U8WqoFFEV4EIA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eVI0U9Wv38U8WqoFFEV4EIA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895150"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/em7f1csqYmg648wO2QtvO5aOSocyGO.nQVxOtouOnnVHB-mXP6NvAIHC9.Zo8yDKF3",
+                    "display": "furosemide (LASIX) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 80 mg by mouth 2 (two) times daily.  , Starting 1/12/2012, Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 80 mg by mouth 2 (two) times daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 80,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVY1sATckAk4n5AxggypiGw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVY1sATckAk4n5AxggypiGw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eVY1sATckAk4n5AxggypiGw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895162"
+                    }
+                ],
+                "status": "completed",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eZCTjZVXFCAS229FJmq7DA74Sgi8X8Z1Ev-lxRrBwwnwwoy2JC0Qe67DzWyti8qj.3",
+                    "display": "ursodiol (ACTIGALL) capsule 300 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 300 mg by mouth 2 (two) times daily.  , Starting 1/12/2012, Until Thu 2/9/12, Historical Med",
+                        "patientInstruction": "Take 300 mg by mouth 2 (two) times daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 300,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/efRCICwwuqeJnacZ0xrVkGw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/efRCICwwuqeJnacZ0xrVkGw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "efRCICwwuqeJnacZ0xrVkGw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895160"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/epFp.PgQmQACKQyO2NtlZ63fO2eKORwRrQdAT0iBAsRUV6qYCUBmoc7XFxjmucJ8u3",
+                    "display": "calcium-vitamin D tablet 500 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 1 tablet by mouth 2 (two) times daily.  , Starting 1/12/2012, Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 1 tablet by mouth 2 (two) times daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/egMrs8fQEOW.a5hCclyhQwg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/egMrs8fQEOW.a5hCclyhQwg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "egMrs8fQEOW.a5hCclyhQwg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895151"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eiZezr.V1LmoxGk3Bh.qPFVTbyZKKNamWHdAQRH0rVxm3U4I3JfnwoMdDUVOl3n3F3",
+                    "display": "glipiZIDE (GLUCOTROL) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 5 mg by mouth 2 (two) times daily before meals.  , Starting 1/12/2012, Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 5 mg by mouth 2 (two) times daily before meals.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "07:30:00",
+                                    "17:30:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0730, 1730"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ejVc4a-s7iY296pY4TEDGlw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ejVc4a-s7iY296pY4TEDGlw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ejVc4a-s7iY296pY4TEDGlw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895156"
+                    }
+                ],
+                "status": "completed",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eca4GKwOxK5n2JAqLKjGPj5Hk.j0W1YF1e2LdwNk-T9zWYWHeQ.7ESUnumHihoIb53",
+                    "display": "spironolactone (ALDACTONE) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 50 mg by mouth daily.  , Starting 1/12/2012, Until Thu 2/9/12, Historical Med",
+                        "patientInstruction": "Take 50 mg by mouth daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 50,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/emr00NIJS4ecDYT1OZlhQPw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/emr00NIJS4ecDYT1OZlhQPw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "emr00NIJS4ecDYT1OZlhQPw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895149"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eZpnyFfZJteFVRqyiFXSD3lTYtOVWTaMYkxRe-3.jvBWczgbqBGX4zIGIS.-1irVm3",
+                    "display": "albuterol nebulizer solution 2.5 mg/3 mL (0.083%)"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 2.5 mg by nebulization every 6 (six) hours as needed.  , Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 2.5 mg by nebulization every 6 (six) hours as needed.  ",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 6,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 6 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "82",
+                                    "display": "Nebulization"
+                                }
+                            ],
+                            "text": "Nebulization"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/en5uiB3nTuS0UNktrufM0nw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/en5uiB3nTuS0UNktrufM0nw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "en5uiB3nTuS0UNktrufM0nw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895157"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/ez9Th9Z5AgOPpBB1t9Wnp034MbOkU0hC2y96G6N63CDTsOuy3Y0hXaV0HzNZc0fkw3",
+                    "display": "insulin NPH (HumuLIN N,NovoLIN N) injection"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inject 100 Units/kg into the skin 2 (two) times daily before meals.  , Starting 1/12/2012, Until Discontinued, Historical Med",
+                        "patientInstruction": "Inject 100 Units/kg into the skin 2 (two) times daily before meals.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "07:30:00",
+                                    "17:30:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0730, 1730"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "18",
+                                    "display": "Subcutaneous"
+                                }
+                            ],
+                            "text": "Subcutaneous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "Units/kg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "U/kg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/enWFyleApXZ9EXFji-B0kZA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/enWFyleApXZ9EXFji-B0kZA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "enWFyleApXZ9EXFji-B0kZA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895155"
+                    }
+                ],
+                "status": "completed",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eDFfQonSZVlgfTYZ1HKX-OeDu7KAfOeyeRkeMZGz2r8fV-aiUphM3SE.zPLgn8bXo3",
+                    "display": "rifAXIMin (XIFAXAN) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 200 mg by mouth 3 (three) times daily.  , Starting 1/12/2012, Until Thu 2/9/12, Historical Med",
+                        "patientInstruction": "Take 200 mg by mouth 3 (three) times daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-01-12"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "16:00:00",
+                                    "21:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1600, 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 200,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/enwbXxjwMDYuOmwfmbji4vw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/enwbXxjwMDYuOmwfmbji4vw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "enwbXxjwMDYuOmwfmbji4vw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895144"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e58k4kBi.9RBgTislR9cWd8XE0BlACtbO0tSkrekhE5KhIK1gdsKzUCg4CFqLm5j13",
+                    "display": "tacrolimus (PROGRAF) capsule"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/exQZ845S8zsZT8WKJ3HV0UQ3",
+                    "display": "Refill"
+                },
+                "authoredOn": "2013-11-16T18:15:35Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4fBRdwCD6bWDI76z9Bn9WA3",
+                    "type": "Practitioner",
+                    "display": "Coordinator Phoenix, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 0.5 mg by mouth 2 (two) times daily.  , Until Sat 11/16/13, Historical Med",
+                        "patientInstruction": "Take 0.5 mg by mouth 2 (two) times daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "end": "2013-11-16"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 0.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eo-XC97HuLD8PArWVRckLMg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eo-XC97HuLD8PArWVRckLMg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eo-XC97HuLD8PArWVRckLMg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895161"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/es6APkFe7AnnhoECALy2bKUCIFfREAQPKg-hjfhQT7hMbPsTV3s3oPH4RiTeuaepH3",
+                    "display": "multivitamin capsule"
+                },
+                "subject": {
+                    "reference": "Patient/eHgxqJLZXazAK8eDdlHis6g3",
+                    "display": "Transplant, William B"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8JfE3gHA72SX9culQcJpYA3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-07-10T15:35:21Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e86UX1-Sbvyfw3-lHwT7YzQ3",
+                    "type": "Practitioner",
+                    "display": "Abstractor Ambulatory"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 1 capsule by mouth daily.  , Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 1 capsule by mouth daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "capsule",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{capsule}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

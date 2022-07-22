@@ -1,0 +1,642 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 4,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=e1edoJyT7mVU8AOSNJuIV9g3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eD85N4ynCMIcNkSQBIxHqYg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eD85N4ynCMIcNkSQBIxHqYg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eD85N4ynCMIcNkSQBIxHqYg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "899801"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eyP7rhmZ2MmGSJjvIuuqVExgImSKlYxwV2VHsHlgNgsym88PKrZtBXArA40N-J1cO3",
+                    "display": "morphine injection 2 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e1edoJyT7mVU8AOSNJuIV9g3",
+                    "display": "Him, Andrew"
+                },
+                "encounter": {
+                    "reference": "Encounter/ehw-UCcUO6YuLZ3i4JnV.Gw3",
+                    "display": "Emergency"
+                },
+                "authoredOn": "2012-06-08T21:05:56Z",
+                "requester": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+                    "type": "Practitioner",
+                    "display": "User Epic"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "2 mg, Intravenous, Every 2 hour PRN, pain, Starting Fri 6/8/12 at 1604, For 4 doses",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-06-08T21:04:46Z"
+                                },
+                                "count": 1,
+                                "countMax": 4,
+                                "frequency": 1,
+                                "period": 2,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 2 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eXJhxp8qmIVI.XbB6Jn.u2g3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eXJhxp8qmIVI.XbB6Jn.u2g3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eXJhxp8qmIVI.XbB6Jn.u2g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "899787"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e2EZ-EIWL0MgLNKiu82bBizKXTUhuLotKTalNb1XYlQKFUys815gbM8L.SG6Bc8Yx3",
+                    "display": "ampicillin IVPB 1 g  in 50 mL (Mini-Bag Plus)"
+                },
+                "subject": {
+                    "reference": "Patient/e1edoJyT7mVU8AOSNJuIV9g3",
+                    "display": "Him, Andrew"
+                },
+                "encounter": {
+                    "reference": "Encounter/ehw-UCcUO6YuLZ3i4JnV.Gw3",
+                    "display": "Emergency"
+                },
+                "authoredOn": "2012-06-05T17:53:29Z",
+                "requester": {
+                    "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Emergency, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Emergency, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 g, Intravenous, for 30 Minutes, Every 8 hours, First dose on Tue 6/5/12 at 1300, For 1 day",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-06-05T18:00:00Z",
+                                    "end": "2012-06-06T17:59:00Z"
+                                },
+                                "count": 3,
+                                "duration": 30,
+                                "durationMax": 60,
+                                "durationUnit": "min",
+                                "frequency": 1,
+                                "period": 8,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 8 hours"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "g",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "g"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "g",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "g"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "g",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "g"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ejNducc8TWTiiYL3hUHP1aA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ejNducc8TWTiiYL3hUHP1aA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ejNducc8TWTiiYL3hUHP1aA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "899800"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLSmw4.Hohw6Y.tKyg5VnVagIT53sZojMY-7-xHkOYXRW1TDQR11pqtzSpjNgI3cq3",
+                    "display": "lactated Ringer's infusion"
+                },
+                "subject": {
+                    "reference": "Patient/e1edoJyT7mVU8AOSNJuIV9g3",
+                    "display": "Him, Andrew"
+                },
+                "encounter": {
+                    "reference": "Encounter/ehw-UCcUO6YuLZ3i4JnV.Gw3",
+                    "display": "Emergency"
+                },
+                "authoredOn": "2012-06-08T21:05:55Z",
+                "requester": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+                    "type": "Practitioner",
+                    "display": "User Epic"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "75 mL/hr, Intravenous, Continuous, Starting Fri 6/8/12 at 1615, For 1 day",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-06-08T21:03:08Z",
+                                    "end": "2012-06-09T21:02:08Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 75,
+                                    "unit": "mL/hr",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL/h"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 75,
+                                    "unit": "mL/hr",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL/h"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eqcPEgDUlw.Or1vr6WiFd1A3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eqcPEgDUlw.Or1vr6WiFd1A3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eqcPEgDUlw.Or1vr6WiFd1A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "899788"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e8h2QLuf9R4UG31qMYcEj.lc.OMtFTSV-kEWVwXi3WC3w8..mS9IPK4MjDHCZsvMv3",
+                    "display": "gentamicin IVPB 80 mg (premix)"
+                },
+                "subject": {
+                    "reference": "Patient/e1edoJyT7mVU8AOSNJuIV9g3",
+                    "display": "Him, Andrew"
+                },
+                "encounter": {
+                    "reference": "Encounter/ehw-UCcUO6YuLZ3i4JnV.Gw3",
+                    "display": "Emergency"
+                },
+                "authoredOn": "2012-06-05T17:53:31Z",
+                "requester": {
+                    "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Emergency, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Emergency, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "80 mg, Intravenous, Every 8 hours, First dose on Tue 6/5/12 at 1300, For 1 day",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-06-05T18:00:00Z",
+                                    "end": "2012-06-06T17:59:00Z"
+                                },
+                                "count": 3,
+                                "frequency": 1,
+                                "period": 8,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 8 hours"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 80,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 80,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

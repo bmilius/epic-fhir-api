@@ -1,0 +1,633 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 5,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=eJH4E861wFWdrdbbqTu35hQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eBIm3JXacEFXWopj9-ZZEnA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eBIm3JXacEFXWopj9-ZZEnA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eBIm3JXacEFXWopj9-ZZEnA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "860122"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/euh-Jhr1qpHigW0AzWV.ZLssNAfBR6iwS9YY0Ld5WOz1A0ZfQrBKp0TO0bE-ZaeCo3",
+                    "display": "pravastatin (PRAVACHOL) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eJH4E861wFWdrdbbqTu35hQ3",
+                    "display": "Kidney, Kelly D"
+                },
+                "encounter": {
+                    "reference": "Encounter/ep8M87.8ly7CQeFXZdxApBQ3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-10-24T22:38:57Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4fBRdwCD6bWDI76z9Bn9WA3",
+                    "type": "Practitioner",
+                    "display": "Coordinator Phoenix, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 40 mg by mouth daily., Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 40 mg by mouth daily.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 40,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eG5xkvJlzfxY5rXNG.Smktw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eG5xkvJlzfxY5rXNG.Smktw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eG5xkvJlzfxY5rXNG.Smktw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "860118"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/ee7TuuQ8nCIwHPamSqua1FzK7rrtKCxGmcCrqv9dWe3zMbxYPyeNJEfLm42x4PKov3",
+                    "display": "ALPRAZolam (XANAX) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eJH4E861wFWdrdbbqTu35hQ3",
+                    "display": "Kidney, Kelly D"
+                },
+                "encounter": {
+                    "reference": "Encounter/ep8M87.8ly7CQeFXZdxApBQ3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-10-24T22:38:55Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4fBRdwCD6bWDI76z9Bn9WA3",
+                    "type": "Practitioner",
+                    "display": "Coordinator Phoenix, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 0.25 mg by mouth nightly as needed., Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 0.25 mg by mouth nightly as needed.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Nightly as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 0.25,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eSwhuE5MKG6Jc5whVvpushQ3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eSwhuE5MKG6Jc5whVvpushQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eSwhuE5MKG6Jc5whVvpushQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "860121"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e1mfcJAr.A2LKZlqtdcWC0uap-0JhE-QTfxTeShJYeWUeUqCbKh8UOaUjgZV5gjtV3",
+                    "display": "predniSONE (DELTASONE) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eJH4E861wFWdrdbbqTu35hQ3",
+                    "display": "Kidney, Kelly D"
+                },
+                "encounter": {
+                    "reference": "Encounter/ep8M87.8ly7CQeFXZdxApBQ3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-10-24T22:38:56Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4fBRdwCD6bWDI76z9Bn9WA3",
+                    "type": "Practitioner",
+                    "display": "Coordinator Phoenix, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 5 mg by mouth daily., Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 5 mg by mouth daily.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ee9ZsjPqqj43zDvz6rFk5gw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ee9ZsjPqqj43zDvz6rFk5gw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ee9ZsjPqqj43zDvz6rFk5gw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "860120"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eyk2pwQurmRh4S1nooSEGrB-N7kcpURUxq4fA-gxztDBXnLo2GxVoxc4OnVStwtyA3",
+                    "display": "budesonide (PULMICORT) nebulizer solution 0.5 mg/2mL"
+                },
+                "subject": {
+                    "reference": "Patient/eJH4E861wFWdrdbbqTu35hQ3",
+                    "display": "Kidney, Kelly D"
+                },
+                "encounter": {
+                    "reference": "Encounter/ep8M87.8ly7CQeFXZdxApBQ3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-10-24T22:38:56Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4fBRdwCD6bWDI76z9Bn9WA3",
+                    "type": "Practitioner",
+                    "display": "Coordinator Phoenix, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 0.5 mg by nebulization daily., Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 0.5 mg by nebulization daily.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "82",
+                                    "display": "Nebulization"
+                                }
+                            ],
+                            "text": "Nebulization"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 0.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ej1KG637gsmHMiuFJlSopqA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ej1KG637gsmHMiuFJlSopqA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ej1KG637gsmHMiuFJlSopqA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "860119"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e8GO990rKqty1H7kDmIZJOrCtV6OnQ3yr9V3kHk70aOyvspXjPWFWVS2JYNfcev1I3",
+                    "display": "albuterol (PROVENTIL HFA;VENTOLIN HFA) inhaler"
+                },
+                "subject": {
+                    "reference": "Patient/eJH4E861wFWdrdbbqTu35hQ3",
+                    "display": "Kidney, Kelly D"
+                },
+                "encounter": {
+                    "reference": "Encounter/ep8M87.8ly7CQeFXZdxApBQ3",
+                    "display": "Abstract"
+                },
+                "authoredOn": "2013-10-24T22:38:56Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e4fBRdwCD6bWDI76z9Bn9WA3",
+                    "type": "Practitioner",
+                    "display": "Coordinator Phoenix, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 2 puffs into the lungs every 6 (six) hours as needed., Until Discontinued, Historical Med",
+                        "patientInstruction": "Inhale 2 puffs into the lungs every 6 (six) hours as needed.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 6,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 6 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "puff",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{puff}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

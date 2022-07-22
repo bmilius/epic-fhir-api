@@ -1,0 +1,974 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 5,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=erV159kNvlFVqcADSwOamfA3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eNiJjGWrzgxIL4gU7ik1lHQ3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eNiJjGWrzgxIL4gU7ik1lHQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eNiJjGWrzgxIL4gU7ik1lHQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "901075"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ewwZ6SC4SpVzVkpk7IqIuDpW62.F36-o-hD9eyqr0Fx-tzxnfkYcWUWXzTM53zUd63",
+                    "display": "vinCRIStine (ONCOVIN) chemo injection"
+                },
+                "subject": {
+                    "reference": "Patient/erV159kNvlFVqcADSwOamfA3",
+                    "display": "Reynolds.Jacob"
+                },
+                "encounter": {
+                    "reference": "Encounter/etY2GsXE8S6R56MRtj.r4jA3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-04-01T15:53:04Z",
+                "requester": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "91857003",
+                                "display": "Acute lymphoid leukemia, disease (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "204.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "C91.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            }
+                        ],
+                        "text": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "CarePlan/enfBzBsnfeNFTx7.1z7JfZAc7i2n614h-D.pHwZ9MOAw3",
+                        "type": "CarePlan",
+                        "display": "(CCG-1961) ALL induction pediatric leukemia"
+                    },
+                    {
+                        "reference": "MedicationRequest/e2r1vj2.s-sKoNgk5LQ8Y0A3",
+                        "type": "MedicationRequest",
+                        "display": "vinCRIStine (ONCOVIN) injection"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "2.4 mg (1.5 mg/m2 \u00d7 1.59 m2), Intravenous, ONCE, Mon 4/1/13 at 1130, For 1 dose\nUse caution with PIV administration.  This solution has a pH < 5, or a pH > 9, or an osmolality > 600 mOsm/L.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-04-01T16:30:00Z",
+                                    "end": "2013-04-01T16:30:00Z"
+                                },
+                                "count": 1
+                            },
+                            "code": {
+                                "text": "Once"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.4,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.4,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1.5,
+                                    "unit": "mg/m2",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/m2"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eON-jEg.6cq5ZKyCblb3SNw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eON-jEg.6cq5ZKyCblb3SNw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eON-jEg.6cq5ZKyCblb3SNw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "901076"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eltgz3E0MYQ.9aOwCMarXJAxSiVVS0vKIdBlataXzbt9q-8TLoWnoK0IgoV9hktg03",
+                    "display": "dexamethasone (DECADRON) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/erV159kNvlFVqcADSwOamfA3",
+                    "display": "Reynolds.Jacob"
+                },
+                "encounter": {
+                    "reference": "Encounter/etY2GsXE8S6R56MRtj.r4jA3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-04-01T15:53:04Z",
+                "requester": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "91857003",
+                                "display": "Acute lymphoid leukemia, disease (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "204.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "C91.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            }
+                        ],
+                        "text": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "CarePlan/enfBzBsnfeNFTx7.1z7JfZAc7i2n614h-D.pHwZ9MOAw3",
+                        "type": "CarePlan",
+                        "display": "(CCG-1961) ALL induction pediatric leukemia"
+                    },
+                    {
+                        "reference": "MedicationRequest/e2ndoviKXiVShhY-S9g0ZJg3",
+                        "type": "MedicationRequest",
+                        "display": "dexamethasone (DECADRON) tablet"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "8 mg (5 mg/m2 \u00d7 1.59 m2), Oral, 2 times daily, First dose on Mon 4/1/13 at 1100, For 28 doses\nFood Alert:  effects glucose, sodium and fluids.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-04-01T16:00:00Z",
+                                    "end": "2013-04-06T17:43:55Z"
+                                },
+                                "count": 28,
+                                "frequency": 2,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "BID"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 8,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 5,
+                                    "unit": "mg/m2",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/m2"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ecxkBYqMnjlrchsUDDAG8Ww3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ecxkBYqMnjlrchsUDDAG8Ww3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ecxkBYqMnjlrchsUDDAG8Ww3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "901073"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eA-Fujv7izgtap1O6aZnA0vAOUM33e.pRM9dtvzb38N1jorniT8G8aKHj8TH37Okl3",
+                    "display": "ondansetron (ZOFRAN-ODT) dispersible tablet"
+                },
+                "subject": {
+                    "reference": "Patient/erV159kNvlFVqcADSwOamfA3",
+                    "display": "Reynolds.Jacob"
+                },
+                "encounter": {
+                    "reference": "Encounter/etY2GsXE8S6R56MRtj.r4jA3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-04-01T15:53:03Z",
+                "requester": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "91857003",
+                                "display": "Acute lymphoid leukemia, disease (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "204.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "C91.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            }
+                        ],
+                        "text": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "CarePlan/enfBzBsnfeNFTx7.1z7JfZAc7i2n614h-D.pHwZ9MOAw3",
+                        "type": "CarePlan",
+                        "display": "(CCG-1961) ALL induction pediatric leukemia"
+                    },
+                    {
+                        "reference": "MedicationRequest/ex9pYkqtLzJ.VAXVgfDS6pw3",
+                        "type": "MedicationRequest",
+                        "display": "ondansetron (ZOFRAN-ODT) disintegrating tablet 16 mg"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "16 mg, Oral, ONCE, Mon 4/1/13 at 1100, For 1 dose\nDo not attempt to push tablet through foil backing. With dry hands peel back  the foil backing and gently remove tablet. Immediately place the tablet on the  where it will dissolve in seconds, then swallow with saliva. Administration with liquid is not necessary.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-04-01T16:00:00Z",
+                                    "end": "2013-04-01T16:00:00Z"
+                                },
+                                "count": 1
+                            },
+                            "code": {
+                                "text": "Once"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 16,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 16,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eqBUWzEfE1YD9e1-qsYIocA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eqBUWzEfE1YD9e1-qsYIocA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eqBUWzEfE1YD9e1-qsYIocA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "901077"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/enAyNtoRuKf5fqDGPD3d.lAUZS-O7hadWNNtBHOjAQ37GkcexGrZo0NIjMO-6URfB3",
+                    "display": "pegaspargase (ONCASPAR) chemo injection"
+                },
+                "subject": {
+                    "reference": "Patient/erV159kNvlFVqcADSwOamfA3",
+                    "display": "Reynolds.Jacob"
+                },
+                "encounter": {
+                    "reference": "Encounter/etY2GsXE8S6R56MRtj.r4jA3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-04-01T15:53:04Z",
+                "requester": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "91857003",
+                                "display": "Acute lymphoid leukemia, disease (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "204.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "C91.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            }
+                        ],
+                        "text": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "CarePlan/enfBzBsnfeNFTx7.1z7JfZAc7i2n614h-D.pHwZ9MOAw3",
+                        "type": "CarePlan",
+                        "display": "(CCG-1961) ALL induction pediatric leukemia"
+                    },
+                    {
+                        "reference": "MedicationRequest/epYycaKSFXE1nx-islrvnlw3",
+                        "type": "MedicationRequest",
+                        "display": "pegaspargase injection"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "3,975 Int'l Units (2,500 Int'l Units/m2 \u00d7 1.59 m2), Intramuscular, Every 24 hours, First dose on Thu 4/4/13 at 1000, For 1 dose\nDay 4.  Oncaspar = pegASPARgase.  Observe for signs of allergic response for at least 2 hours.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-04-04T15:00:00Z",
+                                    "end": "2013-04-04T15:00:00Z"
+                                },
+                                "count": 1,
+                                "frequency": 1,
+                                "period": 24,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 24 hours"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "6",
+                                    "display": "Intramuscular"
+                                }
+                            ],
+                            "text": "Intramuscular"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 3975,
+                                    "unit": "Int'l Units",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[iU]"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 5.3,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2500,
+                                    "unit": "Int'l Units/m2",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[iU]/m2"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ex..NXahuRruIO-.TQUKWEw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ex..NXahuRruIO-.TQUKWEw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ex..NXahuRruIO-.TQUKWEw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "901074"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eQcIlDMRMXESovWo6j4QMWRRzTcm7CP5kg-gpr3ELhTS7TVMCPTYZY5m1QNi2.Hym3",
+                    "display": "CYTARABINE LIPOSOME IT"
+                },
+                "subject": {
+                    "reference": "Patient/erV159kNvlFVqcADSwOamfA3",
+                    "display": "Reynolds.Jacob"
+                },
+                "encounter": {
+                    "reference": "Encounter/etY2GsXE8S6R56MRtj.r4jA3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-04-01T15:53:04Z",
+                "requester": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8ZmxsnZCg8sKXj8JZaWzYg3",
+                    "type": "Practitioner",
+                    "display": "Physician Oncology, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "91857003",
+                                "display": "Acute lymphoid leukemia, disease (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "204.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "C91.00",
+                                "display": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                            }
+                        ],
+                        "text": "ALL (acute lymphoblastic leukemia) (CMS/HCC)"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "CarePlan/enfBzBsnfeNFTx7.1z7JfZAc7i2n614h-D.pHwZ9MOAw3",
+                        "type": "CarePlan",
+                        "display": "(CCG-1961) ALL induction pediatric leukemia"
+                    },
+                    {
+                        "reference": "MedicationRequest/eZO1YocSQ-.rs0GEqU0-SJQ3",
+                        "type": "MedicationRequest",
+                        "display": "cytarabine intrathecal chemo 70 mg"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "70 mg, Intrathecal, Once, Mon 4/1/13 at 1100, For 1 dose\nAge less than 1 year = Dose: cytarabine 20 mg. Age 1 - 1.99 years = Dose: cytarabine 30 mg. Age 2 - 2.99 years = Dose: cytarabine 50 mg. Age greater than or equal to 3 years = Dose: cytarabine 70 mg.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-04-01T16:00:00Z",
+                                    "end": "2013-04-01T16:00:00Z"
+                                },
+                                "count": 1
+                            },
+                            "code": {
+                                "text": "Once"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "9",
+                                    "display": "Intrathecal"
+                                }
+                            ],
+                            "text": "Intrathecal"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 70,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1.4,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 70,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

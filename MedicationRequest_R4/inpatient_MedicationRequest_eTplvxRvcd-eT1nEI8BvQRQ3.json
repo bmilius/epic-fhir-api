@@ -1,0 +1,207 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=eTplvxRvcd-eT1nEI8BvQRQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e5Rj99z3lyixh7FXQ2xnjAA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e5Rj99z3lyixh7FXQ2xnjAA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e5Rj99z3lyixh7FXQ2xnjAA3",
+                "identifier": [
+                    {
+                        "type": {
+                            "text": "Index in Group ID"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.767875.60",
+                        "value": "4"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "901805"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/epp29ihRWB4bFEdeS2DWntGoeum1BMuo2YmQ9BKu2Cyu-pKPeXeeijKjGOvXc9V9c3",
+                    "display": "sodium chloride 0.9 % flush"
+                },
+                "subject": {
+                    "reference": "Patient/eTplvxRvcd-eT1nEI8BvQRQ3",
+                    "display": "Infection Control, Jennifer"
+                },
+                "encounter": {
+                    "reference": "Encounter/ee1Yu.7bqeAcHw4.VKtOBOA3",
+                    "display": "Hospital Encounter"
+                },
+                "supportingInformation": [
+                    {
+                        "identifier": {
+                            "use": "usual",
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                            "value": "901802"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "use": "usual",
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                            "value": "901803"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "use": "usual",
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                            "value": "901804"
+                        }
+                    }
+                ],
+                "authoredOn": "2014-02-05T18:29:09Z",
+                "requester": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "groupIdentifier": {
+                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.767875",
+                    "value": "7"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "3 mL, Intravenous, As needed, line care, Starting Wed 2/5/14 at 1223",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2014-02-05T18:23:14Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 3,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 3,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 3,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

@@ -1,0 +1,1335 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 13,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation?_format=json&patient=eovSKnwDlsv-8MsEzCJO3BA3&code=http://loinc.org%7C88293-6,48643-1,50044-7,70969-1,88294-4,48642-3,87430-5,45066-8,94677-2,98979-8,2164-2,6690-2,804-5,26464-8,49498-9,789-8,26453-1,790-6,93846-4,718-7,30313-1,30350-3,14775-1,30351-1,20509-6,75928-2,55782-7,59260-0,76768-1,76769-9,4633-4,4576-5,42246-9,32682-7,38524-5,71863-5,71864-3,71865-0,20570-8,31100-1,4545-0,4544-3,42908-4,41654-5,48703-3,71829-6,71831-2,71833-8,26515-7,778-1,777-3,49497-1,28542-9,32623-1,732-8,731-0,26474-7,26478-8,736-9,737-7,26484-6,742-7,743-5,5905-5,26485-3,744-3,751-8,753-4,26499-4,770-8,26511-6,23761-0,26508-2,764-1,35332-6,32200-8,26505-8,769-0,709-6,26446-5,707-0,706-2,30180-4,712-0,26449-9,711-2,26450-7,713-8,714-6,30458-4,24103-4,13047-6,79426-3,33855-8,34926-6,13599-6,30466-7,26523-1,781-5,783-1,71666-2,26524-9,30444-4,746-8,30445-1,747-6,748-4,30446-9,26498-6,749-2,71667-0,739-3,30433-7,740-1,28541-1,71668-8,6746-2,30465-9,14196-0,40665-2,60474-4,31112-6,17849-1,4679-7,1751-7,2862-1,61151-7,61152-5,1952-1,76484-5,2276-4,24373-3,20567-4,11150-0,57028-3,2160-0,14682-9,77140-2"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eqwTHVE0SXPZrGcNgXZpz2fstNSprVJTEBWAyW4SarQpJglcw7MEUujUqalOgjCQE3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eqwTHVE0SXPZrGcNgXZpz2fstNSprVJTEBWAyW4SarQpJglcw7MEUujUqalOgjCQE3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eqwTHVE0SXPZrGcNgXZpz2fstNSprVJTEBWAyW4SarQpJglcw7MEUujUqalOgjCQE3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/e07w5l9UoSVh11gnqAQCLWMdABbm9Pg8TBo9M.f1f8Us3",
+                        "display": "Hepatic function panel"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "1751-7",
+                            "display": "Albumin [Mass/volume] in Serum or Plasma"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1810650",
+                            "display": "Albumin"
+                        }
+                    ],
+                    "text": "Albumin"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-19T15:00:00Z",
+                "issued": "2015-02-19T22:19:11Z",
+                "valueQuantity": {
+                    "value": 3,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/eYN3sZ-PpikxFU1TOIOBz1w3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 3.5,
+                            "unit": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "g/dL"
+                        },
+                        "high": {
+                            "value": 5,
+                            "unit": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "g/dL"
+                        },
+                        "text": "3.5 - 5.0 g/dL"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/erCnSgxMFQh-1b23XWKxpRKlftRciHRdmju-yswljS7bTUxqdLxGd7C4YjeTEAa1c3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/erCnSgxMFQh-1b23XWKxpRKlftRciHRdmju-yswljS7bTUxqdLxGd7C4YjeTEAa1c3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "erCnSgxMFQh-1b23XWKxpRKlftRciHRdmju-yswljS7bTUxqdLxGd7C4YjeTEAa1c3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eQ8j1ha9zUecbkhs8aindQsoN4RBa3Emo4zp2nbRGAOk3",
+                        "display": "Basic metabolic panel"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2160-0",
+                            "display": "Creatinine [Mass/volume] in Serum or Plasma"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1526296",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-21T13:00:00Z",
+                "issued": "2015-02-21T14:01:51Z",
+                "valueQuantity": {
+                    "value": 0.8,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "specimen": {
+                    "reference": "Specimen/eArnlyyqbErfJkpZH3nOt-A3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.6,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "high": {
+                            "value": 1.3,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "text": "0.6 - 1.3 mg/dL"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eYEtXdZgVMOjCJ.IyHBI8bVZKnCKtTAIJbKQkRV2-0uLZHjFTZSHmAZ-.z6BVGP5p3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eYEtXdZgVMOjCJ.IyHBI8bVZKnCKtTAIJbKQkRV2-0uLZHjFTZSHmAZ-.z6BVGP5p3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eYEtXdZgVMOjCJ.IyHBI8bVZKnCKtTAIJbKQkRV2-0uLZHjFTZSHmAZ-.z6BVGP5p3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eu.cXm6fRQdINgOuhxUg4Fsjb99zfwfCW6aKAI4XvmFY3",
+                        "display": "Basic metabolic panel"
+                    }
+                ],
+                "status": "registered",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2160-0",
+                            "display": "Creatinine [Mass/volume] in Serum or Plasma"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1526296",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-20T13:00:00Z",
+                "issued": "2015-02-21T04:05:45Z",
+                "valueQuantity": {
+                    "value": 0.9,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "specimen": {
+                    "reference": "Specimen/e2UkkMVr9LgOOEcngaIUNsg3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.6,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "high": {
+                            "value": 1.3,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "text": "0.6 - 1.3 mg/dL"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/ewLCLel1hvILcp6YxM4wmxkSISMBSFzA5AmBWsaIp7PQPMRxEFwth2NiXPi2qK7.m3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/ewLCLel1hvILcp6YxM4wmxkSISMBSFzA5AmBWsaIp7PQPMRxEFwth2NiXPi2qK7.m3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "ewLCLel1hvILcp6YxM4wmxkSISMBSFzA5AmBWsaIp7PQPMRxEFwth2NiXPi2qK7.m3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eQFV95Ay4joaBBwDiEHVDFjnY5Kow40DW4JswS3-qLQI3",
+                        "display": "Basic metabolic panel"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2160-0",
+                            "display": "Creatinine [Mass/volume] in Serum or Plasma"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1526296",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-19T15:00:00Z",
+                "issued": "2015-02-19T22:18:15Z",
+                "valueQuantity": {
+                    "value": 0.8,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "specimen": {
+                    "reference": "Specimen/eXJt59l2v310R6UOqQXLE3Q3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 0.6,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "high": {
+                            "value": 1.3,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "text": "0.6 - 1.3 mg/dL"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/e7rGbcWh0rX0CNh-NICCDcs1bKxXyOuGbN-tc5vhtyrhlY57Tir16dT4vw3kR8gTq3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/e7rGbcWh0rX0CNh-NICCDcs1bKxXyOuGbN-tc5vhtyrhlY57Tir16dT4vw3kR8gTq3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "e7rGbcWh0rX0CNh-NICCDcs1bKxXyOuGbN-tc5vhtyrhlY57Tir16dT4vw3kR8gTq3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/ep0m-1EjGTPtvw-po.psBE1UhB7e8eX4rWjMNhv6NIU43",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4544-3",
+                            "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1534436",
+                            "display": "Hematocrit"
+                        }
+                    ],
+                    "text": "Hematocrit"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-21T13:00:00Z",
+                "issued": "2015-02-21T14:00:33Z",
+                "valueQuantity": {
+                    "value": 24,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/edNfzSdTAlkv1UX2150Bfqw3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 41,
+                            "unit": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        },
+                        "high": {
+                            "value": 53,
+                            "unit": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        },
+                        "text": "41 - 53 %"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eVvpcUeSJVDc3rxkiZfxY8KRexP3ZF.mJQb-fgjR9G1fvuERgzeAYaUzOkFbSzyF53"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eVvpcUeSJVDc3rxkiZfxY8KRexP3ZF.mJQb-fgjR9G1fvuERgzeAYaUzOkFbSzyF53",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eVvpcUeSJVDc3rxkiZfxY8KRexP3ZF.mJQb-fgjR9G1fvuERgzeAYaUzOkFbSzyF53",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eTaKqaswokdLMudXNpnHZyfxfFFrhUCKiHQUsslw8-IQ3",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "registered",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4544-3",
+                            "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1534436",
+                            "display": "Hematocrit"
+                        }
+                    ],
+                    "text": "Hematocrit"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-20T13:00:00Z",
+                "issued": "2015-02-21T04:04:10Z",
+                "valueQuantity": {
+                    "value": 24,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/eTR7w3XkDwZp.PYMczDXSKw3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 41,
+                            "unit": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        },
+                        "high": {
+                            "value": 53,
+                            "unit": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        },
+                        "text": "41 - 53 %"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eyiu0nO65aDKv5p6BjkNZVQ-ISGJrXk0Kl9R0TQ56tV2sTD.4RMC1n5Hd4tDD6mJ33"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eyiu0nO65aDKv5p6BjkNZVQ-ISGJrXk0Kl9R0TQ56tV2sTD.4RMC1n5Hd4tDD6mJ33",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eyiu0nO65aDKv5p6BjkNZVQ-ISGJrXk0Kl9R0TQ56tV2sTD.4RMC1n5Hd4tDD6mJ33",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eFncJmdpRoIFpu75SfnnY5v7SvQlE9vVrDHlYZTdbi4c3",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4544-3",
+                            "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1534436",
+                            "display": "Hematocrit"
+                        }
+                    ],
+                    "text": "Hematocrit"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-19T15:00:00Z",
+                "issued": "2015-02-19T22:14:33Z",
+                "valueQuantity": {
+                    "value": 36,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/e8wnZ7nfaME6rsxu--qAiUA3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 41,
+                            "unit": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        },
+                        "high": {
+                            "value": 53,
+                            "unit": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        },
+                        "text": "41 - 53 %"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/e7rGbcWh0rX0CNh-NICCDcm0ODlIWL.wlmww1kOaqZ3xYTFgAb1.bAKe8V3.TCoq63"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/e7rGbcWh0rX0CNh-NICCDcm0ODlIWL.wlmww1kOaqZ3xYTFgAb1.bAKe8V3.TCoq63",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "e7rGbcWh0rX0CNh-NICCDcm0ODlIWL.wlmww1kOaqZ3xYTFgAb1.bAKe8V3.TCoq63",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/ep0m-1EjGTPtvw-po.psBE1UhB7e8eX4rWjMNhv6NIU43",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "6690-2",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1577876",
+                            "display": "Auto WBC"
+                        }
+                    ],
+                    "text": "Auto WBC"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-21T13:00:00Z",
+                "issued": "2015-02-21T14:00:33Z",
+                "valueQuantity": {
+                    "value": 10.0,
+                    "unit": "10^3/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10^3/mL"
+                },
+                "specimen": {
+                    "reference": "Specimen/edNfzSdTAlkv1UX2150Bfqw3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4,
+                            "unit": "10^3/mL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10^3/mL"
+                        },
+                        "high": {
+                            "value": 10,
+                            "unit": "10^3/mL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10^3/mL"
+                        },
+                        "text": "4.0 - 10.0 10^3/mL"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eVvpcUeSJVDc3rxkiZfxY8EQYbZJK2ApY8jUQ-p0TPQ4BF4-IYOeab4uiOEokcffO3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eVvpcUeSJVDc3rxkiZfxY8EQYbZJK2ApY8jUQ-p0TPQ4BF4-IYOeab4uiOEokcffO3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eVvpcUeSJVDc3rxkiZfxY8EQYbZJK2ApY8jUQ-p0TPQ4BF4-IYOeab4uiOEokcffO3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eTaKqaswokdLMudXNpnHZyfxfFFrhUCKiHQUsslw8-IQ3",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "registered",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "6690-2",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1577876",
+                            "display": "Auto WBC"
+                        }
+                    ],
+                    "text": "Auto WBC"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-20T13:00:00Z",
+                "issued": "2015-02-21T04:04:10Z",
+                "valueQuantity": {
+                    "value": 14.0,
+                    "unit": "10^3/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10^3/mL"
+                },
+                "specimen": {
+                    "reference": "Specimen/eTR7w3XkDwZp.PYMczDXSKw3",
+                    "display": "Specimen"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eyiu0nO65aDKv5p6BjkNZVRBw7BjYK7VAg.26R3Oa5sPPOnuf6LN1dm9zINbe5ED-3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eyiu0nO65aDKv5p6BjkNZVRBw7BjYK7VAg.26R3Oa5sPPOnuf6LN1dm9zINbe5ED-3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eyiu0nO65aDKv5p6BjkNZVRBw7BjYK7VAg.26R3Oa5sPPOnuf6LN1dm9zINbe5ED-3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eFncJmdpRoIFpu75SfnnY5v7SvQlE9vVrDHlYZTdbi4c3",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "6690-2",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1577876",
+                            "display": "Auto WBC"
+                        }
+                    ],
+                    "text": "Auto WBC"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-19T15:00:00Z",
+                "issued": "2015-02-19T22:14:33Z",
+                "valueQuantity": {
+                    "value": 18.0,
+                    "unit": "10^3/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10^3/mL"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/e8wnZ7nfaME6rsxu--qAiUA3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 4,
+                            "unit": "10^3/mL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10^3/mL"
+                        },
+                        "high": {
+                            "value": 10,
+                            "unit": "10^3/mL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10^3/mL"
+                        },
+                        "text": "4.0 - 10.0 10^3/mL"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/e7rGbcWh0rX0CNh-NICCDcm0ODlIWL.wlmww1kOaqZ3wItWNv8yYyrYe2m5kJaKdr3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/e7rGbcWh0rX0CNh-NICCDcm0ODlIWL.wlmww1kOaqZ3wItWNv8yYyrYe2m5kJaKdr3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "e7rGbcWh0rX0CNh-NICCDcm0ODlIWL.wlmww1kOaqZ3wItWNv8yYyrYe2m5kJaKdr3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/ep0m-1EjGTPtvw-po.psBE1UhB7e8eX4rWjMNhv6NIU43",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "777-3",
+                            "display": "Platelets [#/volume] in Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1577116",
+                            "display": "Platelets"
+                        }
+                    ],
+                    "text": "Platelets"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-21T13:00:00Z",
+                "issued": "2015-02-21T14:00:33Z",
+                "valueQuantity": {
+                    "value": 131,
+                    "unit": "K/\u00b5L"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/edNfzSdTAlkv1UX2150Bfqw3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 150,
+                            "unit": "K/\u00b5L"
+                        },
+                        "high": {
+                            "value": 399,
+                            "unit": "K/\u00b5L"
+                        },
+                        "text": "150 - 399 K/\u00b5L"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eVvpcUeSJVDc3rxkiZfxY8EQYbZJK2ApY8jUQ-p0TPQ4G3BZF0u8rr6UVQrtGHbtS3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eVvpcUeSJVDc3rxkiZfxY8EQYbZJK2ApY8jUQ-p0TPQ4G3BZF0u8rr6UVQrtGHbtS3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eVvpcUeSJVDc3rxkiZfxY8EQYbZJK2ApY8jUQ-p0TPQ4G3BZF0u8rr6UVQrtGHbtS3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eTaKqaswokdLMudXNpnHZyfxfFFrhUCKiHQUsslw8-IQ3",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "registered",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "777-3",
+                            "display": "Platelets [#/volume] in Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1577116",
+                            "display": "Platelets"
+                        }
+                    ],
+                    "text": "Platelets"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-20T13:00:00Z",
+                "issued": "2015-02-21T04:04:10Z",
+                "valueQuantity": {
+                    "value": 130,
+                    "unit": "K/\u00b5L"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/eTR7w3XkDwZp.PYMczDXSKw3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 150,
+                            "unit": "K/\u00b5L"
+                        },
+                        "high": {
+                            "value": 399,
+                            "unit": "K/\u00b5L"
+                        },
+                        "text": "150 - 399 K/\u00b5L"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eyiu0nO65aDKv5p6BjkNZVRBw7BjYK7VAg.26R3Oa5sN8WE0tKK.z2pdAj6Sn76cR3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/Observation/eyiu0nO65aDKv5p6BjkNZVRBw7BjYK7VAg.26R3Oa5sN8WE0tKK.z2pdAj6Sn76cR3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "eyiu0nO65aDKv5p6BjkNZVRBw7BjYK7VAg.26R3Oa5sN8WE0tKK.z2pdAj6Sn76cR3",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/eFncJmdpRoIFpu75SfnnY5v7SvQlE9vVrDHlYZTdbi4c3",
+                        "display": "CBC"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                                "code": "Lab",
+                                "display": "Lab"
+                            }
+                        ],
+                        "text": "Lab"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "777-3",
+                            "display": "Platelets [#/volume] in Blood by Automated count"
+                        },
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+                            "code": "1577116",
+                            "display": "Platelets"
+                        }
+                    ],
+                    "text": "Platelets"
+                },
+                "subject": {
+                    "reference": "Patient/eovSKnwDlsv-8MsEzCJO3BA3",
+                    "display": "Icu, Raj"
+                },
+                "encounter": {
+                    "reference": "Encounter/eeVXp9HwWKBIxXEavPj-jsA3",
+                    "display": "Hospital Encounter"
+                },
+                "effectiveDateTime": "2015-02-19T15:00:00Z",
+                "issued": "2015-02-19T22:14:33Z",
+                "valueQuantity": {
+                    "value": 125,
+                    "unit": "K/\u00b5L"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "A",
+                                "display": "Abnormal"
+                            }
+                        ],
+                        "text": "Abnormal"
+                    }
+                ],
+                "specimen": {
+                    "reference": "Specimen/e8wnZ7nfaME6rsxu--qAiUA3",
+                    "display": "Specimen"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 150,
+                            "unit": "K/\u00b5L"
+                        },
+                        "high": {
+                            "value": 399,
+                            "unit": "K/\u00b5L"
+                        },
+                        "text": "150 - 399 K/\u00b5L"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}
