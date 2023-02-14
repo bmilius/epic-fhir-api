@@ -1,0 +1,717 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 2,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest?_include=MedicationRequest:medicationReference&_include=MedicationRequest:encounter&_include=MedicationRequest:subject&_format=json&patient=eyePuGn44p7JaF5w4KUer0A3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e0ADZ-uzCJVrmhHcq.YpoMw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e0ADZ-uzCJVrmhHcq.YpoMw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e0ADZ-uzCJVrmhHcq.YpoMw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "937168"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eBoeW2oM4uW.JMhod.FvtAm9gqVKmH5UaqNzCv1HJdYhuVbHiP67O3hPUVY2kC6ju3",
+                    "display": "metFORMIN (GLUCOPHAGE) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eyePuGn44p7JaF5w4KUer0A3",
+                    "display": "Radiant, Bruno"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "37407"
+                    },
+                    "display": "Reconciled Outside Data"
+                },
+                "authoredOn": "2021-10-22T21:15:33Z",
+                "requester": {
+                    "reference": "Practitioner/eOzi5ysWGzR5IGqKsaPMcbQ3",
+                    "type": "Practitioner",
+                    "display": "Generic External Data Provider"
+                },
+                "recorder": {
+                    "type": "Practitioner",
+                    "display": "User, System Default"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "500 mg, Oral",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "end": "2021-10-22T21:15:34Z"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/epj8fwy.3Zo.PHSgjpN2Dsg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/epj8fwy.3Zo.PHSgjpN2Dsg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "epj8fwy.3Zo.PHSgjpN2Dsg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "937169"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e0BheeIOZQc-iOBkCFq.OiP624oddRRPVv9m02ZYhq5Fq5Veae70Qm9Wz3POdUIaa3",
+                    "display": "simvastatin (ZOCOR) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eyePuGn44p7JaF5w4KUer0A3",
+                    "display": "Radiant, Bruno"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "37407"
+                    },
+                    "display": "Reconciled Outside Data"
+                },
+                "authoredOn": "2021-10-22T21:15:34Z",
+                "requester": {
+                    "reference": "Practitioner/eOzi5ysWGzR5IGqKsaPMcbQ3",
+                    "type": "Practitioner",
+                    "display": "Generic External Data Provider"
+                },
+                "recorder": {
+                    "type": "Practitioner",
+                    "display": "User, System Default"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "20 mg, Oral",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "end": "2021-10-22T21:15:34Z"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 20,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e0BheeIOZQc-iOBkCFq.OiP624oddRRPVv9m02ZYhq5Fq5Veae70Qm9Wz3POdUIaa3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e0BheeIOZQc-iOBkCFq.OiP624oddRRPVv9m02ZYhq5Fq5Veae70Qm9Wz3POdUIaa3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e0BheeIOZQc-iOBkCFq.OiP624oddRRPVv9m02ZYhq5Fq5Veae70Qm9Wz3POdUIaa3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "30826"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "39400075000330"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "13600"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "36567"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "312961"
+                        }
+                    ],
+                    "text": "simvastatin (ZOCOR) tablet"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "TABS",
+                            "display": "tablet"
+                        }
+                    ],
+                    "text": "tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "30826"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "39400075000330"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "13600"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "36567"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "312961"
+                                }
+                            ],
+                            "text": "simvastatin (ZOCOR) tablet"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 20,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 20,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eBoeW2oM4uW.JMhod.FvtAm9gqVKmH5UaqNzCv1HJdYhuVbHiP67O3hPUVY2kC6ju3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eBoeW2oM4uW.JMhod.FvtAm9gqVKmH5UaqNzCv1HJdYhuVbHiP67O3hPUVY2kC6ju3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eBoeW2oM4uW.JMhod.FvtAm9gqVKmH5UaqNzCv1HJdYhuVbHiP67O3hPUVY2kC6ju3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "28557"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "27250050000320"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "09554"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "6809"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "235743"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "861007"
+                        }
+                    ],
+                    "text": "metFORMIN (GLUCOPHAGE) tablet"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "TABS",
+                            "display": "tablet"
+                        }
+                    ],
+                    "text": "tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "28557"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "27250050000320"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "09554"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "6809"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "235743"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "861007"
+                                }
+                            ],
+                            "text": "metFORMIN (GLUCOPHAGE) tablet"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eyePuGn44p7JaF5w4KUer0A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eyePuGn44p7JaF5w4KUer0A3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eyePuGn44p7JaF5w4KUer0A3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "688-24-9165"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO136R32ZT2QDRP"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E2998"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4919"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TDNmwRd2x3YHfD5rpS61Z6CjccLIRkUJAW2oGHoaihV0B"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eyePuGn44p7JaF5w4KUer0A3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4919"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202748"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "RADBRUNO"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "550"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Bruno Radiant",
+                        "family": "Radiant",
+                        "given": [
+                            "Bruno"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Bruno Radiant",
+                        "family": "Radiant",
+                        "given": [
+                            "Bruno"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-213-5806",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-272-5000",
+                        "use": "work"
+                    },
+                    {
+                        "system": "email",
+                        "value": "rbruno@email.com"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1954-08-22",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "old",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    }
+                ],
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "14",
+                                        "display": "Sister"
+                                    }
+                                ],
+                                "text": "Sister"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Sally Tonga"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-921-8342",
+                                "use": "home"
+                            }
+                        ]
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "organization": {
+                            "display": "Ehs Generic Employer"
+                        }
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2318 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 30,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=e8f3pkQWuXZrOZx4lAdP.bw3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ecB9BMYpAg6hagNbNxFeu9g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ecB9BMYpAg6hagNbNxFeu9g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ecB9BMYpAg6hagNbNxFeu9g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "38988"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "1",
+                    "display": "Surgery Case"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/emZzxNGSvfrjuJx1BK7FZ-g3",
+                            "type": "Practitioner",
+                            "display": "Epcci, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2022-06-24T12:00:00Z",
+                    "end": "2022-06-24T14:30:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                            "display": "EMH Operating Room"
+                        }
+                    }
+                ],
+                "partOf": {
+                    "reference": "Encounter/e1PZgX.P-CngmPgVBybsRYA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "38990"
+                    },
+                    "display": "Hospital Encounter"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1PZgX.P-CngmPgVBybsRYA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1PZgX.P-CngmPgVBybsRYA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e1PZgX.P-CngmPgVBybsRYA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "38990"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "2",
+                    "display": "Preadmission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "106",
+                                "display": "Hospital Outpatient Surgery"
+                            }
+                        ],
+                        "text": "Hospital Outpatient Surgery"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eRgcOyrDHZihisGGw-jg1lA3",
+                            "type": "Practitioner",
+                            "display": "Physician Orthopaedics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eRgcOyrDHZihisGGw-jg1lA3",
+                            "type": "Practitioner",
+                            "display": "Physician Orthopaedics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "27",
+                                            "display": "Orthopaedic Surgery"
+                                        }
+                                    ],
+                                    "text": "Orthopaedic Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2022-06-23T00:12:52Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eRgcOyrDHZihisGGw-jg1lA3",
+                            "type": "Practitioner",
+                            "display": "Physician Orthopaedics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2022-06-24T12:00:00Z",
+                    "end": "2173-09-27T13:00:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/epy7atqOytgl9GnLl3.9Eog3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/epy7atqOytgl9GnLl3.9Eog3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "epy7atqOytgl9GnLl3.9Eog3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3349"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "1",
+                    "display": "Surgery Case"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2013-11-11",
+                    "end": "2013-11-11"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                            "display": "EMH Operating Room"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2UBQYdzsgWd4feeiB0NXrQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2UBQYdzsgWd4feeiB0NXrQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e2UBQYdzsgWd4feeiB0NXrQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3350"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "5",
+                    "display": "Appointment"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "50",
+                                "display": "Appointment"
+                            }
+                        ],
+                        "text": "Appointment"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "15056",
+                                "display": "X-Ray General"
+                            }
+                        ],
+                        "text": "X-Ray General"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2013-05-25T18:05:00Z",
+                            "end": "2013-05-25T18:20:00Z"
+                        },
+                        "individual": {
+                            "display": "EMC X-RAY"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-05-25T18:05:00Z",
+                    "end": "2013-05-25T18:20:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eLhKFc3iDeY6-hXf5i.OaMou5OzNHYkj.U615OO9oDD43",
+                            "display": "EMC X-Ray Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eBlC7VyssAaBVpgO35NQFvA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eBlC7VyssAaBVpgO35NQFvA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eBlC7VyssAaBVpgO35NQFvA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3351"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2013-05-25T17:55:00Z",
+                            "end": "2013-05-25T18:40:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH MRI 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-05-25T17:52:55Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "315"
+                        },
+                        "display": "OPTIME,OLIVER"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-05-25T17:52:55Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ep4NwjAOPkMAcUyG2KhtDTg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ep4NwjAOPkMAcUyG2KhtDTg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ep4NwjAOPkMAcUyG2KhtDTg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3354"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "70",
+                                "display": "Telephone"
+                            }
+                        ],
+                        "text": "Telephone"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2012-05-30",
+                    "end": "2012-05-30"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "82",
+                                "display": "Sore Throat"
+                            }
+                        ],
+                        "text": "Sore Throat"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/en0OddedLHflkV4xoWoMvBBsISiHGwdCnSvBLwL8XYio3",
+                            "display": "EMC Otolaryngology"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqocvNGPJX09wgByzuz1DKQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqocvNGPJX09wgByzuz1DKQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eqocvNGPJX09wgByzuz1DKQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3355"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eLQunVwBLYoyX6gbuawTJ8w3",
+                            "type": "Practitioner",
+                            "display": "Physician One Ent, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2012-05-30T16:35:54Z",
+                            "end": "2012-05-31T21:12:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eLQunVwBLYoyX6gbuawTJ8w3",
+                            "type": "Practitioner",
+                            "display": "Physician One Ent, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-05-30T16:35:54Z",
+                    "end": "2012-05-31T21:12:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "316"
+                        },
+                        "display": "OPTIME,OLIVER"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2012-05-30T16:35:54Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2012-05-30T16:35:00Z",
+                            "end": "2012-05-30T16:42:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e96ftQhMhgPbIeo4ZUKblbfhGFtoiEN.gDnEWtXGebGE3",
+                            "display": "EMH Pre-operation"
+                        },
+                        "period": {
+                            "start": "2012-05-30T16:42:00Z",
+                            "end": "2012-05-30T17:04:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2012-05-30T17:04:00Z",
+                            "end": "2012-05-30T17:16:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eUML.uoajgCKOansr4z1BKSefg9l.xJWUnb5E6WU4h6M3",
+                            "display": "EMH PACU"
+                        },
+                        "period": {
+                            "start": "2012-05-30T17:16:00Z",
+                            "end": "2012-05-30T17:16:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eTJiCWEPmj5cqQDQ80OvfLg3"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "401"
+                            },
+                            "display": " / "
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egPMEmt0RP8e4.mLy62dNOQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egPMEmt0RP8e4.mLy62dNOQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "egPMEmt0RP8e4.mLy62dNOQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3356"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "10",
+                    "display": "Surgery Log"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2012-05-30T18:00:00Z",
+                    "end": "2012-05-30T19:20:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                            "display": "EMH Operating Room"
+                        }
+                    }
+                ],
+                "partOf": {
+                    "reference": "Encounter/eqocvNGPJX09wgByzuz1DKQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3355"
+                    },
+                    "display": "Hospital Encounter"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6mUSdIfoPlomG4SoLAOyCA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6mUSdIfoPlomG4SoLAOyCA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e6mUSdIfoPlomG4SoLAOyCA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3361"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2011-08-23",
+                    "end": "2011-08-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/euAoYCIg5m4C9RBRO0O1YgQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/euAoYCIg5m4C9RBRO0O1YgQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "euAoYCIg5m4C9RBRO0O1YgQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3362"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2011-08-23",
+                    "end": "2011-08-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3JXlnT68Gssjahxrbb-.GQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3JXlnT68Gssjahxrbb-.GQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3JXlnT68Gssjahxrbb-.GQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3363"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2011-08-23",
+                    "end": "2011-08-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elhfPfMpRzNYuhE.SVm-WLw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elhfPfMpRzNYuhE.SVm-WLw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elhfPfMpRzNYuhE.SVm-WLw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3364"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-12-21",
+                    "end": "2010-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDHBBM0RR5VW6KeqHcPzbZw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDHBBM0RR5VW6KeqHcPzbZw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eDHBBM0RR5VW6KeqHcPzbZw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3365"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-12-21",
+                    "end": "2010-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWwwNHuEKXwAniQihxwVC5w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWwwNHuEKXwAniQihxwVC5w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWwwNHuEKXwAniQihxwVC5w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3366"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-12-21",
+                    "end": "2010-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHJ9X6N5J7jMk2b.2p.5bSg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHJ9X6N5J7jMk2b.2p.5bSg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eHJ9X6N5J7jMk2b.2p.5bSg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3367"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-28",
+                    "end": "2010-08-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9qtCMmW7bSwGg8YPpyMtwg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9qtCMmW7bSwGg8YPpyMtwg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e9qtCMmW7bSwGg8YPpyMtwg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3368"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-28",
+                    "end": "2010-08-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2teLWRW1EWHtwETNj.1tFQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2teLWRW1EWHtwETNj.1tFQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e2teLWRW1EWHtwETNj.1tFQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3369"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-28",
+                    "end": "2010-08-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erYQvrCemvQEflG4DP6DPUw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erYQvrCemvQEflG4DP6DPUw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "erYQvrCemvQEflG4DP6DPUw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3370"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-28",
+                    "end": "2010-08-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/epN-q14zvHPBYO0E0HvnNlQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/epN-q14zvHPBYO0E0HvnNlQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "epN-q14zvHPBYO0E0HvnNlQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3371"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-28",
+                    "end": "2010-08-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7O9c9ZQDBEIdRoni6F5vfQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7O9c9ZQDBEIdRoni6F5vfQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7O9c9ZQDBEIdRoni6F5vfQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3372"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-23",
+                    "end": "2010-08-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/enQsF9h0lZTEJfw4gW4wltw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/enQsF9h0lZTEJfw4gW4wltw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "enQsF9h0lZTEJfw4gW4wltw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3373"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-23",
+                    "end": "2010-08-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9m-JGz6wHpRXAqhpmQv7FQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9m-JGz6wHpRXAqhpmQv7FQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e9m-JGz6wHpRXAqhpmQv7FQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3374"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2010-08-23",
+                    "end": "2010-08-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eSM-L7puwndT97DxG1lj6XQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eSM-L7puwndT97DxG1lj6XQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eSM-L7puwndT97DxG1lj6XQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3375"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-26",
+                    "end": "2009-12-26"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekgnxvzIf900qjArrw8KO7Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekgnxvzIf900qjArrw8KO7Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ekgnxvzIf900qjArrw8KO7Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3376"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-26",
+                    "end": "2009-12-26"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebyWsSOsD8EGzMcmBoBxEcw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebyWsSOsD8EGzMcmBoBxEcw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ebyWsSOsD8EGzMcmBoBxEcw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3377"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-26",
+                    "end": "2009-12-26"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exxT9NwmHHdd-svhhME6SOw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exxT9NwmHHdd-svhhME6SOw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "exxT9NwmHHdd-svhhME6SOw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3378"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-26",
+                    "end": "2009-12-26"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUZ1sUZ4.qx5Qeqj7IJ7Z7g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUZ1sUZ4.qx5Qeqj7IJ7Z7g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eUZ1sUZ4.qx5Qeqj7IJ7Z7g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3379"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-26",
+                    "end": "2009-12-26"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ejur6cWuZTiwieaJX-nvsyQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ejur6cWuZTiwieaJX-nvsyQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ejur6cWuZTiwieaJX-nvsyQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3380"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-21",
+                    "end": "2009-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eSgvC6x--DMt.u2lrkUlaDA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eSgvC6x--DMt.u2lrkUlaDA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eSgvC6x--DMt.u2lrkUlaDA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3381"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-21",
+                    "end": "2009-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ealpNRLrn9-q6lFiTdlV-FQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ealpNRLrn9-q6lFiTdlV-FQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ealpNRLrn9-q6lFiTdlV-FQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3382"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "period": {
+                    "start": "2009-12-21",
+                    "end": "2009-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1PZgX.P-CngmPgVBybsRYA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1PZgX.P-CngmPgVBybsRYA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e1PZgX.P-CngmPgVBybsRYA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "38990"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "2",
+                    "display": "Preadmission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "106",
+                                "display": "Hospital Outpatient Surgery"
+                            }
+                        ],
+                        "text": "Hospital Outpatient Surgery"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eRgcOyrDHZihisGGw-jg1lA3",
+                            "type": "Practitioner",
+                            "display": "Physician Orthopaedics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eRgcOyrDHZihisGGw-jg1lA3",
+                            "type": "Practitioner",
+                            "display": "Physician Orthopaedics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "27",
+                                            "display": "Orthopaedic Surgery"
+                                        }
+                                    ],
+                                    "text": "Orthopaedic Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2022-06-23T00:12:52Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eRgcOyrDHZihisGGw-jg1lA3",
+                            "type": "Practitioner",
+                            "display": "Physician Orthopaedics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2022-06-24T12:00:00Z",
+                    "end": "2173-09-27T13:00:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e8f3pkQWuXZrOZx4lAdP.bw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "e8f3pkQWuXZrOZx4lAdP.bw3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2106-3",
+                                    "display": "White"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "White",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "680-99-9937"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO13TWH0CXGWCCV"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3009"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4691"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "T-QFHbvBi5V3QB6B8Jqn9jNk8US.iEdLDIEj9dmYDfckB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "e8f3pkQWuXZrOZx4lAdP.bw3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4691"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202759"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "OPTIMEOLIVER"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "487"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Oliver Optime",
+                        "family": "Optime",
+                        "given": [
+                            "Oliver"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Oliver Optime",
+                        "family": "Optime",
+                        "given": [
+                            "Oliver"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-333-5678",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1992-05-30",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "21 Captains Ct"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53719",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/emZzxNGSvfrjuJx1BK7FZ-g3",
+                        "type": "Practitioner",
+                        "display": "Epcci, MD"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqocvNGPJX09wgByzuz1DKQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqocvNGPJX09wgByzuz1DKQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eqocvNGPJX09wgByzuz1DKQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3355"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "subject": {
+                    "reference": "Patient/e8f3pkQWuXZrOZx4lAdP.bw3",
+                    "display": "Optime, Oliver"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eLQunVwBLYoyX6gbuawTJ8w3",
+                            "type": "Practitioner",
+                            "display": "Physician One Ent, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2012-05-30T16:35:54Z",
+                            "end": "2012-05-31T21:12:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eLQunVwBLYoyX6gbuawTJ8w3",
+                            "type": "Practitioner",
+                            "display": "Physician One Ent, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-05-30T16:35:54Z",
+                    "end": "2012-05-31T21:12:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "316"
+                        },
+                        "display": "OPTIME,OLIVER"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2012-05-30T16:35:54Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2012-05-30T16:35:00Z",
+                            "end": "2012-05-30T16:42:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e96ftQhMhgPbIeo4ZUKblbfhGFtoiEN.gDnEWtXGebGE3",
+                            "display": "EMH Pre-operation"
+                        },
+                        "period": {
+                            "start": "2012-05-30T16:42:00Z",
+                            "end": "2012-05-30T17:04:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2012-05-30T17:04:00Z",
+                            "end": "2012-05-30T17:16:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eUML.uoajgCKOansr4z1BKSefg9l.xJWUnb5E6WU4h6M3",
+                            "display": "EMH PACU"
+                        },
+                        "period": {
+                            "start": "2012-05-30T17:16:00Z",
+                            "end": "2012-05-30T17:16:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eTJiCWEPmj5cqQDQ80OvfLg3"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "401"
+                            },
+                            "display": " / "
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

@@ -1,0 +1,872 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 5,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=eAvIyaRRAycxAsRVIAKERKw3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e3561MO32wbeQ9nO721dFcA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e3561MO32wbeQ9nO721dFcA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e3561MO32wbeQ9nO721dFcA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "927991"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/evDZhLVSmu6BHFwLwgMHKYKQqsnOqX07inqJAHGEy4CrXeiUMERg5YPRL5QLfJV5c3",
+                    "display": "dornase alpha (PULMOZYME) nebulizer solution 1 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/eAvIyaRRAycxAsRVIAKERKw3",
+                    "display": "Zztransplant, Patient R"
+                },
+                "encounter": {
+                    "reference": "Encounter/eDiAAt2O5.8Iy0pnvIr-Gqg3",
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2014-06-30",
+                "requester": {
+                    "reference": "Practitioner/eJNlquV-tJUJuScDWkfQTmA3",
+                    "type": "Practitioner",
+                    "display": "Physician Pulmonary, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eJNlquV-tJUJuScDWkfQTmA3",
+                    "type": "Practitioner",
+                    "display": "Physician Pulmonary, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "13645005",
+                                "display": "Chronic obstructive lung disease (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "496",
+                                "display": "COPD (chronic obstructive pulmonary disease) (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "J44.9",
+                                "display": "COPD (chronic obstructive pulmonary disease) (CMS/HCC)"
+                            }
+                        ],
+                        "text": "COPD (chronic obstructive pulmonary disease) (CMS/HCC)"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "190905008",
+                                "display": "Cystic fibrosis (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "277.00",
+                                "display": "Cystic fibrosis (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "E84.9",
+                                "display": "Cystic fibrosis (CMS/HCC)"
+                            }
+                        ],
+                        "text": "Cystic fibrosis (CMS/HCC)"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 2.5 mg once daily., Starting Mon 6/30/2014, Print",
+                        "patientInstruction": "Inhale 2.5 mg once daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2014-06-30"
+                                },
+                                "timeOfDay": [
+                                    "08:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "Respiratory use only - once daily at 0800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2014-06-30"
+                    },
+                    "numberOfRepeatsAllowed": 3,
+                    "quantity": {
+                        "value": 250,
+                        "unit": "mL"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 100,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                },
+                "priorPrescription": {
+                    "reference": "MedicationRequest/e64W14-4YiMy2Ew4Ai4YPqw3",
+                    "display": "dornase alpha (PULMOZYME) 1 MG/ML nebulizer solution"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e64W14-4YiMy2Ew4Ai4YPqw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e64W14-4YiMy2Ew4Ai4YPqw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e64W14-4YiMy2Ew4Ai4YPqw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "956743"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/evDZhLVSmu6BHFwLwgMHKYNmHtLBZdfI1y32t17OAoJ3lGv0i16wodd2Re7t4mpUD3",
+                    "display": "dornase alpha (PULMOZYME) nebulizer solution 1 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/eAvIyaRRAycxAsRVIAKERKw3",
+                    "display": "Zztransplant, Patient R"
+                },
+                "encounter": {
+                    "reference": "Encounter/etQmIcxTsfcfjSZh1MAX1SA3",
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2014-01-01",
+                "requester": {
+                    "reference": "Practitioner/eJNlquV-tJUJuScDWkfQTmA3",
+                    "type": "Practitioner",
+                    "display": "Physician Pulmonary, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eJNlquV-tJUJuScDWkfQTmA3",
+                    "type": "Practitioner",
+                    "display": "Physician Pulmonary, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "13645005",
+                                "display": "Chronic obstructive lung disease (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "496",
+                                "display": "COPD (chronic obstructive pulmonary disease) (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "J44.9",
+                                "display": "COPD (chronic obstructive pulmonary disease) (CMS/HCC)"
+                            }
+                        ],
+                        "text": "COPD (chronic obstructive pulmonary disease) (CMS/HCC)"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "190905008",
+                                "display": "Cystic fibrosis (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "277.00",
+                                "display": "Cystic fibrosis (CMS/HCC)"
+                            },
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.6.90",
+                                "code": "E84.9",
+                                "display": "Cystic fibrosis (CMS/HCC)"
+                            }
+                        ],
+                        "text": "Cystic fibrosis (CMS/HCC)"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 2.5 mg once daily., Starting 1/1/2014, Until Mon 6/30/14, Print",
+                        "patientInstruction": "Inhale 2.5 mg once daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2014-01-01",
+                                    "end": "2014-06-30"
+                                },
+                                "timeOfDay": [
+                                    "08:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "Respiratory use only - once daily at 0800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2014-01-01",
+                        "end": "2014-06-30"
+                    },
+                    "numberOfRepeatsAllowed": 3,
+                    "quantity": {
+                        "value": 250,
+                        "unit": "mL"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 100,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                },
+                "priorPrescription": {
+                    "reference": "MedicationRequest/ein7fmOfAEwI-Vk9zCftTjQ3",
+                    "display": "dornase alpha (PULMOZYME) 1 MG/ML nebulizer solution"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eOSxXHvTO5haFqzSOgFRt3A3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eOSxXHvTO5haFqzSOgFRt3A3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eOSxXHvTO5haFqzSOgFRt3A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "928003"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ehLfCobv49VFaQ93CpZLCWqN3sGgopKxrmiL9xTtRYiRKKWla0izHXPdwQXHkIMug3",
+                    "display": "fluticasone (FLOVENT HFA) inhaler 110 mcg/act"
+                },
+                "subject": {
+                    "reference": "Patient/eAvIyaRRAycxAsRVIAKERKw3",
+                    "display": "Zztransplant, Patient R"
+                },
+                "encounter": {
+                    "reference": "Encounter/eDiAAt2O5.8Iy0pnvIr-Gqg3",
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2014-06-30",
+                "requester": {
+                    "reference": "Practitioner/eJNlquV-tJUJuScDWkfQTmA3",
+                    "type": "Practitioner",
+                    "display": "Physician Pulmonary, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eJNlquV-tJUJuScDWkfQTmA3",
+                    "type": "Practitioner",
+                    "display": "Physician Pulmonary, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 1 puff 2 (two) times a day., Starting Mon 6/30/2014, Print",
+                        "patientInstruction": "Inhale 1 puff 2 (two) times a day.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2014-06-30"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "21:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "Respiratory use only - 0900, 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "puff",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{puff}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "puff",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{puff}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "puff",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{puff}"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2014-06-30"
+                    },
+                    "numberOfRepeatsAllowed": 3,
+                    "quantity": {
+                        "value": 12,
+                        "unit": "g"
+                    }
+                },
+                "priorPrescription": {
+                    "reference": "MedicationRequest/ei6UPiv3MHULwXtUeRGbw0w3",
+                    "display": "fluticasone (FLOVENT HFA) 110 MCG/ACT inhaler"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ei6UPiv3MHULwXtUeRGbw0w3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ei6UPiv3MHULwXtUeRGbw0w3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ei6UPiv3MHULwXtUeRGbw0w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "956741"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/ehLfCobv49VFaQ93CpZLCWtdb6vhLddt.bqc-SptA2k0aUoYQfTMJUxMZJ6vs3.n53",
+                    "display": "fluticasone (FLOVENT HFA) inhaler 110 mcg/act"
+                },
+                "subject": {
+                    "reference": "Patient/eAvIyaRRAycxAsRVIAKERKw3",
+                    "display": "Zztransplant, Patient R"
+                },
+                "encounter": {
+                    "reference": "Encounter/etQmIcxTsfcfjSZh1MAX1SA3",
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2014-01-01T19:47:23Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/erqn5oyiA9.LpVQkQ2Ulmgg3",
+                    "type": "Practitioner",
+                    "display": "Nurse Family Medicine, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 1 puff 2 (two) times a day., Starting 1/1/2013, Until Mon 6/30/14, Historical Med",
+                        "patientInstruction": "Inhale 1 puff 2 (two) times a day.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-01-01",
+                                    "end": "2014-06-30"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "21:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "Respiratory use only - 0900, 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "puff",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{puff}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ein7fmOfAEwI-Vk9zCftTjQ3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ein7fmOfAEwI-Vk9zCftTjQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ein7fmOfAEwI-Vk9zCftTjQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "956742"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/evDZhLVSmu6BHFwLwgMHKYB.ciLxf-R.xf31muf8qYFxI0jecjFDPSnGVM9gLZq033",
+                    "display": "dornase alpha (PULMOZYME) nebulizer solution 1 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/eAvIyaRRAycxAsRVIAKERKw3",
+                    "display": "Zztransplant, Patient R"
+                },
+                "encounter": {
+                    "reference": "Encounter/etQmIcxTsfcfjSZh1MAX1SA3",
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2014-01-01T19:47:24Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/erqn5oyiA9.LpVQkQ2Ulmgg3",
+                    "type": "Practitioner",
+                    "display": "Nurse Family Medicine, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Inhale 2.5 mg once daily., Until Wed 1/1/14, Historical Med",
+                        "patientInstruction": "Inhale 2.5 mg once daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "end": "2014-01-01"
+                                },
+                                "timeOfDay": [
+                                    "08:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "Respiratory use only - once daily at 0800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "7",
+                                    "display": "Inhalation"
+                                }
+                            ],
+                            "text": "Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2107 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 6,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest?_include=MedicationRequest:medicationReference&_include=MedicationRequest:encounter&_include=MedicationRequest:subject&_format=json&patient=eKAI-Yb7lpiVYR057xSgAMw3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e0viKRXH7YxLTMpzK3i3vcg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e0viKRXH7YxLTMpzK3i3vcg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e0viKRXH7YxLTMpzK3i3vcg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "838069"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eqqOnYRQjKbdm4rltcYFMpTZwbTlxsD6Q1tA5PwMRJRhtDhaBNfXbFGQuLIDE88cD3",
+                    "display": "ceFAZolin (ANCEF) IVPB 1 g in 50 mL (premix)"
+                },
+                "subject": {
+                    "reference": "Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+                    "display": "Him, Susie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eGijvXTpqMJTQzALio-sf5g3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4802"
+                    },
+                    "display": "Emergency"
+                },
+                "authoredOn": "2013-10-18T01:07:28Z",
+                "requester": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eUHWM5R81nV4SlA71j3Y7rA3",
+                    "type": "Practitioner",
+                    "display": "Circ Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "for 30 Minutes, As needed, Starting Thu 10/17/13 at 2007, Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-10-18T01:07:00Z",
+                                    "end": "2013-10-18T01:08:00Z"
+                                },
+                                "duration": 30,
+                                "durationUnit": "min",
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e5Sw5uPcMX4UbnZ0a-DNuTA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e5Sw5uPcMX4UbnZ0a-DNuTA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e5Sw5uPcMX4UbnZ0a-DNuTA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "838070"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eKRcRoWTOQMN3JJ-JRKRMe2hj6.urj9ssdTjQ4dFyzMa11lvrJmG-m12oTDGMjaV33",
+                    "display": "oxyCODONE-acetaminophen (PERCOCET) tablet 10-325 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+                    "display": "Him, Susie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eGijvXTpqMJTQzALio-sf5g3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4802"
+                    },
+                    "display": "Emergency"
+                },
+                "authoredOn": "2013-10-18T01:49:37Z",
+                "requester": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 tablet, Oral, Every 4 hours PRN, moderate pain, Starting Thu 10/17/13 at 2048",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-10-18T01:48:54Z",
+                                    "end": "2013-10-18T04:01:07Z"
+                                },
+                                "frequency": 1,
+                                "period": 4,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 4 (four) hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e8jJEpRw9rEkfesnwog57Kw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e8jJEpRw9rEkfesnwog57Kw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e8jJEpRw9rEkfesnwog57Kw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "838054"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ecmMZKJYWESfJPUxogK5sScm9myK8f5AxIGzLSBrCkXWO1hwT0F-F9skncjtWcGqT3",
+                    "display": "acetaminophen (TYLENOL) suspension 80mg/0.8mL"
+                },
+                "subject": {
+                    "reference": "Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+                    "display": "Him, Susie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eGijvXTpqMJTQzALio-sf5g3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4802"
+                    },
+                    "display": "Emergency"
+                },
+                "authoredOn": "2013-10-17T23:37:32Z",
+                "requester": {
+                    "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Emergency, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eclOxH-V7wEfUNGp5Nos9xw3",
+                    "type": "Practitioner",
+                    "display": "Nurse Epic Emergency, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "830 mg (15 mg/kg \u00d7 55.3 kg), Oral, Once, Thu 10/17/13 at 1840, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-10-17T23:40:00Z",
+                                    "end": "2013-10-18T01:51:33Z"
+                                },
+                                "count": 1
+                            },
+                            "code": {
+                                "text": "Once"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 830,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 8.3,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 15,
+                                    "unit": "mg/kg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/kg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/elNc013ujNRQ4s71hwXs54g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/elNc013ujNRQ4s71hwXs54g3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "elNc013ujNRQ4s71hwXs54g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "838067"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eyDHRQRg0YCumfZf60Ui.fFemj5qCs0QY2kVpg9ma3UlQRxa8tFlYE1wlHx7jiLYs3",
+                    "display": "ibuprofen (MOTRIN) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+                    "display": "Him, Susie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eGijvXTpqMJTQzALio-sf5g3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4802"
+                    },
+                    "display": "Emergency"
+                },
+                "authoredOn": "2013-10-18T00:53:37Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 100 mg by mouth every 6 (six) hours as needed., Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 100 mg by mouth every 6 (six) hours as needed.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 6,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 6 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/emqJWitrxPbLviXjKm7mhqA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/emqJWitrxPbLviXjKm7mhqA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "emqJWitrxPbLviXjKm7mhqA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "838068"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ersqXjOusVJslybwnACORsKbpZtSeLFdmW-d2kWZFG-E3nLouqCifC9i0j11ZLu-g3",
+                    "display": "bupivacaine (MARCAINE) injection 0.25%"
+                },
+                "subject": {
+                    "reference": "Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+                    "display": "Him, Susie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eGijvXTpqMJTQzALio-sf5g3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4802"
+                    },
+                    "display": "Emergency"
+                },
+                "authoredOn": "2013-10-18T01:07:21Z",
+                "requester": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eUHWM5R81nV4SlA71j3Y7rA3",
+                    "type": "Practitioner",
+                    "display": "Circ Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "As needed, Starting Thu 10/17/13 at 2007, Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-10-18T01:07:00Z",
+                                    "end": "2013-10-18T01:08:00Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/enIspIK.XFGUYLzfL.z8QQg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/enIspIK.XFGUYLzfL.z8QQg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "enIspIK.XFGUYLzfL.z8QQg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "838071"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e24cOml65cPNQa8xF-cIfJO1w3d3l.uAiIkfvlGFyYHYfy.8ON-ajgXZk0HNOe4Ow3",
+                    "display": "ketorolac (TORADOL) tablet 10 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+                    "display": "Him, Susie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eGijvXTpqMJTQzALio-sf5g3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4802"
+                    },
+                    "display": "Emergency"
+                },
+                "authoredOn": "2013-10-18T01:49:37Z",
+                "requester": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "10 mg, Oral, Every 4 hours PRN, pain, Starting Thu 10/17/13 at 2049, For 5 days",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-10-18T01:49:09Z",
+                                    "end": "2013-10-18T04:01:07Z"
+                                },
+                                "frequency": 1,
+                                "period": 4,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 4 (four) hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e24cOml65cPNQa8xF-cIfJO1w3d3l.uAiIkfvlGFyYHYfy.8ON-ajgXZk0HNOe4Ow3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e24cOml65cPNQa8xF-cIfJO1w3d3l.uAiIkfvlGFyYHYfy.8ON-ajgXZk0HNOe4Ow3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e24cOml65cPNQa8xF-cIfJO1w3d3l.uAiIkfvlGFyYHYfy.8ON-ajgXZk0HNOe4Ow3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "28216"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "66100037100320"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "07323"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "28200"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "35827"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "834022"
+                        }
+                    ],
+                    "text": "ketorolac (TORADOL) tablet 10 mg"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "TABS",
+                            "display": "tablet"
+                        }
+                    ],
+                    "text": "tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "28216"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "66100037100320"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "07323"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "28200"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "35827"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "834022"
+                                }
+                            ],
+                            "text": "ketorolac (TORADOL) tablet 10 mg"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 10,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 10,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eGijvXTpqMJTQzALio-sf5g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eGijvXTpqMJTQzALio-sf5g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eGijvXTpqMJTQzALio-sf5g3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4802"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "106",
+                                "display": "Hospital Outpatient Surgery"
+                            }
+                        ],
+                        "text": "Hospital Outpatient Surgery"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "priority": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.410",
+                            "code": "3",
+                            "display": "Urgent"
+                        }
+                    ],
+                    "text": "Urgent"
+                },
+                "subject": {
+                    "reference": "Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+                    "display": "Him, Susie"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-10-17T23:39:09Z",
+                            "end": "2013-10-18T00:14:05Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Emergency, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-10-18T00:15:52Z",
+                            "end": "2013-10-18T02:00:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "49",
+                                            "display": "Emergency Medicine"
+                                        }
+                                    ],
+                                    "text": "Emergency Medicine"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "RN",
+                                        "display": "Registered Nurse"
+                                    }
+                                ],
+                                "text": "Registered Nurse"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-10-17T23:29:29Z",
+                            "end": "2013-10-18T00:14:05Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eclOxH-V7wEfUNGp5Nos9xw3",
+                            "type": "Practitioner",
+                            "display": "Nurse Epic Emergency, RN"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "11",
+                                            "display": "General Surgery"
+                                        }
+                                    ],
+                                    "text": "General Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Consult MD",
+                                        "display": "Consulting Physician"
+                                    }
+                                ],
+                                "text": "Consulting Physician"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-10-17T23:49:03Z",
+                            "end": "2013-10-18T04:01:10Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "49",
+                                            "display": "Emergency Medicine"
+                                        }
+                                    ],
+                                    "text": "Emergency Medicine"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Tech",
+                                        "display": "Technician"
+                                    }
+                                ],
+                                "text": "Technician"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-10-17T23:53:56Z",
+                            "end": "2013-10-18T00:14:05Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/erIxJvf0kvijQ5-rGX52tIg3",
+                            "type": "Practitioner",
+                            "display": "Technician Emergency, EMT"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "11",
+                                            "display": "General Surgery"
+                                        }
+                                    ],
+                                    "text": "General Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-10-18T00:20:32Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-10-17T23:18:40Z",
+                    "end": "2013-10-18T02:00:00Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "110002",
+                                "display": "Abdominal Pain"
+                            }
+                        ],
+                        "text": "Abdominal Pain"
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "373"
+                        },
+                        "display": "HIM,SUSIE"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-10-18T00:15:52Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "1",
+                                "display": "Non-Healthcare Facility"
+                            }
+                        ],
+                        "text": "Non-Healthcare Facility"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2013-10-17T23:18:00Z",
+                            "end": "2013-10-18T00:15:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2013-10-18T00:15:00Z",
+                            "end": "2013-10-18T00:50:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2013-10-18T00:50:00Z",
+                            "end": "2013-10-18T02:00:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/ew.LarBtoCiHPOHV6-1EOyg3"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "315"
+                            }
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eKAI-Yb7lpiVYR057xSgAMw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eKAI-Yb7lpiVYR057xSgAMw3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eKAI-Yb7lpiVYR057xSgAMw3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2106-3",
+                                    "display": "White"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "White",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "307-53-6422"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1JMHD69HS6B45"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3225"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4767"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TFn23ZQs-nvPeErnIHaHY.VKGZI6WwQ5ZwiA0qee3-ScB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eKAI-Yb7lpiVYR057xSgAMw3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4767"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202975"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Susie Him",
+                        "family": "Him",
+                        "given": [
+                            "Susie"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Susie Him",
+                        "family": "Him",
+                        "given": [
+                            "Susie"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-555-3434",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-555-5555",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1986-10-29",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "555 State St"
+                        ],
+                        "city": "MADISON",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53715",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "1",
+                                        "display": "Brother"
+                                    }
+                                ],
+                                "text": "Brother"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Him Validate,Andrew"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-546-9458",
+                                "use": "home"
+                            },
+                            {
+                                "system": "phone",
+                                "value": "608-546-3252",
+                                "use": "mobile"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "5217 Starflower Drive"
+                            ],
+                            "city": "MADISON",
+                            "district": "DANE",
+                            "state": "WI",
+                            "postalCode": "53704",
+                            "country": "US"
+                        }
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                        "type": "Practitioner",
+                        "display": "Physician Family Medicine, MD"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKRcRoWTOQMN3JJ-JRKRMe2hj6.urj9ssdTjQ4dFyzMa11lvrJmG-m12oTDGMjaV33"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKRcRoWTOQMN3JJ-JRKRMe2hj6.urj9ssdTjQ4dFyzMa11lvrJmG-m12oTDGMjaV33",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eKRcRoWTOQMN3JJ-JRKRMe2hj6.urj9ssdTjQ4dFyzMa11lvrJmG-m12oTDGMjaV33",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "74680"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "65990002200335"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "33530"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "161"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "7804"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "214183"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1049214"
+                        }
+                    ],
+                    "text": "oxyCODONE-acetaminophen (PERCOCET) tablet 10-325 mg"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "TABS",
+                            "display": "tablet"
+                        }
+                    ],
+                    "text": "tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "74680"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "65990002200335"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "33530"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "161"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "7804"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "214183"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1049214"
+                                }
+                            ],
+                            "text": "oxyCODONE-acetaminophen (PERCOCET) tablet 10-325 mg"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ecmMZKJYWESfJPUxogK5sScm9myK8f5AxIGzLSBrCkXWO1hwT0F-F9skncjtWcGqT3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ecmMZKJYWESfJPUxogK5sScm9myK8f5AxIGzLSBrCkXWO1hwT0F-F9skncjtWcGqT3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ecmMZKJYWESfJPUxogK5sScm9myK8f5AxIGzLSBrCkXWO1hwT0F-F9skncjtWcGqT3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "24341"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "64200010001820"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "09597"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "161"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "243675"
+                        }
+                    ],
+                    "text": "acetaminophen (TYLENOL) suspension 80mg/0.8mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SUSP",
+                            "display": "suspension"
+                        }
+                    ],
+                    "text": "suspension"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "24341"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "64200010001820"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "09597"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "161"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "243675"
+                                }
+                            ],
+                            "text": "acetaminophen (TYLENOL) suspension 80mg/0.8mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 80,
+                                "unit": "MG/0.8ML"
+                            },
+                            "denominator": {
+                                "value": 80,
+                                "unit": "MG/0.8ML"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eqqOnYRQjKbdm4rltcYFMpTZwbTlxsD6Q1tA5PwMRJRhtDhaBNfXbFGQuLIDE88cD3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eqqOnYRQjKbdm4rltcYFMpTZwbTlxsD6Q1tA5PwMRJRhtDhaBNfXbFGQuLIDE88cD3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eqqOnYRQjKbdm4rltcYFMpTZwbTlxsD6Q1tA5PwMRJRhtDhaBNfXbFGQuLIDE88cD3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "60331"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "02100015112010"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "2180"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "203171"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1665050"
+                        }
+                    ],
+                    "text": "ceFAZolin (ANCEF) IVPB 1 g in 50 mL (premix)"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "60331"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "02100015112010"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "2180"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "203171"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1665050"
+                                }
+                            ],
+                            "text": "ceFAZolin (ANCEF) IVPB 1 g in 50 mL (premix)"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ersqXjOusVJslybwnACORsKbpZtSeLFdmW-d2kWZFG-E3nLouqCifC9i0j11ZLu-g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ersqXjOusVJslybwnACORsKbpZtSeLFdmW-d2kWZFG-E3nLouqCifC9i0j11ZLu-g3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ersqXjOusVJslybwnACORsKbpZtSeLFdmW-d2kWZFG-E3nLouqCifC9i0j11ZLu-g3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "3498"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "69100010102005"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "03777"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1815"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "267396"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1012396"
+                        }
+                    ],
+                    "text": "bupivacaine (MARCAINE) injection 0.25%"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "3498"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "69100010102005"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "03777"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1815"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "267396"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1012396"
+                                }
+                            ],
+                            "text": "bupivacaine (MARCAINE) injection 0.25%"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 0.25,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            },
+                            "denominator": {
+                                "value": 0.25,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eyDHRQRg0YCumfZf60Ui.fFemj5qCs0QY2kVpg9ma3UlQRxa8tFlYE1wlHx7jiLYs3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eyDHRQRg0YCumfZf60Ui.fFemj5qCs0QY2kVpg9ma3UlQRxa8tFlYE1wlHx7jiLYs3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eyDHRQRg0YCumfZf60Ui.fFemj5qCs0QY2kVpg9ma3UlQRxa8tFlYE1wlHx7jiLYs3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "37979"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "66100020000303"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "5640"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "198405"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "13804"
+                        }
+                    ],
+                    "text": "ibuprofen (MOTRIN) tablet"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "TABS",
+                            "display": "tablet"
+                        }
+                    ],
+                    "text": "tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "37979"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "66100020000303"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "5640"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "198405"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "13804"
+                                }
+                            ],
+                            "text": "ibuprofen (MOTRIN) tablet"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 100,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 100,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

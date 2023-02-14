@@ -1,0 +1,2411 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 47,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eigSy4SDO--Xx0q7RpqJZOA3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/esi3wiAxYbQhUnKq5TEE12Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/esi3wiAxYbQhUnKq5TEE12Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "esi3wiAxYbQhUnKq5TEE12Q3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20288"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "5",
+                    "display": "Appointment"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "1036",
+                                "display": "Same Day"
+                            }
+                        ],
+                        "text": "Same Day"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2015-02-11T14:30:00Z",
+                            "end": "2015-02-11T14:45:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/efQqG5PbdD9s9htt8.Y037Q3",
+                            "display": "Physician Sbo Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2015-02-11T14:30:00Z",
+                    "end": "2015-02-11T14:45:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/epi9izipnriQGKHiR-OsfFashJocnD07C6kH5W0Cves03",
+                            "display": "SBOC Family Practice"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ef0NKkr2J7aTeUjt97muWIw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ef0NKkr2J7aTeUjt97muWIw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ef0NKkr2J7aTeUjt97muWIw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20279"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "104",
+                                "display": "Observation"
+                            }
+                        ],
+                        "text": "Observation"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "106",
+                            "display": "General Medicine"
+                        }
+                    ],
+                    "text": "General Medicine"
+                },
+                "priority": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.410",
+                            "code": "1",
+                            "display": "Immediate"
+                        }
+                    ],
+                    "text": "Immediate"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2015-02-03T15:12:32Z",
+                            "end": "2015-02-03T18:25:36Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Emergency, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2015-02-03T18:25:36Z",
+                            "end": "2015-02-03T18:26:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2015-02-03T15:09:21Z",
+                    "end": "2015-02-03T18:26:00Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "100000",
+                                "display": "Chest Pain"
+                            }
+                        ],
+                        "text": "Chest Pain"
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "1000245"
+                        },
+                        "display": "HOSTED,ADULTFEMALE"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2015-02-03T18:22:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "1",
+                                "display": "Non-Healthcare Facility"
+                            }
+                        ],
+                        "text": "Non-Healthcare Facility"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2015-02-03T15:09:00Z",
+                            "end": "2015-02-03T18:25:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        },
+                        "period": {
+                            "start": "2015-02-03T18:25:00Z",
+                            "end": "2015-02-03T18:26:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e0H0ArMvC5fkwO7XC2hyJ1Q3",
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "915"
+                            },
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eeLk6vZaVLHkWpZCFUn2LhQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eeLk6vZaVLHkWpZCFUn2LhQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eeLk6vZaVLHkWpZCFUn2LhQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3975"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "107",
+                                "display": "Refill"
+                            }
+                        ],
+                        "text": "Refill"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2013-11-11",
+                    "end": "2013-11-11"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160383",
+                                "display": "Med Refill"
+                            }
+                        ],
+                        "text": "Med Refill"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebtS.92GPQw.SBaIphwUNNw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebtS.92GPQw.SBaIphwUNNw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ebtS.92GPQw.SBaIphwUNNw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3980"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "107",
+                                "display": "Refill"
+                            }
+                        ],
+                        "text": "Refill"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2011-09-17",
+                    "end": "2011-09-17"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160383",
+                                "display": "Med Refill"
+                            }
+                        ],
+                        "text": "Med Refill"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQHjK1bitgN9cqBtTyPlCUA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQHjK1bitgN9cqBtTyPlCUA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eQHjK1bitgN9cqBtTyPlCUA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3981"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "111",
+                                "display": "Orders Only"
+                            }
+                        ],
+                        "text": "Orders Only"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2011-09-14",
+                    "end": "2011-09-14"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exBzFsE7Y7UCfl9ciUnluyQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exBzFsE7Y7UCfl9ciUnluyQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "exBzFsE7Y7UCfl9ciUnluyQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3984"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "70",
+                                "display": "Telephone"
+                            }
+                        ],
+                        "text": "Telephone"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2011-07-04",
+                    "end": "2011-07-04"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "95",
+                                "display": "Results"
+                            }
+                        ],
+                        "text": "Results"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6DnK14.aaRKhwVFt..CDsw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6DnK14.aaRKhwVFt..CDsw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e6DnK14.aaRKhwVFt..CDsw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3990"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2011-02-16",
+                    "end": "2011-02-16"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eTDfmkihbaOXJ4ItQoQofsg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eTDfmkihbaOXJ4ItQoQofsg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eTDfmkihbaOXJ4ItQoQofsg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3991"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2011-02-16",
+                    "end": "2011-02-16"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elD7SslFgSe52GilBK-71uw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elD7SslFgSe52GilBK-71uw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elD7SslFgSe52GilBK-71uw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3992"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2011-02-16",
+                    "end": "2011-02-16"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e5dS2.a4i1Z56eWz7zm3t5g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e5dS2.a4i1Z56eWz7zm3t5g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e5dS2.a4i1Z56eWz7zm3t5g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3997"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2010-10-19",
+                    "end": "2010-10-19"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/evVS0mzeFnAtcM8o8Bl3F8g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/evVS0mzeFnAtcM8o8Bl3F8g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "evVS0mzeFnAtcM8o8Bl3F8g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3998"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2010-10-19",
+                    "end": "2010-10-19"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elccLijuZYNS2jOBPTcGIFg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elccLijuZYNS2jOBPTcGIFg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elccLijuZYNS2jOBPTcGIFg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3999"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2010-06-17",
+                    "end": "2010-06-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eVhv66nNIoHEx.0QH9ad61Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eVhv66nNIoHEx.0QH9ad61Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eVhv66nNIoHEx.0QH9ad61Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4000"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2010-06-17",
+                    "end": "2010-06-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1NFjkJjg8DYY3j0t5E2gUQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1NFjkJjg8DYY3j0t5E2gUQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e1NFjkJjg8DYY3j0t5E2gUQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4001"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2010-06-17",
+                    "end": "2010-06-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehDE4AWS0G3c2zDt2qZXhgw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehDE4AWS0G3c2zDt2qZXhgw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ehDE4AWS0G3c2zDt2qZXhgw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4002"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2010-02-17",
+                    "end": "2010-02-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eKKSaRiiA5RlQm0X.y13v-g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eKKSaRiiA5RlQm0X.y13v-g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eKKSaRiiA5RlQm0X.y13v-g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4003"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2010-02-17",
+                    "end": "2010-02-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eW2ZL4SqaPjTg6ffwzVDVrQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eW2ZL4SqaPjTg6ffwzVDVrQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eW2ZL4SqaPjTg6ffwzVDVrQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4004"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2009-11-04",
+                    "end": "2009-11-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eKlDVSfhvDnjOGVOUukekmA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eKlDVSfhvDnjOGVOUukekmA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eKlDVSfhvDnjOGVOUukekmA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4005"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2009-08-24",
+                    "end": "2009-08-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eSfG4a0yj7upcLWqUchqwtQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eSfG4a0yj7upcLWqUchqwtQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eSfG4a0yj7upcLWqUchqwtQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4006"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2009-03-05",
+                    "end": "2009-03-05"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezka2ePspnSIP5MNOOMqjJA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezka2ePspnSIP5MNOOMqjJA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ezka2ePspnSIP5MNOOMqjJA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4007"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-12-23",
+                    "end": "2008-12-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eK2FFuM9meJKKDA8-XP5lEQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eK2FFuM9meJKKDA8-XP5lEQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eK2FFuM9meJKKDA8-XP5lEQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4008"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-12-22",
+                    "end": "2008-12-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWTBAH0eCd2zzcVAMjtO1rw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWTBAH0eCd2zzcVAMjtO1rw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWTBAH0eCd2zzcVAMjtO1rw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4009"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-12-19",
+                    "end": "2008-12-19"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJbHkC1tKpZYycoAxgTEnSw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJbHkC1tKpZYycoAxgTEnSw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eJbHkC1tKpZYycoAxgTEnSw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4010"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-12-01",
+                    "end": "2008-12-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eKW1G2wimfd9ccTNdE6dO7Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eKW1G2wimfd9ccTNdE6dO7Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eKW1G2wimfd9ccTNdE6dO7Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4011"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-12-01",
+                    "end": "2008-12-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehkj03MG7OBWZlg9Ycd7LdQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehkj03MG7OBWZlg9Ycd7LdQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ehkj03MG7OBWZlg9Ycd7LdQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4012"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-10-08",
+                    "end": "2008-10-08"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eURIEeALYozarPQSBm1yWXw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eURIEeALYozarPQSBm1yWXw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eURIEeALYozarPQSBm1yWXw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4013"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-10-06",
+                    "end": "2008-10-06"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/euu3VL6X5-9grUOv11gTX.g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/euu3VL6X5-9grUOv11gTX.g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "euu3VL6X5-9grUOv11gTX.g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4014"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-10-06",
+                    "end": "2008-10-06"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e5U3FVq-aG0WkrdGgymmJig3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e5U3FVq-aG0WkrdGgymmJig3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e5U3FVq-aG0WkrdGgymmJig3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4015"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-09-25",
+                    "end": "2008-09-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewdqIUeH0Xmoag.opQLYVPw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewdqIUeH0Xmoag.opQLYVPw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ewdqIUeH0Xmoag.opQLYVPw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4016"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-08-01",
+                    "end": "2008-08-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7EJ1nEH7foy4Od-qTnQoCw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7EJ1nEH7foy4Od-qTnQoCw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7EJ1nEH7foy4Od-qTnQoCw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4017"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-08-01",
+                    "end": "2008-08-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eaBJGpIrogarv1nzLYjjeIg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eaBJGpIrogarv1nzLYjjeIg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eaBJGpIrogarv1nzLYjjeIg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4018"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-05-01",
+                    "end": "2008-05-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e10GlN2uycAvJSlJmH.UNIg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e10GlN2uycAvJSlJmH.UNIg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e10GlN2uycAvJSlJmH.UNIg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4019"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-04-22",
+                    "end": "2008-04-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e61qZ25c7ECDJWE6NoI009A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e61qZ25c7ECDJWE6NoI009A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e61qZ25c7ECDJWE6NoI009A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4020"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-04-22",
+                    "end": "2008-04-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ediM8HbD3jbvxpc6W3fEBwg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ediM8HbD3jbvxpc6W3fEBwg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ediM8HbD3jbvxpc6W3fEBwg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4021"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-04-22",
+                    "end": "2008-04-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6tBuEPAFZZh-lkHmO6sN-A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6tBuEPAFZZh-lkHmO6sN-A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e6tBuEPAFZZh-lkHmO6sN-A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4022"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-04-19",
+                    "end": "2008-04-19"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e42z.Cg7x5UNFEUbwaAPkRw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e42z.Cg7x5UNFEUbwaAPkRw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e42z.Cg7x5UNFEUbwaAPkRw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4023"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-04-01",
+                    "end": "2008-04-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eb-GpZTUNA-oaluDv8.JODA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eb-GpZTUNA-oaluDv8.JODA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eb-GpZTUNA-oaluDv8.JODA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4024"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-04-01",
+                    "end": "2008-04-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekKWN4PqlgX9STcVq7XStYQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekKWN4PqlgX9STcVq7XStYQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ekKWN4PqlgX9STcVq7XStYQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4025"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-02-07",
+                    "end": "2008-02-07"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eue-UGcokTkLOvj9E-G5fzg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eue-UGcokTkLOvj9E-G5fzg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eue-UGcokTkLOvj9E-G5fzg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4026"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-02-05",
+                    "end": "2008-02-05"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQC3ELPSn.nMKoxKdW3Usqg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQC3ELPSn.nMKoxKdW3Usqg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eQC3ELPSn.nMKoxKdW3Usqg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4027"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-02-05",
+                    "end": "2008-02-05"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egbLEIdB7z5bqrldHD4mdZA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egbLEIdB7z5bqrldHD4mdZA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "egbLEIdB7z5bqrldHD4mdZA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4028"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2008-01-25",
+                    "end": "2008-01-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e.0z6zo5.aGil177-iCX5IA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e.0z6zo5.aGil177-iCX5IA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e.0z6zo5.aGil177-iCX5IA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4029"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2007-12-01",
+                    "end": "2007-12-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDcWzp7Go2hHWtl2EVpmKjA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDcWzp7Go2hHWtl2EVpmKjA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eDcWzp7Go2hHWtl2EVpmKjA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4030"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2007-12-01",
+                    "end": "2007-12-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eG5q6V5o065cbsfLa9WuIjw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eG5q6V5o065cbsfLa9WuIjw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eG5q6V5o065cbsfLa9WuIjw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4031"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2007-08-31",
+                    "end": "2007-08-31"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elSyJEfAiEpHqw0.CVvMkKA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elSyJEfAiEpHqw0.CVvMkKA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elSyJEfAiEpHqw0.CVvMkKA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4032"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2007-08-22",
+                    "end": "2007-08-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEHX0TGV20T4jf8BT5RgniQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEHX0TGV20T4jf8BT5RgniQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eEHX0TGV20T4jf8BT5RgniQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4033"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2007-08-22",
+                    "end": "2007-08-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNMKJDDko70XRlr0sKKnyCA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNMKJDDko70XRlr0sKKnyCA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eNMKJDDko70XRlr0sKKnyCA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4034"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+                    "display": "Hosted, Adultfemale"
+                },
+                "period": {
+                    "start": "2007-08-22",
+                    "end": "2007-08-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eigSy4SDO--Xx0q7RpqJZOA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eigSy4SDO--Xx0q7RpqJZOA3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eigSy4SDO--Xx0q7RpqJZOA3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "342-12-8388"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1T6CM6TQBPP3J"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E2979"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4733"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TIv8zi-kxdNjZGflWR0HDTESKfGXg5zPAQybcykybf.wB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eigSy4SDO--Xx0q7RpqJZOA3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4733"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "203232"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+                        "value": "456789123"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Adultfemale Hosted",
+                        "family": "Hosted",
+                        "given": [
+                            "Adultfemale"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Adultfemale Hosted",
+                        "family": "Hosted",
+                        "given": [
+                            "Adultfemale"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-645-9834",
+                        "use": "home"
+                    },
+                    {
+                        "system": "email",
+                        "value": "adultfemale@hotmail.com"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1966-08-28",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "495 Hillside Dr."
+                        ],
+                        "city": "Sextonville",
+                        "district": "RICHLAND",
+                        "state": "WI",
+                        "postalCode": "53584",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "17",
+                                        "display": "Spouse"
+                                    }
+                                ],
+                                "text": "Spouse"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Paula"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-645-9834",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "495 Hillside Dr."
+                            ],
+                            "city": "Cross Plains",
+                            "state": "WI",
+                            "postalCode": "53584",
+                            "country": "US"
+                        }
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

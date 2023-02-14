@@ -1,0 +1,3306 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 11,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest?_include=MedicationRequest:medicationReference&_include=MedicationRequest:encounter&_include=MedicationRequest:subject&_format=json&patient=e-DRiIGF4rHscPS5tKADn1g3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e3.y14PSrHbYy2ahBWojzaA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e3.y14PSrHbYy2ahBWojzaA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e3.y14PSrHbYy2ahBWojzaA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895389"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/efp4rpUQ7k8Xsh0vJtNKZmaDJpgq5Kb8wmlODQC7ZiQQ9zoabrgOMAs9nxnLl5b4O3",
+                    "display": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-19",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, test, Starting Thu 4/19/12 at 1253, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-19T17:53:00Z",
+                                    "end": "2012-04-19T17:53:00Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eBimyz24HRc5CltsleNIVHQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eBimyz24HRc5CltsleNIVHQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eBimyz24HRc5CltsleNIVHQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895394"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/efsegmjSw1DHlHZzzsDBl7Zls0VbT07nJMS6r-FH.K.bxdP4wuaIdyY3C8ZKwZKvt3",
+                    "display": "iodixanol (VISIPAQUE) injection 320 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, other, Starting Fri 4/20/12 at 0943, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:43:07Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eH2DSCWZQwbGXDVbZqOGCMw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eH2DSCWZQwbGXDVbZqOGCMw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eH2DSCWZQwbGXDVbZqOGCMw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895387"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eevOyLDLFMh16E-eK1jx2btqUlBH7rdj.TRZUrRPRueKfzlsWv9jOqhi4l8rMWXPC3",
+                    "display": "gadopentetate dimeglumine (MAGNEVIST) injection 46.9%"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-19",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, other, Starting Thu 4/19/12 at 1252, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-19T17:52:11Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eIOyzfk1L7UhnLDsqjUXbkQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eIOyzfk1L7UhnLDsqjUXbkQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eIOyzfk1L7UhnLDsqjUXbkQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895388"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ejXOShkQKsp85JuEP.1ZWTEMo9bTHpl3UO7Z5UePtSnw5OXTuG68.vS5TSN4dxHwU3",
+                    "display": "iohexol (OMNIPAQUE) 300 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-19",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "100 mL, Intravenous, Once in imaging, other, Starting Thu 4/19/12 at 1252, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-19T17:52:56Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eSo1gHKUmvPUiunnXzc4Kjw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eSo1gHKUmvPUiunnXzc4Kjw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eSo1gHKUmvPUiunnXzc4Kjw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895390"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/efsegmjSw1DHlHZzzsDBl7dfY51I-dINX36Hr2.SuBW76D0wt1ujjMTNdHYYKpTIj3",
+                    "display": "iodixanol (VISIPAQUE) injection 320 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, other, Starting Fri 4/20/12 at 0940, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:40:38Z",
+                                    "end": "2012-04-20T14:41:00Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eaIFFeeBhlivpB-cgvaKdjA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eaIFFeeBhlivpB-cgvaKdjA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eaIFFeeBhlivpB-cgvaKdjA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895384"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eevOyLDLFMh16E-eK1jx2br7QWRlRycLRxaJabWh1KosdB.38MJAh0FMVXH5OCUF93",
+                    "display": "gadopentetate dimeglumine (MAGNEVIST) injection 46.9%"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eWpFGCJFMIcp9CGomIspaoQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12162"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, other, Starting Fri 4/20/12 at 0947, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:47:00Z",
+                                    "end": "2012-04-20T14:47:00Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eeW.uiGy2nGi8vFGcuXYOrg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eeW.uiGy2nGi8vFGcuXYOrg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eeW.uiGy2nGi8vFGcuXYOrg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895391"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ejXOShkQKsp85JuEP.1ZWTD3kxKaey1y2ylD8u.9aJglQcJf9cRcUyibKpvlFT1.C3",
+                    "display": "iohexol (OMNIPAQUE) 300 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "100 mL, Intravenous, Once in imaging, other, Starting Fri 4/20/12 at 0941, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:41:42Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eqo6cHj9kEg62BhIxfTwwAg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eqo6cHj9kEg62BhIxfTwwAg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eqo6cHj9kEg62BhIxfTwwAg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895382"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/efp4rpUQ7k8Xsh0vJtNKZmVsug9dFM3eR-cXmJ6IAtOwyflV2vUN3L9Iu4Sp6Anmk3",
+                    "display": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eWpFGCJFMIcp9CGomIspaoQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12162"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, testing, Starting Fri 4/20/12 at 0945, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:45:03Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/euIxO-spu1ONSl-vgcwxc-A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/euIxO-spu1ONSl-vgcwxc-A3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "euIxO-spu1ONSl-vgcwxc-A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895393"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eBIv2nxa8uXYz5XwnoyEmUtND.0wEjKP9m6hsAoz5oLAsvu62TFZ4PxQanPnSj5KV3",
+                    "display": "iopamidol (ISOVUE-300) injection 61%"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, testing, Starting Fri 4/20/12 at 0942, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:42:37Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eunzHqmObDFwR.NhYUNHZpQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eunzHqmObDFwR.NhYUNHZpQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eunzHqmObDFwR.NhYUNHZpQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895392"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e6n97K0SbVR60pTA.ZPOKXtnwZxFjg80YlCQMgzSo0IlcUgJLs.O2qJ.NK09N9R5I3",
+                    "display": "iopromide (ULTRAVIST) 370 mg/mL injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "370 mg, Intravenous, Once in imaging, other, Starting Fri 4/20/12 at 0942, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:42:03Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 370,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 370,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/evfEUCEJNtDFORIApgu7Oeg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/evfEUCEJNtDFORIApgu7Oeg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "evfEUCEJNtDFORIApgu7Oeg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "895383"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/efp4rpUQ7k8Xsh0vJtNKZmXemqufO-pwb-5DKb3xstiA2siJYsjUqbGD6h6uSC3YA3",
+                    "display": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "encounter": {
+                    "reference": "Encounter/eWpFGCJFMIcp9CGomIspaoQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12162"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2012-04-20",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/efjdOHomcPctcCffcE015Tg3",
+                    "type": "Practitioner",
+                    "display": "Technologist Radiology, RT"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "25 mL, Intravenous, Once in imaging, test, Starting Fri 4/20/12 at 0946, For 1 dose",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-04-20T14:46:22Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Imaging use only - as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e-DRiIGF4rHscPS5tKADn1g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e-DRiIGF4rHscPS5tKADn1g3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "e-DRiIGF4rHscPS5tKADn1g3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2028-9",
+                                    "display": "Asian"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Japanese",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "415-38-9809"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1XDHD33VDRR3Q"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E2753"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z5130"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TLwxWROXvrnFv9xQduV.OxKJWS0ZQ.Q.6-8DoTdxmkLoB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "e-DRiIGF4rHscPS5tKADn1g3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z5130"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202519"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "RADCHRIS"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "560"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Chris Radiant",
+                        "family": "Radiant",
+                        "given": [
+                            "Chris"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Chris Radiant",
+                        "family": "Radiant",
+                        "given": [
+                            "Chris"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-213-5806",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-272-5000",
+                        "use": "work"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1951-10-22",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "old",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    }
+                ],
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "14",
+                                        "display": "Sister"
+                                    }
+                                ],
+                                "text": "Sister"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Sally Tonga"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-921-8342",
+                                "use": "home"
+                            }
+                        ]
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "organization": {
+                            "display": "Ehs Generic Employer"
+                        }
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/eFDLlPwY9Zi.6EHce8wkRmA3",
+                        "type": "Practitioner",
+                        "display": "Outpatient Physician Family Medicine, MD"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e6n97K0SbVR60pTA.ZPOKXtnwZxFjg80YlCQMgzSo0IlcUgJLs.O2qJ.NK09N9R5I3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e6n97K0SbVR60pTA.ZPOKXtnwZxFjg80YlCQMgzSo0IlcUgJLs.O2qJ.NK09N9R5I3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e6n97K0SbVR60pTA.ZPOKXtnwZxFjg80YlCQMgzSo0IlcUgJLs.O2qJ.NK09N9R5I3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "38540"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94402049002040"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "27781"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "13920"
+                        }
+                    ],
+                    "text": "iopromide (ULTRAVIST) 370 mg/mL injection"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "38540"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94402049002040"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "27781"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "13920"
+                                }
+                            ],
+                            "text": "iopromide (ULTRAVIST) 370 mg/mL injection"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 77,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            },
+                            "denominator": {
+                                "value": 77,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eBIv2nxa8uXYz5XwnoyEmUtND.0wEjKP9m6hsAoz5oLAsvu62TFZ4PxQanPnSj5KV3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eBIv2nxa8uXYz5XwnoyEmUtND.0wEjKP9m6hsAoz5oLAsvu62TFZ4PxQanPnSj5KV3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eBIv2nxa8uXYz5XwnoyEmUtND.0wEjKP9m6hsAoz5oLAsvu62TFZ4PxQanPnSj5KV3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "64757"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94402047002062"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "5966"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "28283"
+                        }
+                    ],
+                    "text": "iopamidol (ISOVUE-300) injection 61%"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "64757"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94402047002062"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "5966"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "28283"
+                                }
+                            ],
+                            "text": "iopamidol (ISOVUE-300) injection 61%"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 61,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            },
+                            "denominator": {
+                                "value": 61,
+                                "unit": "%",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "%"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJ8rzvNq9Hsmajt324lnGjQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJ8rzvNq9Hsmajt324lnGjQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eJ8rzvNq9Hsmajt324lnGjQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12164"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2012-04-19T18:00:00Z",
+                            "end": "2012-04-19T18:30:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH CT 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-04-19T17:50:19Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "781"
+                        },
+                        "display": "RADIANT,CHRIS"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2012-04-19T17:50:19Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4OG8BMMoOhcLXWmFuBvm8NlbjHAXxL7ZhxNIjoGyor43",
+                            "display": "EMH CT Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e4OG8BMMoOhcLXWmFuBvm8NlbjHAXxL7ZhxNIjoGyor43",
+                            "display": "EMH CT Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWpFGCJFMIcp9CGomIspaoQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWpFGCJFMIcp9CGomIspaoQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWpFGCJFMIcp9CGomIspaoQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12162"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e-DRiIGF4rHscPS5tKADn1g3",
+                    "display": "Radiant, Chris"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2012-04-20T14:45:00Z",
+                            "end": "2012-04-20T15:30:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH MRI 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-04-20T14:39:30Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "780"
+                        },
+                        "display": "RADIANT,CHRIS"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2012-04-20T14:39:30Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eevOyLDLFMh16E-eK1jx2br7QWRlRycLRxaJabWh1KosdB.38MJAh0FMVXH5OCUF93"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eevOyLDLFMh16E-eK1jx2br7QWRlRycLRxaJabWh1KosdB.38MJAh0FMVXH5OCUF93",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eevOyLDLFMh16E-eK1jx2br7QWRlRycLRxaJabWh1KosdB.38MJAh0FMVXH5OCUF93",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "27604"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94500030102047"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "25486"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "08040"
+                        }
+                    ],
+                    "text": "gadopentetate dimeglumine (MAGNEVIST) injection 46.9%"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "27604"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94500030102047"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "25486"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "08040"
+                                }
+                            ],
+                            "text": "gadopentetate dimeglumine (MAGNEVIST) injection 46.9%"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 469.01,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 469.01,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eevOyLDLFMh16E-eK1jx2btqUlBH7rdj.TRZUrRPRueKfzlsWv9jOqhi4l8rMWXPC3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eevOyLDLFMh16E-eK1jx2btqUlBH7rdj.TRZUrRPRueKfzlsWv9jOqhi4l8rMWXPC3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eevOyLDLFMh16E-eK1jx2btqUlBH7rdj.TRZUrRPRueKfzlsWv9jOqhi4l8rMWXPC3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "27604"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94500030102047"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "25486"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "08040"
+                        }
+                    ],
+                    "text": "gadopentetate dimeglumine (MAGNEVIST) injection 46.9%"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "27604"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94500030102047"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "25486"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "08040"
+                                }
+                            ],
+                            "text": "gadopentetate dimeglumine (MAGNEVIST) injection 46.9%"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 469.01,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 469.01,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efp4rpUQ7k8Xsh0vJtNKZmVsug9dFM3eR-cXmJ6IAtOwyflV2vUN3L9Iu4Sp6Anmk3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efp4rpUQ7k8Xsh0vJtNKZmVsug9dFM3eR-cXmJ6IAtOwyflV2vUN3L9Iu4Sp6Anmk3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "efp4rpUQ7k8Xsh0vJtNKZmVsug9dFM3eR-cXmJ6IAtOwyflV2vUN3L9Iu4Sp6Anmk3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "90834"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94500015102020"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "68173"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "692620"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "42646"
+                        }
+                    ],
+                    "text": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "90834"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94500015102020"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "68173"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "692620"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "42646"
+                                }
+                            ],
+                            "text": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 529,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 529,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efp4rpUQ7k8Xsh0vJtNKZmXemqufO-pwb-5DKb3xstiA2siJYsjUqbGD6h6uSC3YA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efp4rpUQ7k8Xsh0vJtNKZmXemqufO-pwb-5DKb3xstiA2siJYsjUqbGD6h6uSC3YA3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "efp4rpUQ7k8Xsh0vJtNKZmXemqufO-pwb-5DKb3xstiA2siJYsjUqbGD6h6uSC3YA3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "90834"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94500015102020"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "68173"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "692620"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "42646"
+                        }
+                    ],
+                    "text": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "90834"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94500015102020"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "68173"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "692620"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "42646"
+                                }
+                            ],
+                            "text": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 529,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 529,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efp4rpUQ7k8Xsh0vJtNKZmaDJpgq5Kb8wmlODQC7ZiQQ9zoabrgOMAs9nxnLl5b4O3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efp4rpUQ7k8Xsh0vJtNKZmaDJpgq5Kb8wmlODQC7ZiQQ9zoabrgOMAs9nxnLl5b4O3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "efp4rpUQ7k8Xsh0vJtNKZmaDJpgq5Kb8wmlODQC7ZiQQ9zoabrgOMAs9nxnLl5b4O3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "90834"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94500015102020"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "68173"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "692620"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "42646"
+                        }
+                    ],
+                    "text": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "90834"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94500015102020"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "68173"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "692620"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "42646"
+                                }
+                            ],
+                            "text": "gadobenate dimeglumine (MULTIHANCE) injection 529 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 529,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 529,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efsegmjSw1DHlHZzzsDBl7Zls0VbT07nJMS6r-FH.K.bxdP4wuaIdyY3C8ZKwZKvt3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efsegmjSw1DHlHZzzsDBl7Zls0VbT07nJMS6r-FH.K.bxdP4wuaIdyY3C8ZKwZKvt3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "efsegmjSw1DHlHZzzsDBl7Zls0VbT07nJMS6r-FH.K.bxdP4wuaIdyY3C8ZKwZKvt3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "44994"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94402041002030"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "27729"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "16209"
+                        }
+                    ],
+                    "text": "iodixanol (VISIPAQUE) injection 320 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "44994"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94402041002030"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "27729"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "16209"
+                                }
+                            ],
+                            "text": "iodixanol (VISIPAQUE) injection 320 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 320,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 320,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efsegmjSw1DHlHZzzsDBl7dfY51I-dINX36Hr2.SuBW76D0wt1ujjMTNdHYYKpTIj3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/efsegmjSw1DHlHZzzsDBl7dfY51I-dINX36Hr2.SuBW76D0wt1ujjMTNdHYYKpTIj3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "efsegmjSw1DHlHZzzsDBl7dfY51I-dINX36Hr2.SuBW76D0wt1ujjMTNdHYYKpTIj3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "44994"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94402041002030"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "27729"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "16209"
+                        }
+                    ],
+                    "text": "iodixanol (VISIPAQUE) injection 320 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "44994"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94402041002030"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "27729"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "16209"
+                                }
+                            ],
+                            "text": "iodixanol (VISIPAQUE) injection 320 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 320,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 320,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ejXOShkQKsp85JuEP.1ZWTD3kxKaey1y2ylD8u.9aJglQcJf9cRcUyibKpvlFT1.C3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ejXOShkQKsp85JuEP.1ZWTD3kxKaey1y2ylD8u.9aJglQcJf9cRcUyibKpvlFT1.C3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ejXOShkQKsp85JuEP.1ZWTD3kxKaey1y2ylD8u.9aJglQcJf9cRcUyibKpvlFT1.C3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "28057"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94402042002030"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "5956"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "06155"
+                        }
+                    ],
+                    "text": "iohexol (OMNIPAQUE) 300 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "28057"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94402042002030"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "5956"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "06155"
+                                }
+                            ],
+                            "text": "iohexol (OMNIPAQUE) 300 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 300,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 300,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ejXOShkQKsp85JuEP.1ZWTEMo9bTHpl3UO7Z5UePtSnw5OXTuG68.vS5TSN4dxHwU3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ejXOShkQKsp85JuEP.1ZWTEMo9bTHpl3UO7Z5UePtSnw5OXTuG68.vS5TSN4dxHwU3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ejXOShkQKsp85JuEP.1ZWTEMo9bTHpl3UO7Z5UePtSnw5OXTuG68.vS5TSN4dxHwU3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "28057"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "94402042002030"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "5956"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "06155"
+                        }
+                    ],
+                    "text": "iohexol (OMNIPAQUE) 300 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "28057"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "94402042002030"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "5956"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "06155"
+                                }
+                            ],
+                            "text": "iohexol (OMNIPAQUE) 300 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 300,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 300,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

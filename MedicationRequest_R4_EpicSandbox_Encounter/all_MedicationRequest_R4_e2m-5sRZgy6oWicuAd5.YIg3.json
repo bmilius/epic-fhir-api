@@ -1,0 +1,773 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest?_include=MedicationRequest:medicationReference&_include=MedicationRequest:encounter&_include=MedicationRequest:subject&_format=json&patient=e2m-5sRZgy6oWicuAd5.YIg3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e2vvVBuLeXegY.tqHOAK37ljfSMaXzJcC-7tswdj78kg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e2vvVBuLeXegY.tqHOAK37ljfSMaXzJcC-7tswdj78kg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e2vvVBuLeXegY.tqHOAK37ljfSMaXzJcC-7tswdj78kg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1066006"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ekjEt5ZzF8kpvrV4w0y4KKgIgqg09vEah7zAHGfzrM4-M7cg8a8TDJVmWn-2AFYpE3",
+                    "display": "vancomycin IVPB 500 mg in 100 mL (premix)"
+                },
+                "subject": {
+                    "reference": "Patient/e2m-5sRZgy6oWicuAd5.YIg3",
+                    "display": "Clin Doc, Sally"
+                },
+                "encounter": {
+                    "reference": "Encounter/eOTmNoqm7hZTcrBaFxe9wRg3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "9873"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2021-12-30T16:39:19Z",
+                "requester": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e3Dt5qIBhMpHNwBK2q370pg3",
+                    "type": "Practitioner",
+                    "display": "Justin Hewitt, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "500 mg (rounded from 590 mg = 10 mg/kg \u00d7 59 kg), Intravenous, at 100 mL/hr, Administer over 60 Minutes, Every 6 hours, First dose on Thu 12/30/21 at 1045\npremix bag\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2021-12-30T16:45:00Z"
+                                },
+                                "duration": 60,
+                                "durationUnit": "min",
+                                "frequency": 1,
+                                "period": 6,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 6 (six) hours"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg/kg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/kg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e2m-5sRZgy6oWicuAd5.YIg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e2m-5sRZgy6oWicuAd5.YIg3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "e2m-5sRZgy6oWicuAd5.YIg3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "728-36-9479"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1T7J64DLXD8D2"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3266"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z5048"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TX8JAP.BHDpJKFerBFpL3Z..Fgv9fVzt6.3EBN8SBKjsB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "e2m-5sRZgy6oWicuAd5.YIg3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z5048"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "203016"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "CLINDOCSALLY"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "118"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Sally Clin Doc",
+                        "family": "Clin Doc",
+                        "given": [
+                            "Sally"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Sally Clin Doc",
+                        "family": "Clin Doc",
+                        "given": [
+                            "Sally"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-251-7777",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2010-07-29",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "1619 South University"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53703",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "8",
+                                        "display": "Mother"
+                                    }
+                                ],
+                                "text": "Mother"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "CD Validate, Lori"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-123-4567",
+                                "use": "home"
+                            }
+                        ]
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eOTmNoqm7hZTcrBaFxe9wRg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eOTmNoqm7hZTcrBaFxe9wRg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eOTmNoqm7hZTcrBaFxe9wRg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "9873"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "2",
+                                "display": "Urgent"
+                            }
+                        ],
+                        "text": "Urgent"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "106",
+                            "display": "General Medicine"
+                        }
+                    ],
+                    "text": "General Medicine"
+                },
+                "subject": {
+                    "reference": "Patient/e2m-5sRZgy6oWicuAd5.YIg3",
+                    "display": "Clin Doc, Sally"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2011-09-08T18:30:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "11",
+                                            "display": "General Surgery"
+                                        }
+                                    ],
+                                    "text": "General Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T11:21:49Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2011-09-08T18:30:00Z"
+                },
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/et8RKL5irA1Vu8gAr2wvXNA3",
+                            "display": "Pneumonia"
+                        }
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "635"
+                        },
+                        "display": "CLIN DOC,SALLY"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2011-09-08T18:30:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eCf6yex3SeJX7pRmD97vlsAlsWQ5.154lkSqqPbxn32c3",
+                            "display": "EMH Pediatrics"
+                        },
+                        "period": {
+                            "start": "2011-09-08T18:30:00Z",
+                            "end": "2011-11-06T15:11:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eCf6yex3SeJX7pRmD97vlsAlsWQ5.154lkSqqPbxn32c3",
+                            "display": "EMH Pediatrics"
+                        },
+                        "period": {
+                            "start": "2011-11-06T15:11:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eCf6yex3SeJX7pRmD97vlsAlsWQ5.154lkSqqPbxn32c3",
+                            "display": "EMH Pediatrics"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/encu08y6TGNTvO4zQE5dGVA3",
+                            "display": "206"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "525"
+                            },
+                            "display": "206-02"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ekjEt5ZzF8kpvrV4w0y4KKgIgqg09vEah7zAHGfzrM4-M7cg8a8TDJVmWn-2AFYpE3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ekjEt5ZzF8kpvrV4w0y4KKgIgqg09vEah7zAHGfzrM4-M7cg8a8TDJVmWn-2AFYpE3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ekjEt5ZzF8kpvrV4w0y4KKgIgqg09vEah7zAHGfzrM4-M7cg8a8TDJVmWn-2AFYpE3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "31593"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "16280080122020"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "10133"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "11124"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "66955"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1807511"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1807516"
+                        }
+                    ],
+                    "text": "vancomycin IVPB 500 mg in 100 mL (premix)"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "31593"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "16280080122020"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "10133"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "11124"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "66955"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1807511"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1807516"
+                                }
+                            ],
+                            "text": "vancomycin IVPB 500 mg in 100 mL (premix)"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

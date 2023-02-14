@@ -1,0 +1,4022 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 18,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest?_include=MedicationRequest:medicationReference&_include=MedicationRequest:subject&_format=json&patient=eHc-6bH6y7t0azHMo9qiqwA3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e0tgQoRs7p.MoOJyC6YFlhQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e0tgQoRs7p.MoOJyC6YFlhQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e0tgQoRs7p.MoOJyC6YFlhQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966348"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eWV3TZ8WZScKOLvyM2WmBWyfNaG5O5faARCB6Y35iwIKPjGHLWfmnnJxXNF1dUMy.3",
+                    "display": "DOPamine infusion 800 mcg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-04-27T17:20:42Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "4 mcg/kg/min \u00d7  (rounded to 9.5 mL/hr), Intravenous, Continuous\nRenal dose at 5 micrograms/kg/min\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-04-27T17:18:31Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 127.01,
+                                    "unit": "mcg/min",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "ug/min"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 4,
+                                    "unit": "mcg/kg/min",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "ug/kg/min"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e7b9kMp6SwlbTlcunCtAzbA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e7b9kMp6SwlbTlcunCtAzbA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e7b9kMp6SwlbTlcunCtAzbA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966414"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e8aGE.7HrrcnDGA50fWuu8cwZ7QoodvpdXsghjXkCWoEpovUy47vo6ezauVLYfkvk3",
+                    "display": "VITAMIN LIQUID PO"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/eKbe.DSR8LG80UhHIwuLHug3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20935"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2012-07-31T21:14:38Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "2 cc po qd, Historical Med",
+                        "patientInstruction": "2 cc po qd",
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        }
+                    }
+                ],
+                "dispenseRequest": {
+                    "numberOfRepeatsAllowed": 0
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e97IG.bll5lF3hddBHGj85Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e97IG.bll5lF3hddBHGj85Q3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e97IG.bll5lF3hddBHGj85Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966412"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e8aGE.7HrrcnDGA50fWuu8bBC5P5t8GC3P18qOVuPqgDVoMWAivPtYIANeteDb3Lc3",
+                    "display": "VITAMIN LIQUID PO"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/eb9.ea9RfDR0qQPknYXX1Nw3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20934"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2012-07-31T21:17:27Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "15 cc po qd, Historical Med",
+                        "patientInstruction": "15 cc po qd",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2004-07-10"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        }
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2004-07-10"
+                    },
+                    "numberOfRepeatsAllowed": 0
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eCAOQoN.ROtlNFK3AwyrPAw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eCAOQoN.ROtlNFK3AwyrPAw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eCAOQoN.ROtlNFK3AwyrPAw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966404"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eZBuO3aqxFQEP3i6WL0XKxpv274eDfbxUwj-cylBRr.JnXYsMhwDsJxzKsizxbLCb3",
+                    "display": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-06-21T03:30:06Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eyoYWmDMaBIZSL6vkLCEZMA3",
+                    "type": "Practitioner",
+                    "display": "Pharmacist Willow, RPh"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "500 mg, Oral, Starting on Tue 6/20/23 at 2228\nDo Not Crush or Chew.  May sprinkle on soft food.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-06-21T03:28:23Z",
+                                    "end": "2023-06-21T03:32:35Z"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "capsule",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{capsule}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eKds.jgcmq.YkKVKuQPeM1A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eKds.jgcmq.YkKVKuQPeM1A3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eKds.jgcmq.YkKVKuQPeM1A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966411"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/edrVYEuhc2KCja5FHtVx8ir.gdi9QSA4QxI37p.umzX9vdKAtcRN3o1rcetcgwalE3",
+                    "display": "ZYRTEC 10 MG PO CHEW"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/eb9.ea9RfDR0qQPknYXX1Nw3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20934"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2012-07-31T21:17:27Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 p.o. qd prn, Historical Med",
+                        "patientInstruction": "1 p.o. qd prn",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2004-07-10"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        }
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2004-07-10"
+                    },
+                    "numberOfRepeatsAllowed": 0
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eQ9GMeK9YHR1mwMyYwF33Bw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eQ9GMeK9YHR1mwMyYwF33Bw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eQ9GMeK9YHR1mwMyYwF33Bw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966408"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/e8aGE.7HrrcnDGA50fWuu8WkcQZ5GFVfgwucMytS2u0E21383eJXsM82B6Aa21cZx3",
+                    "display": "VITAMIN LIQUID PO"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/eOUqFeWbOn96ORNOd-VjBbQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20933"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2012-07-31T21:10:27Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "5 cc po qd, Historical Med",
+                        "patientInstruction": "5 cc po qd",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2003-07-13"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        }
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2003-07-13"
+                    },
+                    "numberOfRepeatsAllowed": 0
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eSElwzy43D9irDgdNgdGboQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eSElwzy43D9irDgdNgdGboQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eSElwzy43D9irDgdNgdGboQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966370"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e94695fvACYx2zkdkx1KtT6kW8trSxCFmxcieFynGMqVLwBeJc3adeHpobWeva2JT3",
+                    "display": "azithromycin (ZITHROMAX) IVPB in 150 mL"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-04-28T18:50:02Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, Every 24 hours",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-04-28T19:00:00Z",
+                                    "end": "2023-08-30T21:29:50Z"
+                                },
+                                "frequency": 1,
+                                "period": 24,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 24 hours"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eSSy6nLNjv.6wOHqI80Du4g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eSSy6nLNjv.6wOHqI80Du4g3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eSSy6nLNjv.6wOHqI80Du4g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966349"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eJasVpagMw7McYtb0LGAx0L5AigBJtWZUnvA7szeZlhoG7Od6.W77Hev7dsJzH0j83",
+                    "display": "norepinephrine (LEVOPHED) injection"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-04-27T17:20:42Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, Starting on Thu 4/27/23 at 1219\nmix 4mg/100cc and run to keep MAP at or about 60 mm hg or better, wean as tolerated.  Run with renal dose dopamine while on.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-04-27T17:19:32Z",
+                                    "end": "2023-09-02T19:37:54Z"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eV0HrSjBpBy5JI7UuKqOj3Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eV0HrSjBpBy5JI7UuKqOj3Q3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eV0HrSjBpBy5JI7UuKqOj3Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966325"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/euhGm8tjONHcXwRaRigM-yK7YxqaomnaXXcgB-7DGiYZcctSdJL0etF6DjiPhP.AD3",
+                    "display": "CHILDRENS ACETAMINOPHEN 160 MG/5ML PO ELIX"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-04-27T17:18:16Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "317.5 mg (10 mg/kg \u00d7 ), Oral, Every 4 hours PRN, Starting on Thu 4/27/23 at 1216",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-04-27T17:16:44Z"
+                                },
+                                "frequency": 1,
+                                "period": 4,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 30 minutes as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 317.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 317.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg/kg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/kg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eVaP66chkILzvAbpH6zAQeg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eVaP66chkILzvAbpH6zAQeg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eVaP66chkILzvAbpH6zAQeg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966326"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e62B4NY5VKt1C0zdiILygAO9ZWL1jHm-plmStPbGUcqDrD2sdKzrolyFbOSxfrsir3",
+                    "display": "custom IV infusion builder"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-04-27T17:18:16Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, at 20 mL/hr, Continuous",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-04-27T17:16:45Z",
+                                    "end": "2023-04-28T05:00:00Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eWXAFLR4gT4Vbq1wnOYNkbA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eWXAFLR4gT4Vbq1wnOYNkbA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eWXAFLR4gT4Vbq1wnOYNkbA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966403"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eZBuO3aqxFQEP3i6WL0XKxqm1vn6d.NSJTN8GhiegoPaNDGrEe1wWFqwRFNVgg5JM3",
+                    "display": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-06-21T03:18:22Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eyoYWmDMaBIZSL6vkLCEZMA3",
+                    "type": "Practitioner",
+                    "display": "Pharmacist Willow, RPh"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "500 mg, Oral, Starting on Tue 6/20/23 at 2217\nDo Not Crush or Chew.  May sprinkle on soft food.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-06-21T03:17:54Z",
+                                    "end": "2023-06-21T03:19:10Z"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "capsule",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{capsule}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ebpdngF5J2RkvCE5.IN7OlQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ebpdngF5J2RkvCE5.IN7OlQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ebpdngF5J2RkvCE5.IN7OlQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966405"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eZBuO3aqxFQEP3i6WL0XKxq3R.q3FK4LgTol6sPGDAAkKpwt6AF41hFhuXFLy-kid3",
+                    "display": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-06-21T03:35:40Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eyoYWmDMaBIZSL6vkLCEZMA3",
+                    "type": "Practitioner",
+                    "display": "Pharmacist Willow, RPh"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "500 mg, Oral, 2 times daily\nDo Not Crush or Chew.  May sprinkle on soft food.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-06-21T03:43:16Z",
+                                    "end": "2023-06-21T03:43:16Z"
+                                },
+                                "frequency": 2,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Respiratory use only - 0900, 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "capsule",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{capsule}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ebsneTvdbFr5sZBAF-LAfpQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ebsneTvdbFr5sZBAF-LAfpQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ebsneTvdbFr5sZBAF-LAfpQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966306"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e62B4NY5VKt1C0zdiILygAOpAJVT2uZu6uCHlKRBYdJAt4f7HzQGTddMG-c6L5CMO3",
+                    "display": "custom IV infusion builder"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-04-27T14:40:06Z",
+                "requester": {
+                    "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Emergency, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Emergency, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, at 75 mL/hr, Continuous",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-04-27T14:33:08Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ecYY5Sb0YuYQNQGa-p72v6Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ecYY5Sb0YuYQNQGa-p72v6Q3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ecYY5Sb0YuYQNQGa-p72v6Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966406"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eZBuO3aqxFQEP3i6WL0XKxkr8GxCKK78waVQ8cRSMuuJNMyHWN7zXaY-N1C9ygvDV3",
+                    "display": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-06-21T03:42:18Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eyoYWmDMaBIZSL6vkLCEZMA3",
+                    "type": "Practitioner",
+                    "display": "Pharmacist Willow, RPh"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "500 mg, Oral, 2 times daily\nDo Not Crush or Chew.  May sprinkle on soft food.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-06-21T03:43:20Z",
+                                    "end": "2023-06-21T03:43:20Z"
+                                },
+                                "frequency": 2,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Respiratory use only - 0900, 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "capsule",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{capsule}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ei7Anjx3bnXUa1CQvmJCkIw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ei7Anjx3bnXUa1CQvmJCkIw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ei7Anjx3bnXUa1CQvmJCkIw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966409"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eqbkMTr59RKazyj73ZYxfwu9SIlNdndXtgxM5hBLsOqK60TEtPeHZmTFYUaS88I-G3",
+                    "display": "amoxicillin-clavulanate (AUGMENTIN) suspension 250-62.5 mg/5mL"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/eOUqFeWbOn96ORNOd-VjBbQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20933"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2012-07-31T21:12:57Z",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "14948001",
+                                "display": "Acute suppurative otitis media without spontaneous rupture of ear drum (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "382.00",
+                                "display": "Acute suppurative otitis media without spontaneous rupture of eardrum"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "H66.009",
+                                "display": "Acute suppurative otitis media without spontaneous rupture of eardrum"
+                            }
+                        ],
+                        "text": "Acute suppurative otitis media without spontaneous rupture of eardrum"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 tsp po tid X 10 days, Normal",
+                        "patientInstruction": "1 tsp po tid X 10 days",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-07-31"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        }
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2012-07-31"
+                    },
+                    "numberOfRepeatsAllowed": 0
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ejtqIUS5cbFpUX9yUZV9ubA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ejtqIUS5cbFpUX9yUZV9ubA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ejtqIUS5cbFpUX9yUZV9ubA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966420"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e8aGE.7HrrcnDGA50fWuu8cp7SudGyZXLNaMF1kOjyCOSHQXL1ko-EP7LLrni.5tZ3",
+                    "display": "VITAMIN LIQUID PO"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/eNGED6Xp9s8sxndFvUVzYtw3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20938"
+                    },
+                    "display": "Hospital"
+                },
+                "authoredOn": "2012-07-31T19:55:51Z",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "note": [
+                    {
+                        "text": "newborn/infant mvi"
+                    }
+                ],
+                "dosageInstruction": [
+                    {
+                        "text": ".25 cc po gd, Normal",
+                        "patientInstruction": ".25 cc po gd",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-07-31"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        }
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2012-07-31"
+                    },
+                    "numberOfRepeatsAllowed": 12
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/epEGWA9Yhg5zQECiO-r-PmA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/epEGWA9Yhg5zQECiO-r-PmA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "epEGWA9Yhg5zQECiO-r-PmA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966324"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e11onFh2RNmseunJrgl5Y7ILgb5L8.jpFeQzQcSBVbG5SKXr0hJ9fErEmPYa0yrzr3",
+                    "display": "cefotaxime (CLAFORAN) IVPB 1 g in 50 mL (premix)"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/evoZAxPHKsKEK6uWD5XG9dA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20916"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2023-04-27T17:18:16Z",
+                "requester": {
+                    "reference": "Practitioner/ele-ZY2xBro7pcU3Cfkn66Q3",
+                    "type": "Practitioner",
+                    "display": "Invasive Cardiologist Cupid, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                    "type": "Practitioner",
+                    "display": "Attending Physician Inpatient, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "0.8 g (100 mg/kg/day \u00d7 ), Intravenous, at 100 mL/hr, Administer over 30 Minutes, Every 6 hours",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-04-27T23:00:00Z",
+                                    "end": "2023-08-30T21:29:39Z"
+                                },
+                                "duration": 30,
+                                "durationUnit": "min",
+                                "frequency": 4,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Every 6hr"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 0.8,
+                                    "unit": "g",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "g"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 0.8,
+                                    "unit": "g",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "g"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mg/kg/day",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/kg/d"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/esjKH7eqIG3CoBf6sRG9HVA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/esjKH7eqIG3CoBf6sRG9HVA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "esjKH7eqIG3CoBf6sRG9HVA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "966415"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLUVXN9JOz1wsje7Vzxxsk3.noU8Y8rFB3OVj0yQm4SJDp3kzqaQKO7zIxNNUI.bZ3",
+                    "display": "amoxicillin (AMOXIL) suspension 250 mg/5mL"
+                },
+                "subject": {
+                    "reference": "Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+                    "display": "Zzipmaster, Rosa"
+                },
+                "encounter": {
+                    "reference": "Encounter/emx1PseznhVYDuq0HeyF.QA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20936"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2012-07-31T20:59:08Z",
+                "requester": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Family Medicine, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "14948001",
+                                "display": "Acute suppurative otitis media without spontaneous rupture of ear drum (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "382.00",
+                                "display": "Acute suppurative otitis media without spontaneous rupture of eardrum"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "H66.009",
+                                "display": "Acute suppurative otitis media without spontaneous rupture of eardrum"
+                            }
+                        ],
+                        "text": "Acute suppurative otitis media without spontaneous rupture of eardrum"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "0.5 tsp tid X 10 days, Normal",
+                        "patientInstruction": "0.5 tsp tid X 10 days",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2012-07-31"
+                                }
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        }
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2012-07-31"
+                    },
+                    "numberOfRepeatsAllowed": 0
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e11onFh2RNmseunJrgl5Y7ILgb5L8.jpFeQzQcSBVbG5SKXr0hJ9fErEmPYa0yrzr3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e11onFh2RNmseunJrgl5Y7ILgb5L8.jpFeQzQcSBVbG5SKXr0hJ9fErEmPYa0yrzr3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e11onFh2RNmseunJrgl5Y7ILgb5L8.jpFeQzQcSBVbG5SKXr0hJ9fErEmPYa0yrzr3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "25861"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "02300075112010"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "2186"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1747115"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "08109"
+                        }
+                    ],
+                    "text": "cefotaxime (CLAFORAN) IVPB 1 g in 50 mL (premix)"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemReference": {
+                            "reference": "Medication/euRKD.qXh3wn0UM7RgLZF5Q3",
+                            "display": "cefotaxime"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 0.8,
+                                "unit": "g",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "g"
+                            },
+                            "denominator": {
+                                "value": 50,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    },
+                    {
+                        "itemReference": {
+                            "reference": "Medication/eHRsmnma.-rB.LRSnSQCG5w3",
+                            "display": "dextrose 5 %"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 50,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            },
+                            "denominator": {
+                                "value": 50,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e62B4NY5VKt1C0zdiILygAO9ZWL1jHm-plmStPbGUcqDrD2sdKzrolyFbOSxfrsir3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e62B4NY5VKt1C0zdiILygAO9ZWL1jHm-plmStPbGUcqDrD2sdKzrolyFbOSxfrsir3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e62B4NY5VKt1C0zdiILygAO9ZWL1jHm-plmStPbGUcqDrD2sdKzrolyFbOSxfrsir3",
+                "code": {
+                    "text": "custom IV infusion builder"
+                },
+                "ingredient": [
+                    {
+                        "itemReference": {
+                            "reference": "Medication/eHRsmnma.-rB.LRSnSQCG5w3",
+                            "display": "dextrose 5 %"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            },
+                            "denominator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e62B4NY5VKt1C0zdiILygAOpAJVT2uZu6uCHlKRBYdJAt4f7HzQGTddMG-c6L5CMO3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e62B4NY5VKt1C0zdiILygAOpAJVT2uZu6uCHlKRBYdJAt4f7HzQGTddMG-c6L5CMO3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e62B4NY5VKt1C0zdiILygAOpAJVT2uZu6uCHlKRBYdJAt4f7HzQGTddMG-c6L5CMO3",
+                "code": {
+                    "text": "custom IV infusion builder"
+                },
+                "ingredient": [
+                    {
+                        "itemReference": {
+                            "reference": "Medication/ex1J9uM3qGVK9ExxN0k5E-A3",
+                            "display": "sodium chloride 0.45 %"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 1000,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            },
+                            "denominator": {
+                                "value": 1000,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8WkcQZ5GFVfgwucMytS2u0E21383eJXsM82B6Aa21cZx3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8WkcQZ5GFVfgwucMytS2u0E21383eJXsM82B6Aa21cZx3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e8aGE.7HrrcnDGA50fWuu8WkcQZ5GFVfgwucMytS2u0E21383eJXsM82B6Aa21cZx3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "78200000000900"
+                        }
+                    ],
+                    "text": "VITAMIN LIQUID PO"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "78200000000900"
+                                }
+                            ],
+                            "text": "VITAMIN LIQUID PO"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8bBC5P5t8GC3P18qOVuPqgDVoMWAivPtYIANeteDb3Lc3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8bBC5P5t8GC3P18qOVuPqgDVoMWAivPtYIANeteDb3Lc3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e8aGE.7HrrcnDGA50fWuu8bBC5P5t8GC3P18qOVuPqgDVoMWAivPtYIANeteDb3Lc3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "78200000000900"
+                        }
+                    ],
+                    "text": "VITAMIN LIQUID PO"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "78200000000900"
+                                }
+                            ],
+                            "text": "VITAMIN LIQUID PO"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8cp7SudGyZXLNaMF1kOjyCOSHQXL1ko-EP7LLrni.5tZ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8cp7SudGyZXLNaMF1kOjyCOSHQXL1ko-EP7LLrni.5tZ3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e8aGE.7HrrcnDGA50fWuu8cp7SudGyZXLNaMF1kOjyCOSHQXL1ko-EP7LLrni.5tZ3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "78200000000900"
+                        }
+                    ],
+                    "text": "VITAMIN LIQUID PO"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "78200000000900"
+                                }
+                            ],
+                            "text": "VITAMIN LIQUID PO"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8cwZ7QoodvpdXsghjXkCWoEpovUy47vo6ezauVLYfkvk3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e8aGE.7HrrcnDGA50fWuu8cwZ7QoodvpdXsghjXkCWoEpovUy47vo6ezauVLYfkvk3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e8aGE.7HrrcnDGA50fWuu8cwZ7QoodvpdXsghjXkCWoEpovUy47vo6ezauVLYfkvk3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "78200000000900"
+                        }
+                    ],
+                    "text": "VITAMIN LIQUID PO"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "78200000000900"
+                                }
+                            ],
+                            "text": "VITAMIN LIQUID PO"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e94695fvACYx2zkdkx1KtT6kW8trSxCFmxcieFynGMqVLwBeJc3adeHpobWeva2JT3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e94695fvACYx2zkdkx1KtT6kW8trSxCFmxcieFynGMqVLwBeJc3adeHpobWeva2JT3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e94695fvACYx2zkdkx1KtT6kW8trSxCFmxcieFynGMqVLwBeJc3adeHpobWeva2JT3",
+                "code": {
+                    "text": "azithromycin (ZITHROMAX) IVPB in 150 mL"
+                },
+                "ingredient": [
+                    {
+                        "itemReference": {
+                            "reference": "Medication/e1B0YxjrENPjZgxdV0CvmQA3",
+                            "display": "azithromycin"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 500,
+                                "unit": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    },
+                    {
+                        "itemReference": {
+                            "reference": "Medication/eHRsmnma.-rB.LRSnSQCG5w3",
+                            "display": "dextrose 5 %"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            },
+                            "denominator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eHc-6bH6y7t0azHMo9qiqwA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eHc-6bH6y7t0azHMo9qiqwA3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eHc-6bH6y7t0azHMo9qiqwA3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "300-62-5217"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1KJ6G88RDSPGQ"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E4116"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z5649"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "T90vQYK7NXio6cAeWAbmGOYCaVMPyY3UA-f2yUULkXxIB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eHc-6bH6y7t0azHMo9qiqwA3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z5649"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "203870"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "ROSA.ZZIPMASTER"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "24"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Rosa Zzipmaster",
+                        "family": "Zzipmaster",
+                        "given": [
+                            "Rosa"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Rosa Zzipmaster",
+                        "family": "Zzipmaster",
+                        "given": [
+                            "Rosa"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-458-2548",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-234-9998",
+                        "use": "work"
+                    },
+                    {
+                        "system": "email",
+                        "value": "rosa@hotmail.com"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2002-11-07",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "4533 Burning Wood Way"
+                        ],
+                        "city": "MADISON",
+                        "state": "WI",
+                        "postalCode": "53709",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "name": {
+                            "use": "usual",
+                            "text": "CRAFT,ETHEL"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-987-2345",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "2345 Chesney Court"
+                            ],
+                            "city": "Madison",
+                            "state": "WI",
+                            "postalCode": "53701",
+                            "country": "US"
+                        }
+                    },
+                    {
+                        "name": {
+                            "use": "usual",
+                            "text": "Unknown Contact Name"
+                        }
+                    },
+                    {
+                        "name": {
+                            "use": "usual",
+                            "text": "GARCIA,JUAN"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-234-9988",
+                                "use": "home"
+                            },
+                            {
+                                "system": "phone",
+                                "value": "608-772-1445",
+                                "use": "work"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "1234 Oscar Meyer Lane"
+                            ],
+                            "city": "Madison",
+                            "state": "WI",
+                            "postalCode": "53701",
+                            "country": "US"
+                        }
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eJasVpagMw7McYtb0LGAx0L5AigBJtWZUnvA7szeZlhoG7Od6.W77Hev7dsJzH0j83"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eJasVpagMw7McYtb0LGAx0L5AigBJtWZUnvA7szeZlhoG7Od6.W77Hev7dsJzH0j83",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eJasVpagMw7McYtb0LGAx0L5AigBJtWZUnvA7szeZlhoG7Od6.W77Hev7dsJzH0j83",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "29136"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "38000090102010"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "01433"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "7508"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "7512"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "242969"
+                        }
+                    ],
+                    "text": "norepinephrine (LEVOPHED) injection"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "29136"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "38000090102010"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "01433"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "7508"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "7512"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "242969"
+                                }
+                            ],
+                            "text": "norepinephrine (LEVOPHED) injection"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 1,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eLUVXN9JOz1wsje7Vzxxsk3.noU8Y8rFB3OVj0yQm4SJDp3kzqaQKO7zIxNNUI.bZ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eLUVXN9JOz1wsje7Vzxxsk3.noU8Y8rFB3OVj0yQm4SJDp3kzqaQKO7zIxNNUI.bZ3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eLUVXN9JOz1wsje7Vzxxsk3.noU8Y8rFB3OVj0yQm4SJDp3kzqaQKO7zIxNNUI.bZ3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "1161"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "01200010101915"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "00042"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "723"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "239191"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1297882"
+                        }
+                    ],
+                    "text": "amoxicillin (AMOXIL) suspension 250 mg/5mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SUSR",
+                            "display": "reconstituted suspension"
+                        }
+                    ],
+                    "text": "reconstituted suspension"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "1161"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "01200010101915"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "00042"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "723"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "239191"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1297882"
+                                }
+                            ],
+                            "text": "amoxicillin (AMOXIL) suspension 250 mg/5mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 250,
+                                "unit": "MG/5ML"
+                            },
+                            "denominator": {
+                                "value": 250,
+                                "unit": "MG/5ML"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eWV3TZ8WZScKOLvyM2WmBWyfNaG5O5faARCB6Y35iwIKPjGHLWfmnnJxXNF1dUMy.3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eWV3TZ8WZScKOLvyM2WmBWyfNaG5O5faARCB6Y35iwIKPjGHLWfmnnJxXNF1dUMy.3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eWV3TZ8WZScKOLvyM2WmBWyfNaG5O5faARCB6Y35iwIKPjGHLWfmnnJxXNF1dUMy.3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "39863"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "38000020112010"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "01423"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "3628"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "82010"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1743869"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1743871"
+                        }
+                    ],
+                    "text": "DOPamine infusion 800 mcg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "39863"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "38000020112010"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "01423"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "3628"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "82010"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1743869"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1743871"
+                                }
+                            ],
+                            "text": "DOPamine infusion 800 mcg/mL"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxkr8GxCKK78waVQ8cRSMuuJNMyHWN7zXaY-N1C9ygvDV3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxkr8GxCKK78waVQ8cRSMuuJNMyHWN7zXaY-N1C9ygvDV3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eZBuO3aqxFQEP3i6WL0XKxkr8GxCKK78waVQ8cRSMuuJNMyHWN7zXaY-N1C9ygvDV3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "85234"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "37100010006920"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "01338"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "167"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "562524"
+                        }
+                    ],
+                    "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "CP12",
+                            "display": "capsule sustained-release 12 hr"
+                        }
+                    ],
+                    "text": "capsule sustained-release 12 hr"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "85234"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "37100010006920"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "01338"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "167"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "562524"
+                                }
+                            ],
+                            "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxpv274eDfbxUwj-cylBRr.JnXYsMhwDsJxzKsizxbLCb3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxpv274eDfbxUwj-cylBRr.JnXYsMhwDsJxzKsizxbLCb3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eZBuO3aqxFQEP3i6WL0XKxpv274eDfbxUwj-cylBRr.JnXYsMhwDsJxzKsizxbLCb3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "85234"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "37100010006920"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "01338"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "167"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "562524"
+                        }
+                    ],
+                    "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "CP12",
+                            "display": "capsule sustained-release 12 hr"
+                        }
+                    ],
+                    "text": "capsule sustained-release 12 hr"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "85234"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "37100010006920"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "01338"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "167"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "562524"
+                                }
+                            ],
+                            "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxq3R.q3FK4LgTol6sPGDAAkKpwt6AF41hFhuXFLy-kid3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxq3R.q3FK4LgTol6sPGDAAkKpwt6AF41hFhuXFLy-kid3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eZBuO3aqxFQEP3i6WL0XKxq3R.q3FK4LgTol6sPGDAAkKpwt6AF41hFhuXFLy-kid3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "85234"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "37100010006920"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "01338"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "167"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "562524"
+                        }
+                    ],
+                    "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "CP12",
+                            "display": "capsule sustained-release 12 hr"
+                        }
+                    ],
+                    "text": "capsule sustained-release 12 hr"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "85234"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "37100010006920"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "01338"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "167"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "562524"
+                                }
+                            ],
+                            "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxqm1vn6d.NSJTN8GhiegoPaNDGrEe1wWFqwRFNVgg5JM3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZBuO3aqxFQEP3i6WL0XKxqm1vn6d.NSJTN8GhiegoPaNDGrEe1wWFqwRFNVgg5JM3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eZBuO3aqxFQEP3i6WL0XKxqm1vn6d.NSJTN8GhiegoPaNDGrEe1wWFqwRFNVgg5JM3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "85234"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "37100010006920"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "01338"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "167"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "562524"
+                        }
+                    ],
+                    "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "CP12",
+                            "display": "capsule sustained-release 12 hr"
+                        }
+                    ],
+                    "text": "capsule sustained-release 12 hr"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "85234"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "37100010006920"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "01338"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "167"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "562524"
+                                }
+                            ],
+                            "text": "acetaZOLAMIDE (DIAMOX) 12 hr capsule 500 mg"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 500,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/edrVYEuhc2KCja5FHtVx8ir.gdi9QSA4QxI37p.umzX9vdKAtcRN3o1rcetcgwalE3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/edrVYEuhc2KCja5FHtVx8ir.gdi9QSA4QxI37p.umzX9vdKAtcRN3o1rcetcgwalE3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "edrVYEuhc2KCja5FHtVx8ir.gdi9QSA4QxI37p.umzX9vdKAtcRN3o1rcetcgwalE3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "86955"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "41550020100520"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "40302"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "20610"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "58930"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1014674"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1020022"
+                        }
+                    ],
+                    "text": "ZYRTEC 10 MG PO CHEW"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "CHEW",
+                            "display": "chewable tablet"
+                        }
+                    ],
+                    "text": "chewable tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "86955"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "41550020100520"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "40302"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "20610"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "58930"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1014674"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1020022"
+                                }
+                            ],
+                            "text": "ZYRTEC 10 MG PO CHEW"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 10,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 10,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eqbkMTr59RKazyj73ZYxfwu9SIlNdndXtgxM5hBLsOqK60TEtPeHZmTFYUaS88I-G3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eqbkMTr59RKazyj73ZYxfwu9SIlNdndXtgxM5hBLsOqK60TEtPeHZmTFYUaS88I-G3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eqbkMTr59RKazyj73ZYxfwu9SIlNdndXtgxM5hBLsOqK60TEtPeHZmTFYUaS88I-G3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "24721"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "01990002201920"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "06772"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "723"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "19711"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "48203"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "617322"
+                        }
+                    ],
+                    "text": "amoxicillin-clavulanate (AUGMENTIN) suspension 250-62.5 mg/5mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SUSR",
+                            "display": "reconstituted suspension"
+                        }
+                    ],
+                    "text": "reconstituted suspension"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "24721"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "01990002201920"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "06772"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "723"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "19711"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "48203"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "617322"
+                                }
+                            ],
+                            "text": "amoxicillin-clavulanate (AUGMENTIN) suspension 250-62.5 mg/5mL"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/euhGm8tjONHcXwRaRigM-yK7YxqaomnaXXcgB-7DGiYZcctSdJL0etF6DjiPhP.AD3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/euhGm8tjONHcXwRaRigM-yK7YxqaomnaXXcgB-7DGiYZcctSdJL0etF6DjiPhP.AD3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "euhGm8tjONHcXwRaRigM-yK7YxqaomnaXXcgB-7DGiYZcctSdJL0etF6DjiPhP.AD3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "52754"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "64200010001015"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "03448"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "161"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "307675"
+                        }
+                    ],
+                    "text": "CHILDRENS ACETAMINOPHEN 160 MG/5ML PO ELIX"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "ELIX",
+                            "display": "elixir"
+                        }
+                    ],
+                    "text": "elixir"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "52754"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "64200010001015"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "03448"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "161"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "307675"
+                                }
+                            ],
+                            "text": "CHILDRENS ACETAMINOPHEN 160 MG/5ML PO ELIX"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 160,
+                                "unit": "MG/5ML"
+                            },
+                            "denominator": {
+                                "value": 160,
+                                "unit": "MG/5ML"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

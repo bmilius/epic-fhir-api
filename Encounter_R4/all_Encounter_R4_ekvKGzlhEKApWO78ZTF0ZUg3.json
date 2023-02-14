@@ -1,0 +1,1598 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 18,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=ekvKGzlhEKApWO78ZTF0ZUg3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWRqXMqgXd83gjVRj9WaT0w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWRqXMqgXd83gjVRj9WaT0w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWRqXMqgXd83gjVRj9WaT0w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4729"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "10",
+                    "display": "Surgery Log"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-11T20:00:00Z",
+                    "end": "2013-11-11T21:20:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                            "display": "EMH Operating Room"
+                        }
+                    }
+                ],
+                "partOf": {
+                    "reference": "Encounter/elH.MDQnocUpX7C30-lpUfA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4731"
+                    },
+                    "display": "Hospital Encounter"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elH.MDQnocUpX7C30-lpUfA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elH.MDQnocUpX7C30-lpUfA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elH.MDQnocUpX7C30-lpUfA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4731"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "108",
+                                "display": "Surgery Admit"
+                            }
+                        ],
+                        "text": "Surgery Admit"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "105",
+                            "display": "Emergency Medicine"
+                        }
+                    ],
+                    "text": "Emergency Medicine"
+                },
+                "priority": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.410",
+                            "code": "3",
+                            "display": "Urgent"
+                        }
+                    ],
+                    "text": "Urgent"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-11T18:29:39Z",
+                            "end": "2013-11-11T19:52:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Emergency, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-11T19:52:00Z",
+                            "end": "2013-11-13T23:52:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-11T18:27:37Z",
+                    "end": "2013-11-13T23:52:00Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "70",
+                                "display": "Nausea"
+                            }
+                        ],
+                        "text": "Nausea"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "110002",
+                                "display": "Abdominal Pain"
+                            }
+                        ],
+                        "text": "Abdominal Pain"
+                    }
+                ],
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/ecJcUEXosAO3aOJ1KQv-OjA3",
+                            "display": "Acute appendicitis"
+                        }
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "367"
+                        },
+                        "display": "HIM,MATTHEW"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-11-11T19:52:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "7",
+                                "display": "Emergency Room"
+                            }
+                        ],
+                        "text": "Emergency Room"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2013-11-11T18:27:00Z",
+                            "end": "2013-11-11T19:52:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        },
+                        "period": {
+                            "start": "2013-11-11T19:52:00Z",
+                            "end": "2013-11-13T23:52:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e3.YW4hLydOpJG8JIS.r-4A3",
+                            "display": "123"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "187"
+                            },
+                            "display": "123-02"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHaZa28zpGcDm6fXZHLRWOQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHaZa28zpGcDm6fXZHLRWOQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eHaZa28zpGcDm6fXZHLRWOQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4736"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-28",
+                    "end": "2011-12-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekIWcBMZugJAqlkyS7o1oGg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekIWcBMZugJAqlkyS7o1oGg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ekIWcBMZugJAqlkyS7o1oGg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4737"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-25",
+                    "end": "2011-12-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9ZPjC9BG3Es.D33HFfJ6Zg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9ZPjC9BG3Es.D33HFfJ6Zg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e9ZPjC9BG3Es.D33HFfJ6Zg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4738"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-25",
+                    "end": "2011-12-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e85DSOB3bKOnax8Uc1q83Rg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e85DSOB3bKOnax8Uc1q83Rg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e85DSOB3bKOnax8Uc1q83Rg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4739"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-25",
+                    "end": "2011-12-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQm76HbucIDaDYQnshJfQ9g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQm76HbucIDaDYQnshJfQ9g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eQm76HbucIDaDYQnshJfQ9g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4740"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-25",
+                    "end": "2011-12-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqZzwsmt5F8gTj-RLZwSBwg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqZzwsmt5F8gTj-RLZwSBwg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eqZzwsmt5F8gTj-RLZwSBwg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4741"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-25",
+                    "end": "2011-12-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eVqbBvUurrLepEG-GPyjHGQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eVqbBvUurrLepEG-GPyjHGQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eVqbBvUurrLepEG-GPyjHGQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4742"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-25",
+                    "end": "2011-12-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eemjzT1Io0CDv69SaDlTE-g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eemjzT1Io0CDv69SaDlTE-g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eemjzT1Io0CDv69SaDlTE-g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4743"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-12-25",
+                    "end": "2011-12-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNAWsR2Uh7mEE-v2CSkQ2vA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNAWsR2Uh7mEE-v2CSkQ2vA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eNAWsR2Uh7mEE-v2CSkQ2vA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4744"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-21",
+                    "end": "2011-04-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezIMyMmwJrAQgc9O0mKqkow3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezIMyMmwJrAQgc9O0mKqkow3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ezIMyMmwJrAQgc9O0mKqkow3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4745"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-18",
+                    "end": "2011-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHCxwQTRmrbSlXH3.WyL2cg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHCxwQTRmrbSlXH3.WyL2cg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eHCxwQTRmrbSlXH3.WyL2cg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4746"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-18",
+                    "end": "2011-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/en5o2bBoBUmaoxSin7fsuMA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/en5o2bBoBUmaoxSin7fsuMA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "en5o2bBoBUmaoxSin7fsuMA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4747"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-18",
+                    "end": "2011-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eD8dpVHHMa.C-MiI9awjobg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eD8dpVHHMa.C-MiI9awjobg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eD8dpVHHMa.C-MiI9awjobg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4748"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-18",
+                    "end": "2011-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ejy9ttP.1jWw24g7ySDgjPw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ejy9ttP.1jWw24g7ySDgjPw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ejy9ttP.1jWw24g7ySDgjPw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4749"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-18",
+                    "end": "2011-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAC2ZXzp9NJB.ZE-bWeIyvw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAC2ZXzp9NJB.ZE-bWeIyvw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eAC2ZXzp9NJB.ZE-bWeIyvw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4750"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-18",
+                    "end": "2011-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJoQwDY.ug9FZNN6K3VyyxQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJoQwDY.ug9FZNN6K3VyyxQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eJoQwDY.ug9FZNN6K3VyyxQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4751"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "period": {
+                    "start": "2011-04-18",
+                    "end": "2011-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Condition/ecJcUEXosAO3aOJ1KQv-OjA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Condition/ecJcUEXosAO3aOJ1KQv-OjA3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "ecJcUEXosAO3aOJ1KQv-OjA3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "K35.80"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "85189001"
+                        }
+                    ],
+                    "text": "Acute appendicitis"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "onsetPeriod": {
+                    "start": "2013-11-14",
+                    "end": "2013-11-14"
+                },
+                "recordedDate": "2013-11-14"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/ekvKGzlhEKApWO78ZTF0ZUg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "ekvKGzlhEKApWO78ZTF0ZUg3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2054-5",
+                                    "display": "Black or African American"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Black or African American",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "141-21-6338"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1BKCD4Z6683JQ"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3222"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4764"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "T1g.yLpcFLX6tStIErTRT7bGAOo0Bd6U16sd2DQMc28gB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "ekvKGzlhEKApWO78ZTF0ZUg3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4764"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202972"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "HIMMATTHEW"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "272"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Matthew Him",
+                        "family": "Him",
+                        "given": [
+                            "Matthew"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Matthew Him",
+                        "family": "Him",
+                        "given": [
+                            "Matthew"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-546-9458",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1950-03-29",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "5217 Starflower Drive"
+                        ],
+                        "city": "MADISON",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53704",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "8",
+                                        "display": "Mother"
+                                    }
+                                ],
+                                "text": "Mother"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "HIMtraining, Mother"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-546-9458",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "5217 Starflower Drive"
+                            ],
+                            "city": "MADISON",
+                            "state": "WI",
+                            "postalCode": "53704",
+                            "country": "US"
+                        }
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                        "type": "Practitioner",
+                        "display": "Physician Family Medicine, MD"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elH.MDQnocUpX7C30-lpUfA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elH.MDQnocUpX7C30-lpUfA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elH.MDQnocUpX7C30-lpUfA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4731"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "108",
+                                "display": "Surgery Admit"
+                            }
+                        ],
+                        "text": "Surgery Admit"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "105",
+                            "display": "Emergency Medicine"
+                        }
+                    ],
+                    "text": "Emergency Medicine"
+                },
+                "priority": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.410",
+                            "code": "3",
+                            "display": "Urgent"
+                        }
+                    ],
+                    "text": "Urgent"
+                },
+                "subject": {
+                    "reference": "Patient/ekvKGzlhEKApWO78ZTF0ZUg3",
+                    "display": "Him, Matthew"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-11T18:29:39Z",
+                            "end": "2013-11-11T19:52:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Emergency, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-11T19:52:00Z",
+                            "end": "2013-11-13T23:52:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-11T18:27:37Z",
+                    "end": "2013-11-13T23:52:00Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "70",
+                                "display": "Nausea"
+                            }
+                        ],
+                        "text": "Nausea"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "110002",
+                                "display": "Abdominal Pain"
+                            }
+                        ],
+                        "text": "Abdominal Pain"
+                    }
+                ],
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/ecJcUEXosAO3aOJ1KQv-OjA3",
+                            "display": "Acute appendicitis"
+                        }
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "367"
+                        },
+                        "display": "HIM,MATTHEW"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-11-11T19:52:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "7",
+                                "display": "Emergency Room"
+                            }
+                        ],
+                        "text": "Emergency Room"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2013-11-11T18:27:00Z",
+                            "end": "2013-11-11T19:52:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        },
+                        "period": {
+                            "start": "2013-11-11T19:52:00Z",
+                            "end": "2013-11-13T23:52:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e3.YW4hLydOpJG8JIS.r-4A3",
+                            "display": "123"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "187"
+                            },
+                            "display": "123-02"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

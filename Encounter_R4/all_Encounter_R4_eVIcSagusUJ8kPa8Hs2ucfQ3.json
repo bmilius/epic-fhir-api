@@ -1,0 +1,886 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 2,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eVIcSagusUJ8kPa8Hs2ucfQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7MQLRz2ZtoirNLo3inawkw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7MQLRz2ZtoirNLo3inawkw3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26505"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T15:39:37Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/enwAgidLXgC3encJxTHIZrg3",
+                            "type": "Practitioner",
+                            "display": "Comprehensive Ophth Physician Kaleidoscope, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "25",
+                                            "display": "Ophthalmology"
+                                        }
+                                    ],
+                                    "text": "Ophthalmology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T14:15:36Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/enwAgidLXgC3encJxTHIZrg3",
+                            "type": "Practitioner",
+                            "display": "Comprehensive Ophth Physician Kaleidoscope, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "2",
+                                            "display": "Anesthesiology"
+                                        }
+                                    ],
+                                    "text": "Anesthesiology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Anesthesiolo",
+                                        "display": "Anesthesiologist"
+                                    }
+                                ],
+                                "text": "Anesthesiologist"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T16:09:58Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                            "type": "Practitioner",
+                            "display": "Anesthesiologist Anesthesia, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2024-07-21T15:39:37Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "193570009",
+                                "display": "Cataract (disorder)"
+                            }
+                        ],
+                        "text": "Cataract"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "193570009",
+                                "display": "Cataract (disorder)"
+                            }
+                        ],
+                        "text": "Cataract"
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "2727"
+                        },
+                        "display": "TURTLE,TOMAS OPTIME"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2024-07-21T15:50:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        },
+                        {
+                            "valueDateTime": "2024-07-21T15:39:37Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2024-07-21T15:39:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e-hopA68N.fD7IU7OExWLSg3",
+                            "display": "MS Pool Room 2"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "957"
+                            },
+                            "display": "MS Pool Bed"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eP089mUU2RvHaftogSH2juw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eP089mUU2RvHaftogSH2juw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eP089mUU2RvHaftogSH2juw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26503"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "10",
+                    "display": "Surgery Log"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "period": {
+                    "start": "2016-07-21T18:00:00Z",
+                    "end": "2016-07-21T18:35:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                            "display": "EMH Operating Room"
+                        }
+                    }
+                ],
+                "partOf": {
+                    "reference": "Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26505"
+                    },
+                    "display": "Hospital Encounter"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7MQLRz2ZtoirNLo3inawkw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7MQLRz2ZtoirNLo3inawkw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7MQLRz2ZtoirNLo3inawkw3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26505"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "subject": {
+                    "reference": "Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+                    "display": "Turtle, Tomas OpTime"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T15:39:37Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/enwAgidLXgC3encJxTHIZrg3",
+                            "type": "Practitioner",
+                            "display": "Comprehensive Ophth Physician Kaleidoscope, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "25",
+                                            "display": "Ophthalmology"
+                                        }
+                                    ],
+                                    "text": "Ophthalmology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T14:15:36Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/enwAgidLXgC3encJxTHIZrg3",
+                            "type": "Practitioner",
+                            "display": "Comprehensive Ophth Physician Kaleidoscope, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "2",
+                                            "display": "Anesthesiology"
+                                        }
+                                    ],
+                                    "text": "Anesthesiology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Anesthesiolo",
+                                        "display": "Anesthesiologist"
+                                    }
+                                ],
+                                "text": "Anesthesiologist"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T16:09:58Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                            "type": "Practitioner",
+                            "display": "Anesthesiologist Anesthesia, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2024-07-21T15:39:37Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "193570009",
+                                "display": "Cataract (disorder)"
+                            }
+                        ],
+                        "text": "Cataract"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "193570009",
+                                "display": "Cataract (disorder)"
+                            }
+                        ],
+                        "text": "Cataract"
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "2727"
+                        },
+                        "display": "TURTLE,TOMAS OPTIME"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2024-07-21T15:50:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        },
+                        {
+                            "valueDateTime": "2024-07-21T15:39:37Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2024-07-21T15:39:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e-hopA68N.fD7IU7OExWLSg3",
+                            "display": "MS Pool Room 2"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "957"
+                            },
+                            "display": "MS Pool Bed"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eVIcSagusUJ8kPa8Hs2ucfQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eVIcSagusUJ8kPa8Hs2ucfQ3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eVIcSagusUJ8kPa8Hs2ucfQ3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "452-56-4672"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1Z35N9WLSCX8D"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E7361"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z6027"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TW0I2ZnsPLW4mGgKpK2UjeYXV9Zox6vVPXdRb71yY-JcB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eVIcSagusUJ8kPa8Hs2ucfQ3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z6027"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "207007"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Tomas OpTime Turtle",
+                        "family": "Turtle",
+                        "given": [
+                            "Tomas",
+                            "OpTime"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Tomas OpTime Turtle",
+                        "family": "Turtle",
+                        "given": [
+                            "Tomas",
+                            "OpTime"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-271-9000",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1975-06-30",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "1979 Milky Way"
+                        ],
+                        "city": "VERONA",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53593",
+                        "country": "US"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

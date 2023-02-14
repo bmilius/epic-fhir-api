@@ -1,0 +1,1187 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 3,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eIWTfing5UUl7MDibuRV8yg3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e57DNZS-qhNyt4P2GCQRRGA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e57DNZS-qhNyt4P2GCQRRGA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e57DNZS-qhNyt4P2GCQRRGA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4685"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "10",
+                    "display": "Surgery Log"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eIWTfing5UUl7MDibuRV8yg3",
+                    "display": "Him-Pediatrics, June"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                            "type": "Practitioner",
+                            "display": "Physician Pediatrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-14T13:00:00Z",
+                    "end": "2013-11-14T15:00:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                            "display": "EMH Operating Room"
+                        }
+                    }
+                ],
+                "partOf": {
+                    "reference": "Encounter/eS3Od.e2nfq78g0dBHSOVfQ3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4689"
+                    },
+                    "display": "Hospital Encounter"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e5HUXjQZgMpWnUU3q.fYELA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e5HUXjQZgMpWnUU3q.fYELA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e5HUXjQZgMpWnUU3q.fYELA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4687"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "115",
+                                "display": "Resolute Professional Billing Hospital Prof Fee"
+                            }
+                        ],
+                        "text": "Resolute Professional Billing Hospital Prof Fee"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "106",
+                            "display": "General Medicine"
+                        }
+                    ],
+                    "text": "General Medicine"
+                },
+                "subject": {
+                    "reference": "Patient/eIWTfing5UUl7MDibuRV8yg3",
+                    "display": "Him-Pediatrics, June"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "17",
+                                            "display": "Internal Medicine"
+                                        }
+                                    ],
+                                    "text": "Internal Medicine"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-14T06:00:00Z",
+                            "end": "2013-11-14T06:00:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "11",
+                                            "display": "General Surgery"
+                                        }
+                                    ],
+                                    "text": "General Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-14T06:00:00Z",
+                            "end": "2013-11-14T06:00:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-14T06:00:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e0H0ArMvC5fkwO7XC2hyJ1Q3",
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eS3Od.e2nfq78g0dBHSOVfQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eS3Od.e2nfq78g0dBHSOVfQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eS3Od.e2nfq78g0dBHSOVfQ3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4689"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "106",
+                            "display": "General Medicine"
+                        }
+                    ],
+                    "text": "General Medicine"
+                },
+                "subject": {
+                    "reference": "Patient/eIWTfing5UUl7MDibuRV8yg3",
+                    "display": "Him-Pediatrics, June"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T00:49:00Z",
+                            "end": "2013-11-15T01:16:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "11",
+                                            "display": "General Surgery"
+                                        }
+                                    ],
+                                    "text": "General Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T01:11:31Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-15T00:49:00Z",
+                    "end": "2013-11-15T01:16:00Z"
+                },
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/eECBd5aT00d-2H-q.d70gPg3",
+                            "display": "Acute appendicitis without mention of peritonitis"
+                        }
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "363"
+                        },
+                        "display": "HIM-PEDIATRICS,JUNE"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-11-15T00:49:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        },
+                        "period": {
+                            "start": "2013-11-15T00:49:00Z",
+                            "end": "2013-11-15T01:16:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e0H0ArMvC5fkwO7XC2hyJ1Q3",
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "923"
+                            },
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Condition/eECBd5aT00d-2H-q.d70gPg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Condition/eECBd5aT00d-2H-q.d70gPg3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "eECBd5aT00d-2H-q.d70gPg3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "K35.80"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "85189001"
+                        }
+                    ],
+                    "text": "Acute appendicitis without mention of peritonitis"
+                },
+                "subject": {
+                    "reference": "Patient/eIWTfing5UUl7MDibuRV8yg3",
+                    "display": "Him-Pediatrics, June"
+                },
+                "onsetPeriod": {
+                    "start": "2013-11-14",
+                    "end": "2013-11-14"
+                },
+                "recordedDate": "2013-11-14"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eIWTfing5UUl7MDibuRV8yg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eIWTfing5UUl7MDibuRV8yg3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eIWTfing5UUl7MDibuRV8yg3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2106-3",
+                                    "display": "White"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "White",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "129-15-3351"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1DKKV0KDBG2RJ"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3219"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4761"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TzABauVJosgRRz2woa1qg8YJtCXI1cuV-8hAVmOgKNYsB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eIWTfing5UUl7MDibuRV8yg3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4761"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202969"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "old",
+                        "text": "HIMPEDIATRICS,JUNE",
+                        "family": "Himpediatrics",
+                        "given": [
+                            "June"
+                        ]
+                    },
+                    {
+                        "use": "official",
+                        "text": "June Him-Pediatrics",
+                        "family": "Him-Pediatrics",
+                        "given": [
+                            "June"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "June Him-Pediatrics",
+                        "family": "Him-Pediatrics",
+                        "given": [
+                            "June"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-987-1234",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2008-02-11",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "5217 Starflower Dr"
+                        ],
+                        "city": "MADISON",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53704",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "8",
+                                        "display": "Mother"
+                                    }
+                                ],
+                                "text": "Mother"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Him Validate Peds,Mother"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-987-1234",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "5217 Starflower Dr"
+                            ],
+                            "city": "MADISON",
+                            "district": "DANE",
+                            "state": "WI",
+                            "postalCode": "53704",
+                            "country": "US"
+                        }
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "3",
+                                        "display": "Father"
+                                    }
+                                ],
+                                "text": "Father"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Him Validate Peds,Father"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-987-1234",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "5217 Starflower Dr"
+                            ],
+                            "city": "MADISON",
+                            "district": "DANE",
+                            "state": "WI",
+                            "postalCode": "53704",
+                            "country": "US"
+                        }
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                        "type": "Practitioner",
+                        "display": "Physician Pediatrics, MD"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eS3Od.e2nfq78g0dBHSOVfQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eS3Od.e2nfq78g0dBHSOVfQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eS3Od.e2nfq78g0dBHSOVfQ3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "4689"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "106",
+                            "display": "General Medicine"
+                        }
+                    ],
+                    "text": "General Medicine"
+                },
+                "subject": {
+                    "reference": "Patient/eIWTfing5UUl7MDibuRV8yg3",
+                    "display": "Him-Pediatrics, June"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T00:49:00Z",
+                            "end": "2013-11-15T01:16:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "11",
+                                            "display": "General Surgery"
+                                        }
+                                    ],
+                                    "text": "General Surgery"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T01:11:31Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                            "type": "Practitioner",
+                            "display": "Physician Surgery, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-15T00:49:00Z",
+                    "end": "2013-11-15T01:16:00Z"
+                },
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/eECBd5aT00d-2H-q.d70gPg3",
+                            "display": "Acute appendicitis without mention of peritonitis"
+                        }
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "363"
+                        },
+                        "display": "HIM-PEDIATRICS,JUNE"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-11-15T00:49:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        },
+                        "period": {
+                            "start": "2013-11-15T00:49:00Z",
+                            "end": "2013-11-15T01:16:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e0H0ArMvC5fkwO7XC2hyJ1Q3",
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "923"
+                            },
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

@@ -1,0 +1,1044 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 15,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=e.Rxkbv0HmfyDyboA-LtyRQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/efchuPufR7yL5X1pWcA94Ww3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/efchuPufR7yL5X1pWcA94Ww3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "efchuPufR7yL5X1pWcA94Ww3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "37736"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "118",
+                                "display": "Pharmacy Visit"
+                            }
+                        ],
+                        "text": "Pharmacy Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2021-12-16",
+                    "end": "2021-12-16"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e59fR7gkWX-sWr4dpeG68kvJY6XSW8ejlBUm1qHeW6y03",
+                            "display": "EMC Prescription South Fill"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ei0SnmYSUOYGfal-qsmvgnA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ei0SnmYSUOYGfal-qsmvgnA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ei0SnmYSUOYGfal-qsmvgnA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "37729"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "65",
+                                "display": "Travel"
+                            }
+                        ],
+                        "text": "Travel"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2021-12-15",
+                    "end": "2021-12-15"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eezRW-5UOmBlG6h6rEpprAg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eezRW-5UOmBlG6h6rEpprAg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eezRW-5UOmBlG6h6rEpprAg3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "37722"
+                    }
+                ],
+                "status": "arrived",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "5",
+                    "display": "Appointment"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "1004",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "participant": [
+                    {
+                        "period": {
+                            "start": "2021-12-15T15:00:00Z",
+                            "end": "2021-12-15T15:15:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2021-12-15T15:00:00Z",
+                    "end": "2021-12-15T15:15:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNiXkU8vfGWZ-HDe5i3aBMw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNiXkU8vfGWZ-HDe5i3aBMw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eNiXkU8vfGWZ-HDe5i3aBMw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "37721"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "111",
+                                "display": "Orders Only"
+                            }
+                        ],
+                        "text": "Orders Only"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2021-12-15",
+                    "end": "2021-12-15"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebPVSYFzrC0FtlLflA75GDg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebPVSYFzrC0FtlLflA75GDg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ebPVSYFzrC0FtlLflA75GDg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "33997"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2020-10-29",
+                    "end": "2020-10-29"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAp1AGRGfZ2Ngg9kJFJlZOg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAp1AGRGfZ2Ngg9kJFJlZOg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eAp1AGRGfZ2Ngg9kJFJlZOg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20197"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "69",
+                                "display": "Patient Outreach"
+                            }
+                        ],
+                        "text": "Patient Outreach"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2014-12-16",
+                    "end": "2014-12-16"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/ec0JG-sOCrCrV3Y9589n3MLfDNrmaSgRNsC3-r38zobs3",
+                            "display": "EMC Family Medicine West"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ePojS3d5xgIFF1aWnxdgI2w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ePojS3d5xgIFF1aWnxdgI2w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ePojS3d5xgIFF1aWnxdgI2w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10094"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "111",
+                                "display": "Orders Only"
+                            }
+                        ],
+                        "text": "Orders Only"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2013-09-12",
+                    "end": "2013-09-12"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eeT9pcCTVFawIRxsDn3qFyQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eeT9pcCTVFawIRxsDn3qFyQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eeT9pcCTVFawIRxsDn3qFyQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10098"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2012-03-13",
+                    "end": "2012-03-13"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/emMKvcllfrR1yhBENShhk1w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/emMKvcllfrR1yhBENShhk1w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "emMKvcllfrR1yhBENShhk1w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10099"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2011-10-29",
+                    "end": "2011-10-29"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7BYoMjfV0MsNpXcwa6.uQQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7BYoMjfV0MsNpXcwa6.uQQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7BYoMjfV0MsNpXcwa6.uQQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10100"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2011-10-29",
+                    "end": "2011-10-29"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-Ii5SD1XQdSFLCdrLWp58Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-Ii5SD1XQdSFLCdrLWp58Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e-Ii5SD1XQdSFLCdrLWp58Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10101"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2011-10-23",
+                    "end": "2011-10-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezWgj7Tq-GduC5Tf05oEKXg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezWgj7Tq-GduC5Tf05oEKXg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ezWgj7Tq-GduC5Tf05oEKXg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10102"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2011-07-08",
+                    "end": "2011-07-08"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eanKQb4l8cO2QPqIZp5hfZA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eanKQb4l8cO2QPqIZp5hfZA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eanKQb4l8cO2QPqIZp5hfZA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10103"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2011-02-22",
+                    "end": "2011-02-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebqPrwXEu6q-aAF9krGSM0w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebqPrwXEu6q-aAF9krGSM0w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ebqPrwXEu6q-aAF9krGSM0w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10104"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2011-02-22",
+                    "end": "2011-02-22"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ex4KxGXmCjd1tE6xyyypx.w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ex4KxGXmCjd1tE6xyyypx.w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ex4KxGXmCjd1tE6xyyypx.w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "10105"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+                    "display": "Ambulatory, Beth"
+                },
+                "period": {
+                    "start": "2011-02-16",
+                    "end": "2011-02-16"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e.Rxkbv0HmfyDyboA-LtyRQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e.Rxkbv0HmfyDyboA-LtyRQ3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "e.Rxkbv0HmfyDyboA-LtyRQ3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2131-1",
+                                    "display": "Other Race"
+                                },
+                                "url": "detailed"
+                            },
+                            {
+                                "valueString": "Other",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/gender-identity",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1CGKD723CM249"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E2664"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z5055"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "Tvzs0i5VqOuxtEm3v85LV8vKXm4QIwuIUu4uR99lhkMIB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "e.Rxkbv0HmfyDyboA-LtyRQ3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z5055"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202430"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "AMBBETH"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "41"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+                        "value": "12312312"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Beth Ambulatory",
+                        "family": "Ambulatory",
+                        "given": [
+                            "Beth"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Beth Ambulatory",
+                        "family": "Ambulatory",
+                        "given": [
+                            "Beth"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-854-1212",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-877-1212",
+                        "use": "work"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-888-8888",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1987-04-24",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "old",
+                        "line": [
+                            "854 Peacock Dr."
+                        ],
+                        "city": "MADISON",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "854 Peacock Dr."
+                        ],
+                        "city": "MADISON",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Married"
+                },
+                "contact": [
+                    {
+                        "name": {
+                            "use": "usual",
+                            "text": "Smith, Bridget"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-666-3232",
+                                "use": "home"
+                            }
+                        ]
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "8",
+                                        "display": "Mother"
+                                    }
+                                ],
+                                "text": "Mother"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Slack, Roberta"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-541-5544",
+                                "use": "home"
+                            }
+                        ]
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-271-9000",
+                                "use": "work"
+                            }
+                        ],
+                        "address": {
+                            "use": "work",
+                            "line": [
+                                "1979 MILKY WAY"
+                            ],
+                            "city": "VERONA",
+                            "state": "WI",
+                            "postalCode": "53593",
+                            "country": "US"
+                        },
+                        "organization": {
+                            "display": "Ehs Generic Employer"
+                        }
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

@@ -1,0 +1,1971 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 16,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=e-5i8hXSAWLzwh398VeGDPw3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e5KEyFX-f9I5OifuMEWrMk7X91LxYVFmsUCXOus-zfZA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e5KEyFX-f9I5OifuMEWrMk7X91LxYVFmsUCXOus-zfZA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e5KEyFX-f9I5OifuMEWrMk7X91LxYVFmsUCXOus-zfZA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004166"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLSmw4.Hohw6Y.tKyg5VnVblmQFbgvMVclgL5jhj.GirPg.0Dqfr0hLrF7jVb6BdS3",
+                    "display": "lactated Ringer's infusion"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eX3M6vOB19zzogRR5CaUFcw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-12T19:07:47Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "50 mL/hr, Intravenous, Continuous, Starting on Fri 7/12/24 at 1415, PACU (only)",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T19:15:00Z",
+                                    "end": "2024-07-12T21:21:56Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 50,
+                                    "unit": "mL/hr",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL/h"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 50,
+                                    "unit": "mL/hr",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL/h"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "priorPrescription": {
+                    "reference": "MedicationRequest/eQIKPaLBNzvxtRabw1wgWy4l-e9K2uNFkCp0Aplar7J83",
+                    "display": "lactated Ringer's infusion"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eCz9D14lD4jRzJXeIZmpaXRLYmanCO1l1-4d-i0SvoY83"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eCz9D14lD4jRzJXeIZmpaXRLYmanCO1l1-4d-i0SvoY83",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eCz9D14lD4jRzJXeIZmpaXRLYmanCO1l1-4d-i0SvoY83",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004149"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/erPDTHR6K2WA2zNgYrjQmN2-J2zn6iwEY6ls-FwUb.JlCoR2AYIyDzgOMgtqvKW363",
+                    "display": "ondansetron (ZOFRAN) 2 mg/mL injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T18:41:11Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, nausea, vomiting, Starting on Fri 7/12/24 at 1255, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T17:55:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eM1.PHs9dfm289KAOKYQDjKQQ6oxn1PqqallAbS0mq0A3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eM1.PHs9dfm289KAOKYQDjKQQ6oxn1PqqallAbS0mq0A3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eM1.PHs9dfm289KAOKYQDjKQQ6oxn1PqqallAbS0mq0A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004158"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e3YSA4ZRkccnzBsPm-5bil.e8A08vfHXmfwrWg2SLuhp7dJn84RPKCJgFkwx2UysP3",
+                    "display": "atracurium injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T19:01:49Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Fri 7/12/24 at 1309, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T18:09:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eN4gIjlswcTSCrUcDGOjJ8hEGOyilbA9.RJNEV2.IVeQ3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eN4gIjlswcTSCrUcDGOjJ8hEGOyilbA9.RJNEV2.IVeQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eN4gIjlswcTSCrUcDGOjJ8hEGOyilbA9.RJNEV2.IVeQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004151"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eZdimPObjtapS4QjY3CoEi5MfO7oXNDlEDEX.YPfYHNvq-TFggR5eDbbYf2XVsDRC3",
+                    "display": "rocuronium (ZEMURON) 100 mg/10 mL injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T18:43:03Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Fri 7/12/24 at 1309, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T18:09:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eQIKPaLBNzvxtRabw1wgWy4l-e9K2uNFkCp0Aplar7J83"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eQIKPaLBNzvxtRabw1wgWy4l-e9K2uNFkCp0Aplar7J83",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eQIKPaLBNzvxtRabw1wgWy4l-e9K2uNFkCp0Aplar7J83",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004155"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLSmw4.Hohw6Y.tKyg5VnVbhpLZpH8PMXoO3SfIH4k-o1z9q2CS-pvwppK876irpM3",
+                    "display": "lactated Ringer's infusion"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T18:56:30Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, Continuous PRN, Starting on Fri 7/12/24 at 1306, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T18:06:00Z",
+                                    "end": "2024-07-12T19:07:48Z"
+                                }
+                            },
+                            "code": {
+                                "text": "Continuous PRN"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eTlg6BYHHXhcgkQ.zvJeFaVEhxrP3wPs0MiAumMYTJU83"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eTlg6BYHHXhcgkQ.zvJeFaVEhxrP3wPs0MiAumMYTJU83",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eTlg6BYHHXhcgkQ.zvJeFaVEhxrP3wPs0MiAumMYTJU83",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004157"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ehE6DK7mjLRc1FUvWb3oOp0kSNorlp23goJ8m1Y9nvqoMypqXi5IciNBXgPJcjgIX3",
+                    "display": "lidocaine (XYLOCAINE) injection 1%"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T19:01:05Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Injection, As needed, Starting on Fri 7/12/24 at 1309, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T18:09:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "4",
+                                    "display": "Injection"
+                                }
+                            ],
+                            "text": "Injection"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVAcQleniGsV-E1o9aOyA9zylHlsVS0A--3y8yiQVfF43"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVAcQleniGsV-E1o9aOyA9zylHlsVS0A--3y8yiQVfF43",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eVAcQleniGsV-E1o9aOyA9zylHlsVS0A--3y8yiQVfF43",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004150"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLwv.5VWp4qcFZVsHCqozTh-Mpap9z8c2d7pUCZ.y-990K1do1f7coTHq3UPqQpEK3",
+                    "display": "midazolam (VERSED) injection 5 mg/5 mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T18:41:39Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Fri 7/12/24 at 1255, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T17:55:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVMxB-CIbrtbbkPsNMCx1QQ2qsbt306syao7j0f97qqY3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVMxB-CIbrtbbkPsNMCx1QQ2qsbt306syao7j0f97qqY3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eVMxB-CIbrtbbkPsNMCx1QQ2qsbt306syao7j0f97qqY3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004165"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ejr6H66e45wDbWz4aPn8nt1jAlsExtXkMN9V3u73h3a2uYQk9uvfhGORyp975vgrA3",
+                    "display": "metoclopramide (REGLAN) injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eX3M6vOB19zzogRR5CaUFcw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-12T19:07:47Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "10 mg, Intravenous, Once as needed, nausea, Starting on Fri 7/12/24 at 1407, For 1 dose, PACU (only)",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T19:00:00Z",
+                                    "end": "2024-07-12T19:00:00Z"
+                                },
+                                "count": 1,
+                                "countMax": 1,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Once as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eX0la066YqiSJv.0e7rqcusCm5VN8F6YCJBFQZYHg7hI3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eX0la066YqiSJv.0e7rqcusCm5VN8F6YCJBFQZYHg7hI3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eX0la066YqiSJv.0e7rqcusCm5VN8F6YCJBFQZYHg7hI3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004161"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eq7-Svxg-U.I7TpYbn4eTGx4V7QMvSFe2Odvj4UYD805rw9U1n80uruox99MCIrqF3",
+                    "display": "ondansetron (ZOFRAN) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eX3M6vOB19zzogRR5CaUFcw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-12T18:12:31Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 4 mg by mouth every 8 (eight) hours if needed for nausea or vomiting., Historical Med",
+                        "patientInstruction": "Take 4 mg by mouth every 8 (eight) hours if needed for nausea or vomiting.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 8,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 8 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 4,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eXNzUeIks1ebSvmdJfNx4wNvwSZyFHfbrfMMSL-uaZYc3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eXNzUeIks1ebSvmdJfNx4wNvwSZyFHfbrfMMSL-uaZYc3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eXNzUeIks1ebSvmdJfNx4wNvwSZyFHfbrfMMSL-uaZYc3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004159"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eaiCS8KbpTzzZ-oLB7jVZp99YR1ALc-iwNHKrj7pjuTvC10J0C6Pjo8MB9GAiewuq3",
+                    "display": "magnesium sulfate injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T19:02:51Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Fri 7/12/24 at 1255, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T17:55:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ed0VTYGQVO5RpXmPGTbpgbRKXyMHsB0-fbtl02Vpm9Wg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ed0VTYGQVO5RpXmPGTbpgbRKXyMHsB0-fbtl02Vpm9Wg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ed0VTYGQVO5RpXmPGTbpgbRKXyMHsB0-fbtl02Vpm9Wg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004160"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eO6rurXS08-pwNx0ZTnB2VrDAAQTUikI4l2AHQ0H.cLpFyLnvVIymzulh3Bu5TRJK3",
+                    "display": "dexamethasone (DECADRON) injection 10 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T19:03:10Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Fri 7/12/24 at 1255, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T17:55:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eiCdDvbDFhJuQp5piajM3DCGkgzRSNXoMw7YJGGj.U1E3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eiCdDvbDFhJuQp5piajM3DCGkgzRSNXoMw7YJGGj.U1E3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eiCdDvbDFhJuQp5piajM3DCGkgzRSNXoMw7YJGGj.U1E3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004164"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eLwv.5VWp4qcFZVsHCqozTrizMg-4BiBwKDEknms5Z9axDx6R6n0yg4sBZyH8bw8Z3",
+                    "display": "midazolam (VERSED) injection 5 mg/5 mL"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eX3M6vOB19zzogRR5CaUFcw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-12T19:07:47Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 mg, Intravenous, Every 5 min PRN, anxiety, Starting on Fri 7/12/24 at 1406, PACU (only)",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T19:06:55Z",
+                                    "end": "2024-07-12T19:18:17Z"
+                                },
+                                "frequency": 1,
+                                "period": 5,
+                                "periodUnit": "min"
+                            },
+                            "code": {
+                                "text": "Every 5 (five) minutes as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ely3p9mqzxAhSw-HjtVxTlYxP9WvPJCKMgPRdBEyMZSg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ely3p9mqzxAhSw-HjtVxTlYxP9WvPJCKMgPRdBEyMZSg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ely3p9mqzxAhSw-HjtVxTlYxP9WvPJCKMgPRdBEyMZSg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004156"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e559yoPLq-bKUYW4rTAzox8gcNc2dGXg8IBqdXo4bL8uXytNE6fS3RAbQjGTvh76x3",
+                    "display": "SUFentanil (SUFENTA) injection"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T18:59:49Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, severe pain, Starting on Fri 7/12/24 at 1309, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T18:09:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ennq7v5Unspi-Zr.L4-hCeLuVmSIfehOc9goKiNA8Hus3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ennq7v5Unspi-Zr.L4-hCeLuVmSIfehOc9goKiNA8Hus3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ennq7v5Unspi-Zr.L4-hCeLuVmSIfehOc9goKiNA8Hus3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004163"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eSjKeKFMv2GDcf-bZDIK4sbYoiJzLj.fFVMoZLRyDIiuwG2K0HbO2q29IAep2RVwC3",
+                    "display": "LORazepam (ATIVAN) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eX3M6vOB19zzogRR5CaUFcw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-12T18:13:32Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 1 mg by mouth every 6 (six) hours if needed for anxiety., Historical Med",
+                        "patientInstruction": "Take 1 mg by mouth every 6 (six) hours if needed for anxiety.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 6,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 6 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/evBl4FjC3yurL2QmrbIVbskvHAUG9ewUl4JUgVSPXJ9I3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/evBl4FjC3yurL2QmrbIVbskvHAUG9ewUl4JUgVSPXJ9I3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "evBl4FjC3yurL2QmrbIVbskvHAUG9ewUl4JUgVSPXJ9I3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004152"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eSE.lzw6WwR8RkK6lleDxF3SrPB0NGaWNn3OykpRyosQK3MbKWP07QP4qt14-koAy3",
+                    "display": "ceFAZolin (ANCEF) vial 1 g"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26466"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-12T18:45:30Z",
+                "requester": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eOmLvq7u35Wq0c9hYKq6BVsqbU5UWD1NzuTwqe-fasN43",
+                    "type": "Practitioner",
+                    "display": "Crna Anesthesia, CRNA"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Fri 7/12/24 at 1313, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-12T18:13:00Z",
+                                    "end": "2024-07-12T19:10:28Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ey1xYoga7bShPvhrza5siH0O09KIw95QxdpKcCn.LUXg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ey1xYoga7bShPvhrza5siH0O09KIw95QxdpKcCn.LUXg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ey1xYoga7bShPvhrza5siH0O09KIw95QxdpKcCn.LUXg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004162"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eWsLe1Oy1sGigN-S13IvXNru9Pef-tKm3MPhcNXaKX1COVufRrJlaC2w-WlG9IH-a3",
+                    "display": "acetaminophen (TYLENOL) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/e-5i8hXSAWLzwh398VeGDPw3",
+                    "display": "Lemur, Lisa OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eX3M6vOB19zzogRR5CaUFcw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-12T18:12:32Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 650 mg by mouth 1 (one) time each day., Historical Med",
+                        "patientInstruction": "Take 650 mg by mouth 1 (one) time each day.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 650,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

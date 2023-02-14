@@ -1,0 +1,1668 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 15,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eRp.HuKDlKB8MhAkzHFthQQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etko5NS.8cpQDJAp2we5EHw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etko5NS.8cpQDJAp2we5EHw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "etko5NS.8cpQDJAp2we5EHw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "29781"
+                    }
+                ],
+                "status": "arrived",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "5",
+                    "display": "Appointment"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "50",
+                                "display": "Appointment"
+                            }
+                        ],
+                        "text": "Appointment"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "1053001",
+                                "display": "X-Ray Exam"
+                            }
+                        ],
+                        "text": "X-Ray Exam"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/ePwlHXYFFHLNL9so.ugVNFQ3",
+                            "type": "Practitioner",
+                            "display": "Radiologist Radiology, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2019-11-07T23:05:00Z",
+                            "end": "2019-11-07T23:35:00Z"
+                        },
+                        "individual": {
+                            "display": "EMC X-RAY"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2019-11-07T23:05:00Z",
+                    "end": "2019-11-07T23:35:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eLhKFc3iDeY6-hXf5i.OaMou5OzNHYkj.U615OO9oDD43",
+                            "display": "EMC X-Ray Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUAW2-QkdwCE7KH7awS8sfw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUAW2-QkdwCE7KH7awS8sfw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eUAW2-QkdwCE7KH7awS8sfw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6011"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "103",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "105",
+                            "display": "Emergency Medicine"
+                        }
+                    ],
+                    "text": "Emergency Medicine"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-06T01:45:39Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Emergency, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "49",
+                                            "display": "Emergency Medicine"
+                                        }
+                                    ],
+                                    "text": "Emergency Medicine"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "RN",
+                                        "display": "Registered Nurse"
+                                    }
+                                ],
+                                "text": "Registered Nurse"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-06T01:45:31Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eclOxH-V7wEfUNGp5Nos9xw3",
+                            "type": "Practitioner",
+                            "display": "Nurse Epic Emergency, RN"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-18T17:27:00Z"
+                },
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/eZI043JKrXo1unfgS9n0xtw3",
+                            "display": "Abdominal pain, epigastric"
+                        }
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "546"
+                        },
+                        "display": "ASAP,ADAM"
+                    }
+                ],
+                "hospitalization": {
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "1",
+                                "display": "Non-Healthcare Facility"
+                            }
+                        ],
+                        "text": "Non-Healthcare Facility"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2013-11-18T17:27:00Z",
+                            "end": "2013-11-18T17:28:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2013-11-18T17:28:00Z",
+                            "end": "2023-04-30T04:59:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2023-04-30T04:59:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e3tIsK9Aj4APyZgZK5Vrn8w3",
+                            "display": "CC02"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "247"
+                            },
+                            "display": "CC02"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eV-LKV3jy7Z3aIKgxLTgEig3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eV-LKV3jy7Z3aIKgxLTgEig3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eV-LKV3jy7Z3aIKgxLTgEig3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6013"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "103",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "end": "2011-09-27T15:29:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "543"
+                        },
+                        "display": "ASAP,ADAM"
+                    }
+                ],
+                "hospitalization": {
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "7",
+                                "display": "Emergency Room"
+                            }
+                        ],
+                        "text": "Emergency Room"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDR--HojwFbt2AWfxqEpr2Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDR--HojwFbt2AWfxqEpr2Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eDR--HojwFbt2AWfxqEpr2Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6014"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "103",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "105",
+                            "display": "Emergency Medicine"
+                        }
+                    ],
+                    "text": "Emergency Medicine"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2011-08-11T18:57:07Z",
+                    "end": "2011-08-11T18:58:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "544"
+                        },
+                        "display": "ASAP,ADAM"
+                    }
+                ],
+                "hospitalization": {
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "7",
+                                "display": "Emergency Room"
+                            }
+                        ],
+                        "text": "Emergency Room"
+                    },
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2011-08-11T18:57:00Z",
+                            "end": "2011-08-11T18:58:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/ebyNSXXmbsR3lZOlyg7913A3",
+                            "display": "PEDH01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "281"
+                            },
+                            "display": "PEDH01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eXrAGaQdq4pAs8CZwHhjDmQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eXrAGaQdq4pAs8CZwHhjDmQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eXrAGaQdq4pAs8CZwHhjDmQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6016"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "103",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "1",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "1"
+                        }
+                    ]
+                },
+                "priority": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.410",
+                            "code": "3",
+                            "display": "Urgent"
+                        }
+                    ],
+                    "text": "Urgent"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2011-04-27T17:47:00Z",
+                            "end": "2011-04-27T18:02:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e8bM9BibcJ25SLe6lJi5i9Q3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Emergency, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "49",
+                                            "display": "Emergency Medicine"
+                                        }
+                                    ],
+                                    "text": "Emergency Medicine"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "RN",
+                                        "display": "Registered Nurse"
+                                    }
+                                ],
+                                "text": "Registered Nurse"
+                            }
+                        ],
+                        "period": {
+                            "start": "2011-04-27T17:47:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eclOxH-V7wEfUNGp5Nos9xw3",
+                            "type": "Practitioner",
+                            "display": "Nurse Epic Emergency, RN"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2011-04-27T17:37:47Z",
+                    "end": "2011-04-27T18:02:00Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160355",
+                                "display": "Leg Injury"
+                            }
+                        ],
+                        "text": "Leg Injury"
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "545"
+                        },
+                        "display": "ASAP,ADAM"
+                    }
+                ],
+                "hospitalization": {
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2011-04-27T17:37:00Z",
+                            "end": "2011-04-27T17:46:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        },
+                        "period": {
+                            "start": "2011-04-27T17:46:00Z",
+                            "end": "2011-04-27T18:02:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eVKP8CAxQsojtelpJ4T15eA3",
+                            "display": "CC04"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "260"
+                            },
+                            "display": "CC04"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eXIDsSh-kGCZpDwRRdh9hXQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eXIDsSh-kGCZpDwRRdh9hXQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eXIDsSh-kGCZpDwRRdh9hXQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6018"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2011-03-16",
+                    "end": "2011-03-16"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezfEoQ0KSGjj-Aj60wCCWbQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezfEoQ0KSGjj-Aj60wCCWbQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ezfEoQ0KSGjj-Aj60wCCWbQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6019"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2011-01-28",
+                    "end": "2011-01-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAPsIcaeDzr71ikqxBW3n3A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAPsIcaeDzr71ikqxBW3n3A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eAPsIcaeDzr71ikqxBW3n3A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6020"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-10-14",
+                    "end": "2010-10-14"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ecuXmE0MVV3coRNt8eDrQyg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ecuXmE0MVV3coRNt8eDrQyg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ecuXmE0MVV3coRNt8eDrQyg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6021"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-10-14",
+                    "end": "2010-10-14"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNfjObAYKs7lnpc3P3vbEZw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNfjObAYKs7lnpc3P3vbEZw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eNfjObAYKs7lnpc3P3vbEZw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6022"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-10-14",
+                    "end": "2010-10-14"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eze51CkU7khAdjywvclenWA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eze51CkU7khAdjywvclenWA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eze51CkU7khAdjywvclenWA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6023"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-07-21",
+                    "end": "2010-07-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e.GQ3caYIDHe0RE8MDlOqlw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e.GQ3caYIDHe0RE8MDlOqlw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e.GQ3caYIDHe0RE8MDlOqlw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6024"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-06-04",
+                    "end": "2010-06-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eyJInavIZTF5ak5S7a.FS6g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eyJInavIZTF5ak5S7a.FS6g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eyJInavIZTF5ak5S7a.FS6g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6025"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-02-18",
+                    "end": "2010-02-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqVUaHnHpegOuthU2bJpHyQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqVUaHnHpegOuthU2bJpHyQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eqVUaHnHpegOuthU2bJpHyQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6026"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-02-18",
+                    "end": "2010-02-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZ461GPyvSA49cfKkPYh3dQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZ461GPyvSA49cfKkPYh3dQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eZ461GPyvSA49cfKkPYh3dQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6027"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "period": {
+                    "start": "2010-02-18",
+                    "end": "2010-02-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eRp.HuKDlKB8MhAkzHFthQQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eRp.HuKDlKB8MhAkzHFthQQ3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2106-3",
+                                    "display": "White"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "White",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "261-66-9550"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1GZM45JZBTH9W"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3268"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4920"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TLqtVI-V.rX88jQHUnHxO8Npvd9Gcuz5fFeZuNPSeURIB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eRp.HuKDlKB8MhAkzHFthQQ3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4920"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "203018"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "ASAPADAM"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "56"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+                        "value": "8779145"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Adam Asap",
+                        "family": "Asap",
+                        "given": [
+                            "Adam"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Adam Asap",
+                        "family": "Asap",
+                        "given": [
+                            "Adam"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-999-9999",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1979-04-27",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "old",
+                        "line": [
+                            "1548 High Hampton Rd."
+                        ],
+                        "city": "MADISON",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53719",
+                        "country": "US"
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "1548 High Hampton Rd."
+                        ],
+                        "city": "MADISON",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53719",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "14",
+                                        "display": "Sister"
+                                    }
+                                ],
+                                "text": "Sister"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Edasap Validate,Susan"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-378-2992",
+                                "use": "home"
+                            },
+                            {
+                                "system": "phone",
+                                "value": "608-294-2883",
+                                "use": "work"
+                            },
+                            {
+                                "system": "phone",
+                                "value": "608-274-9222",
+                                "use": "mobile"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "489 East Ave"
+                            ],
+                            "city": "MADISON",
+                            "district": "DANE",
+                            "state": "WI",
+                            "postalCode": "53719",
+                            "country": "US"
+                        }
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-271-9000",
+                                "use": "work"
+                            }
+                        ],
+                        "address": {
+                            "use": "work",
+                            "line": [
+                                "1979 MILKY WAY"
+                            ],
+                            "city": "VERONA",
+                            "district": "DANE",
+                            "state": "WI",
+                            "postalCode": "53593",
+                            "country": "US"
+                        },
+                        "organization": {
+                            "display": "Ehs Generic Employer"
+                        }
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Condition/eZI043JKrXo1unfgS9n0xtw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Condition/eZI043JKrXo1unfgS9n0xtw3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "eZI043JKrXo1unfgS9n0xtw3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "R10.13"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "79922009"
+                        }
+                    ],
+                    "text": "Abdominal pain, epigastric"
+                },
+                "subject": {
+                    "reference": "Patient/eRp.HuKDlKB8MhAkzHFthQQ3",
+                    "display": "Asap, Adam"
+                },
+                "onsetPeriod": {
+                    "start": "2019-11-20",
+                    "end": "2019-11-20"
+                },
+                "recordedDate": "2019-11-20"
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

@@ -1,0 +1,646 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 6,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=eTRvLlC7.Vj5gFQ4cuolvpQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eJ.lbkPhJ5btL3F1V75JezA3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eJ.lbkPhJ5btL3F1V75JezA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eJ.lbkPhJ5btL3F1V75JezA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "906112"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ebgkUWtKqUFa81PMANQO1I6NqkkbN8gxbZMdZr7KDW92-LFG08mZHkaTjziV39-Om3",
+                    "display": "bupivacaine (MARCAINE) injection 0.5%"
+                },
+                "subject": {
+                    "reference": "Patient/eTRvLlC7.Vj5gFQ4cuolvpQ3",
+                    "display": "Optime, Casey"
+                },
+                "encounter": {
+                    "reference": "Encounter/ezRdj88MMX9R0LYLcgh5XQg3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2011-04-10T21:48:08Z",
+                "requester": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eUHWM5R81nV4SlA71j3Y7rA3",
+                    "type": "Practitioner",
+                    "display": "Circ Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "As needed, Starting Sun 4/10/11 at 1647, Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2011-04-10T21:47:00Z",
+                                    "end": "2011-04-10T21:53:35Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eOSmSV5SH.J7xZwIaT4fe.A3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eOSmSV5SH.J7xZwIaT4fe.A3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eOSmSV5SH.J7xZwIaT4fe.A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "906098"
+                    }
+                ],
+                "status": "on-hold",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/ee7TuuQ8nCIwHPamSqua1F6Dub6hEJ6oWf1xxDDZeXQI0U90syZvR5h5ZBH48e6FB3",
+                    "display": "ALPRAZolam (XANAX) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eTRvLlC7.Vj5gFQ4cuolvpQ3",
+                    "display": "Optime, Casey"
+                },
+                "encounter": {
+                    "reference": "Encounter/e40WqpwV4HWANRyjpIrl.eQ3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2011-04-10T18:23:16Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 0.25 mg by mouth nightly as needed.  , Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 0.25 mg by mouth nightly as needed.  ",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "Nightly as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 0.25,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eP1sjus1T7Nan-GTfD4uLQw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eP1sjus1T7Nan-GTfD4uLQw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eP1sjus1T7Nan-GTfD4uLQw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "906101"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e.IZlEDKZ-g4tmlTgs2a0WDBsVKLNDdxKfikXps4LnPRieRUd6SBYkyoWqjvfnK9Z3",
+                    "display": "fentaNYL (SUBLIMAZE) injection"
+                },
+                "subject": {
+                    "reference": "Patient/eTRvLlC7.Vj5gFQ4cuolvpQ3",
+                    "display": "Optime, Casey"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "15443"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2011-04-10T18:45:04Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, other, Starting Sun 4/10/11 at 1344, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2011-04-10T18:44:00Z",
+                                    "end": "2011-04-25T14:48:44Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVP9GazDIF9DTGh00rzVHOg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eVP9GazDIF9DTGh00rzVHOg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eVP9GazDIF9DTGh00rzVHOg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "906100"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eXhfdm7Saef5s8kXwOKLbfgg.A.zsSOusj7vNZfURKA2c1p1-jg6li.9egp5eW8rL3",
+                    "display": "ceFAZolin (ANCEF) vial 1 g"
+                },
+                "subject": {
+                    "reference": "Patient/eTRvLlC7.Vj5gFQ4cuolvpQ3",
+                    "display": "Optime, Casey"
+                },
+                "encounter": {
+                    "reference": "Encounter/ezRdj88MMX9R0LYLcgh5XQg3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2011-04-10T18:34:29Z",
+                "requester": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eUHWM5R81nV4SlA71j3Y7rA3",
+                    "type": "Practitioner",
+                    "display": "Circ Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "As needed, Starting Sun 4/10/11 at 1334, Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2011-04-10T18:34:00Z",
+                                    "end": "2011-04-10T18:38:08Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ecZ2Nr2bgZWfO4eeAico2Vw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ecZ2Nr2bgZWfO4eeAico2Vw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ecZ2Nr2bgZWfO4eeAico2Vw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "906113"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eqqOnYRQjKbdm4rltcYFMpYKuG05ihys.KTF-mBcuhO9luPZGG5qisufOSBQ9RSgc3",
+                    "display": "ceFAZolin (ANCEF) IVPB 1 g in 50 mL (premix)"
+                },
+                "subject": {
+                    "reference": "Patient/eTRvLlC7.Vj5gFQ4cuolvpQ3",
+                    "display": "Optime, Casey"
+                },
+                "encounter": {
+                    "reference": "Encounter/e8n7lRkWXFWujxnwnN8y6fw3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2011-04-13T03:02:53Z",
+                "requester": {
+                    "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                    "type": "Practitioner",
+                    "display": "Physician Surgery, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eUHWM5R81nV4SlA71j3Y7rA3",
+                    "type": "Practitioner",
+                    "display": "Circ Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "for 30 Minutes, As needed, Starting Tue 4/12/11 at 2202, Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2011-04-13T03:02:00Z",
+                                    "end": "2011-04-13T03:08:00Z"
+                                },
+                                "duration": 30,
+                                "durationUnit": "min",
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eq5wXVHRXB5GKAIw2e2-Dmw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eq5wXVHRXB5GKAIw2e2-Dmw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eq5wXVHRXB5GKAIw2e2-Dmw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "906099"
+                    }
+                ],
+                "status": "on-hold",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eopwiHwLo3HBxoR68auv.zg0wcPozrC5nahTdAcyJpR9yCjYMmYoNshi1WJ4ZZzQx3",
+                    "display": "metFORMIN (GLUCOPHAGE-XR) 24 hr tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eTRvLlC7.Vj5gFQ4cuolvpQ3",
+                    "display": "Optime, Casey"
+                },
+                "encounter": {
+                    "reference": "Encounter/e40WqpwV4HWANRyjpIrl.eQ3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2011-04-10T18:23:16Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 500 mg by mouth daily with breakfast.  , Until Discontinued, Historical Med",
+                        "patientInstruction": "Take 500 mg by mouth daily with breakfast.  ",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "08:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 500,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

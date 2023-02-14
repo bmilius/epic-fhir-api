@@ -1,0 +1,2499 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 37,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=et3PZ7IAOT0bMlZB7.XAbMA3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erEUj0cIxliR26iK1owjp5g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erEUj0cIxliR26iK1owjp5g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "erEUj0cIxliR26iK1owjp5g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "15755"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "5",
+                    "display": "Appointment"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "50",
+                                "display": "Appointment"
+                            }
+                        ],
+                        "text": "Appointment"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2014-02-27T17:15:00Z",
+                            "end": "2014-02-27T18:00:00Z"
+                        },
+                        "individual": {
+                            "display": "EMC MRI"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2014-02-27T17:15:00Z",
+                    "end": "2014-02-27T18:00:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e8v41.uzqmi5.bka69soWFfQAZwRGAPG9w2RZCdUhMag3",
+                            "display": "EMC MR Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebq4fRY7bhovWr3ptwjmpNA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebq4fRY7bhovWr3ptwjmpNA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ebq4fRY7bhovWr3ptwjmpNA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3083"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "115",
+                                "display": "Resolute Professional Billing Hospital Prof Fee"
+                            }
+                        ],
+                        "text": "Resolute Professional Billing Hospital Prof Fee"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-11-11T06:00:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/erz8XDoDnZ2fDMtQu36oW6m7uphpmXI3drRQrBFH20fE3",
+                            "display": "EMH Cardiac Intensive Care"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/erz8XDoDnZ2fDMtQu36oW6m7uphpmXI3drRQrBFH20fE3",
+                            "display": "EMH Cardiac Intensive Care"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eb-bbKHg6.HPhjOw82K8jlA3",
+                            "display": "406"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNLmBoMGOGrmeuHmYzmu8Uw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNLmBoMGOGrmeuHmYzmu8Uw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eNLmBoMGOGrmeuHmYzmu8Uw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3084"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "119",
+                            "display": "Orthopedics"
+                        }
+                    ],
+                    "text": "Orthopedics"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2012-11-11T19:07:03Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9s-IdXQOUVywHOVoisd6xQ3",
+                            "type": "Practitioner",
+                            "display": "Attending Physician Inpatient, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-11-11T19:07:03Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "299"
+                        },
+                        "display": "ORDERS,GEORGE"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2012-11-11T19:07:03Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "1",
+                                "display": "Non-Healthcare Facility"
+                            }
+                        ],
+                        "text": "Non-Healthcare Facility"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        },
+                        "period": {
+                            "start": "2012-11-11T19:07:00Z",
+                            "end": "2013-03-09T20:30:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+                            "display": "EMH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2013-03-09T20:30:00Z",
+                            "end": "2013-03-09T20:46:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/erz8XDoDnZ2fDMtQu36oW6m7uphpmXI3drRQrBFH20fE3",
+                            "display": "EMH Cardiac Intensive Care"
+                        },
+                        "period": {
+                            "start": "2013-03-09T20:46:00Z",
+                            "end": "2014-11-06T14:42:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/erz8XDoDnZ2fDMtQu36oW6m7uphpmXI3drRQrBFH20fE3",
+                            "display": "EMH Cardiac Intensive Care"
+                        },
+                        "period": {
+                            "start": "2014-11-06T14:42:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/erz8XDoDnZ2fDMtQu36oW6m7uphpmXI3drRQrBFH20fE3",
+                            "display": "EMH Cardiac Intensive Care"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eGSop58QYwntjXNQajZFsJg3",
+                            "display": "405"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "813"
+                            },
+                            "display": "405-01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eVnABeo1icYFViuH32JzhOQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eVnABeo1icYFViuH32JzhOQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eVnABeo1icYFViuH32JzhOQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3085"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "107",
+                                "display": "Refill"
+                            }
+                        ],
+                        "text": "Refill"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2012-10-06",
+                    "end": "2012-10-06"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160383",
+                                "display": "Med Refill"
+                            }
+                        ],
+                        "text": "Med Refill"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/en5oFglGvczPEXdNptFm7dw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/en5oFglGvczPEXdNptFm7dw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "en5oFglGvczPEXdNptFm7dw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3086"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "111",
+                                "display": "Orders Only"
+                            }
+                        ],
+                        "text": "Orders Only"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2012-10-05",
+                    "end": "2012-10-05"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eml3KYTwLXG0NvMzB4iekIg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eml3KYTwLXG0NvMzB4iekIg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eml3KYTwLXG0NvMzB4iekIg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3087"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-10-01",
+                    "end": "2012-10-01"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160340",
+                                "display": "Knee Injury"
+                            }
+                        ],
+                        "text": "Knee Injury"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3SaFnY1ekMSgI2N6r0FVhQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3SaFnY1ekMSgI2N6r0FVhQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3SaFnY1ekMSgI2N6r0FVhQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3088"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "6",
+                    "display": "Discharge"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "103",
+                                "display": "Emergency"
+                            }
+                        ],
+                        "text": "Emergency"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "end": "2012-09-28T15:01:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "298"
+                        },
+                        "display": "ORDERS,GEORGE"
+                    }
+                ],
+                "hospitalization": {
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                                "code": "1",
+                                "display": "Home or Self Care"
+                            }
+                        ],
+                        "text": "Home or Self Care"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eweKBcq8ruM-1MzZAX-A-0uj2rDm4SMniPONiaM5VGQk3",
+                            "display": "EMH Emergency"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e3tIsK9Aj4APyZgZK5Vrn8w3",
+                            "display": "CC02"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "247"
+                            },
+                            "display": "CC02"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ej7GOnZ7G4tnL6E9V.xgayg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ej7GOnZ7G4tnL6E9V.xgayg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ej7GOnZ7G4tnL6E9V.xgayg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3089"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "70",
+                                "display": "Telephone"
+                            }
+                        ],
+                        "text": "Telephone"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2012-06-29",
+                    "end": "2012-06-29"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "95",
+                                "display": "Results"
+                            }
+                        ],
+                        "text": "Results"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAryASUGex3WVUY8H3UjXRA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAryASUGex3WVUY8H3UjXRA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eAryASUGex3WVUY8H3UjXRA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3090"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-06-27",
+                    "end": "2012-06-27"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160302",
+                                "display": "Hypertension"
+                            }
+                        ],
+                        "text": "Hypertension"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "110",
+                                "display": "Thyroid Problem"
+                            }
+                        ],
+                        "text": "Thyroid Problem"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJMn1vRMTIk07HL56QpcQ3A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eJMn1vRMTIk07HL56QpcQ3A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eJMn1vRMTIk07HL56QpcQ3A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3091"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-04-23",
+                    "end": "2012-04-23"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160302",
+                                "display": "Hypertension"
+                            }
+                        ],
+                        "text": "Hypertension"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "72",
+                                "display": "Nicotine Dependence"
+                            }
+                        ],
+                        "text": "Nicotine Dependence"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZMCrMIQfB26x6A9gxLu-mw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZMCrMIQfB26x6A9gxLu-mw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eZMCrMIQfB26x6A9gxLu-mw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3092"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-03-22",
+                    "end": "2012-03-22"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "110027",
+                                "display": "Colon Cancer Screening"
+                            }
+                        ],
+                        "text": "Colon Cancer Screening"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebTX2g8zsTI9eHMA8bNxAmA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebTX2g8zsTI9eHMA8bNxAmA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ebTX2g8zsTI9eHMA8bNxAmA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3093"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-03-17",
+                    "end": "2012-03-17"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "95",
+                                "display": "Results"
+                            }
+                        ],
+                        "text": "Results"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ez7Kh4iB8N82WxcJouTm3IA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ez7Kh4iB8N82WxcJouTm3IA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ez7Kh4iB8N82WxcJouTm3IA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3095"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-03-12",
+                    "end": "2012-03-12"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "83",
+                                "display": "Annual Exam"
+                            }
+                        ],
+                        "text": "Annual Exam"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160302",
+                                "display": "Hypertension"
+                            }
+                        ],
+                        "text": "Hypertension"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160690",
+                                "display": "Heartburn"
+                            }
+                        ],
+                        "text": "Heartburn"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "58",
+                                "display": "Immunizations"
+                            }
+                        ],
+                        "text": "Immunizations"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e4WaIHMDShvnFE3oIMXLzgg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e4WaIHMDShvnFE3oIMXLzgg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e4WaIHMDShvnFE3oIMXLzgg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3097"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-11-18",
+                    "end": "2010-11-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egfSUY7-4HuiDwwR12uXuug3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egfSUY7-4HuiDwwR12uXuug3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "egfSUY7-4HuiDwwR12uXuug3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3098"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-11-17",
+                    "end": "2010-11-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3-d8UFfVxx37n69-NN.AqA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3-d8UFfVxx37n69-NN.AqA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3-d8UFfVxx37n69-NN.AqA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3099"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-11-13",
+                    "end": "2010-11-13"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egrT1bd13e21rYTgHsFWuDQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egrT1bd13e21rYTgHsFWuDQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "egrT1bd13e21rYTgHsFWuDQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3100"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-11-10",
+                    "end": "2010-11-10"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1V-7TJaC1K378fP-IKhgvA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1V-7TJaC1K378fP-IKhgvA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e1V-7TJaC1K378fP-IKhgvA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3101"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-08-11",
+                    "end": "2010-08-11"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3OTulPsyAD6qzAzbcg97yw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3OTulPsyAD6qzAzbcg97yw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3OTulPsyAD6qzAzbcg97yw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3102"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-08-09",
+                    "end": "2010-08-09"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eV-ITZ9G0mnsQVOGwjSDyPw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eV-ITZ9G0mnsQVOGwjSDyPw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eV-ITZ9G0mnsQVOGwjSDyPw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3103"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-06-05",
+                    "end": "2010-06-05"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/en3tM0ZHwyA8qRHBUO4ye4g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/en3tM0ZHwyA8qRHBUO4ye4g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "en3tM0ZHwyA8qRHBUO4ye4g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3104"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-05-04",
+                    "end": "2010-05-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erLJrN8ySRJUwZLVnQ9m4ng3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erLJrN8ySRJUwZLVnQ9m4ng3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "erLJrN8ySRJUwZLVnQ9m4ng3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3105"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-29",
+                    "end": "2010-04-29"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehzzdgOksOTSM6VCOpNzyVQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehzzdgOksOTSM6VCOpNzyVQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ehzzdgOksOTSM6VCOpNzyVQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3106"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-26",
+                    "end": "2010-04-26"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehPO1Di8BNAItKSdg6kdFrw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehPO1Di8BNAItKSdg6kdFrw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ehPO1Di8BNAItKSdg6kdFrw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3107"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-25",
+                    "end": "2010-04-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-bMg3-J5UilOwvBw8LQfKA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-bMg3-J5UilOwvBw8LQfKA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e-bMg3-J5UilOwvBw8LQfKA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3108"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-24",
+                    "end": "2010-04-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2L1gsXXuowuHfXAuR4aJlA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2L1gsXXuowuHfXAuR4aJlA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e2L1gsXXuowuHfXAuR4aJlA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3109"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-24",
+                    "end": "2010-04-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7K5RXvjWaBfOVjUllrFUXw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7K5RXvjWaBfOVjUllrFUXw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7K5RXvjWaBfOVjUllrFUXw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3110"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-24",
+                    "end": "2010-04-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9S5.3jToKLAPmzL.SOHm.Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e9S5.3jToKLAPmzL.SOHm.Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e9S5.3jToKLAPmzL.SOHm.Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3111"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-21",
+                    "end": "2010-04-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEt0y6fyOUxyAe.-0CkijFg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEt0y6fyOUxyAe.-0CkijFg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eEt0y6fyOUxyAe.-0CkijFg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3112"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-04-18",
+                    "end": "2010-04-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWFDa2otaU8fZ45q2zrsspg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWFDa2otaU8fZ45q2zrsspg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWFDa2otaU8fZ45q2zrsspg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3113"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-01-17",
+                    "end": "2010-01-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e50XJRnhJox2aJaqOWxD3aA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e50XJRnhJox2aJaqOWxD3aA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e50XJRnhJox2aJaqOWxD3aA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3114"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2010-01-15",
+                    "end": "2010-01-15"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eXy.9wbSPqkyts-apj7jznA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eXy.9wbSPqkyts-apj7jznA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eXy.9wbSPqkyts-apj7jznA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3115"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2009-11-11",
+                    "end": "2009-11-11"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7GK5wRHX1pmqe7ySjphR8g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7GK5wRHX1pmqe7ySjphR8g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7GK5wRHX1pmqe7ySjphR8g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3116"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2009-10-10",
+                    "end": "2009-10-10"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/emoM.ruABJbxKpMv8vDw0Ng3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/emoM.ruABJbxKpMv8vDw0Ng3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "emoM.ruABJbxKpMv8vDw0Ng3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3117"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2009-10-05",
+                    "end": "2009-10-05"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQ2nqa8HemQWKi1FzS-cthg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQ2nqa8HemQWKi1FzS-cthg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eQ2nqa8HemQWKi1FzS-cthg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3118"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2009-09-30",
+                    "end": "2009-09-30"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eERBqiHfXAFFpY5tRkuurLg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eERBqiHfXAFFpY5tRkuurLg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eERBqiHfXAFFpY5tRkuurLg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3119"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2009-09-30",
+                    "end": "2009-09-30"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezODCs.2TxOlOKXqyfIXzFg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezODCs.2TxOlOKXqyfIXzFg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ezODCs.2TxOlOKXqyfIXzFg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3120"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+                    "display": "Orders, George"
+                },
+                "period": {
+                    "start": "2009-09-30",
+                    "end": "2009-09-30"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/et3PZ7IAOT0bMlZB7.XAbMA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/et3PZ7IAOT0bMlZB7.XAbMA3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "et3PZ7IAOT0bMlZB7.XAbMA3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "882-80-8927"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1BTTM274T34LZ"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3261"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4674"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "Tw6-9qdXaEamZ-lXoPE6AoqN0crFtmVb3eWqscKKEOBQB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "et3PZ7IAOT0bMlZB7.XAbMA3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4674"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "203011"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "ORDERSGEORGE"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "492"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+                        "value": "192836118"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+                        "value": "129836719263"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+                        "value": "193729361A"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "George Orders",
+                        "family": "Orders",
+                        "given": [
+                            "George"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "George Orders",
+                        "family": "Orders",
+                        "given": [
+                            "George"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-213-5806",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-272-5000",
+                        "use": "work"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1954-03-13",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "old",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    }
+                ],
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "14",
+                                        "display": "Sister"
+                                    }
+                                ],
+                                "text": "Sister"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Sally Tonga"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-921-8342",
+                                "use": "home"
+                            }
+                        ]
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "organization": {
+                            "display": "Ehs Generic Employer"
+                        }
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

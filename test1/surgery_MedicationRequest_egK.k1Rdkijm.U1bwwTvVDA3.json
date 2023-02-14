@@ -1,0 +1,666 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 5,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=egK.k1Rdkijm.U1bwwTvVDA3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e9ge5Q6neeToAtxY8s8ivvykNgr.igB2XLMI5Lod0Qsg3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e9ge5Q6neeToAtxY8s8ivvykNgr.igB2XLMI5Lod0Qsg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e9ge5Q6neeToAtxY8s8ivvykNgr.igB2XLMI5Lod0Qsg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004195"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eYxxQzDGcdzH-EeJhps8FtaZgFZzM1Vlu08QVqbuS6fsPlL39ZgziGlQcgiqSLge03",
+                    "display": "montelukast (SINGULAIR) tablet 10 mg"
+                },
+                "subject": {
+                    "reference": "Patient/egK.k1Rdkijm.U1bwwTvVDA3",
+                    "display": "Platypus, Penelope OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eofAKsq1hHrfBnX5gmI9tew3",
+                    "display": "Appointment"
+                },
+                "authoredOn": "2024-07-19T17:46:49Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e0Jp3gj4FaIdH3TtBOvpIIA3",
+                    "type": "Practitioner",
+                    "display": "Pre Admission Testing Nurse, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 10 mg by mouth every night., Historical Med",
+                        "patientInstruction": "Take 10 mg by mouth every night.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "21:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "Every night at 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 10,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eKADMz56Q0arldVIoUStSSUGIq9HZcf7AymIahLZ1jc43"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eKADMz56Q0arldVIoUStSSUGIq9HZcf7AymIahLZ1jc43",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eKADMz56Q0arldVIoUStSSUGIq9HZcf7AymIahLZ1jc43",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004197"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/emVZxIcdFU.obH.vL.1xNrAQz779H-FPWtN1.Yp.yCMaJcK11buYv0nMc6NmHh.kh3",
+                    "display": "diphenhydrAMINE (BENADRYL) chewable tablet 12.5 mg"
+                },
+                "subject": {
+                    "reference": "Patient/egK.k1Rdkijm.U1bwwTvVDA3",
+                    "display": "Platypus, Penelope OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eofAKsq1hHrfBnX5gmI9tew3",
+                    "display": "Appointment"
+                },
+                "authoredOn": "2024-07-19T17:46:49Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e0Jp3gj4FaIdH3TtBOvpIIA3",
+                    "type": "Practitioner",
+                    "display": "Pre Admission Testing Nurse, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Chew 12.5 mg every 6 (six) hours if needed for allergies., Historical Med",
+                        "patientInstruction": "Chew 12.5 mg every 6 (six) hours if needed for allergies.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 6,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 6 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419747000",
+                                    "display": "Chew"
+                                }
+                            ],
+                            "text": "Chew"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 12.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eRrc9qfOpk9jPyy6BWSFGgOljW3YYseguHZ4vSD7pxDY3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eRrc9qfOpk9jPyy6BWSFGgOljW3YYseguHZ4vSD7pxDY3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eRrc9qfOpk9jPyy6BWSFGgOljW3YYseguHZ4vSD7pxDY3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004193"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eqrD.wLClRk9I872Rsb-j-pA3QhJGKmJ12it.rDQ8G9Fc6or89AL-rvGB8KHq.5Yp3",
+                    "display": "olopatadine (PATANOL) ophthalmic solution 0.1%"
+                },
+                "subject": {
+                    "reference": "Patient/egK.k1Rdkijm.U1bwwTvVDA3",
+                    "display": "Platypus, Penelope OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eofAKsq1hHrfBnX5gmI9tew3",
+                    "display": "Appointment"
+                },
+                "authoredOn": "2024-07-19T17:46:49Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e0Jp3gj4FaIdH3TtBOvpIIA3",
+                    "type": "Practitioner",
+                    "display": "Pre Admission Testing Nurse, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Administer 1 drop into both eyes 2 (two) times a day., Historical Med",
+                        "patientInstruction": "Administer 1 drop into both eyes 2 (two) times a day.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "61",
+                                    "display": "Both Eyes"
+                                }
+                            ],
+                            "text": "Both Eyes"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "drop",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "[drp]"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eUWOZeV4lF6leF2BLnt.FB9bjxK3Wb7m1WZMwysFcAIE3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/eUWOZeV4lF6leF2BLnt.FB9bjxK3Wb7m1WZMwysFcAIE3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eUWOZeV4lF6leF2BLnt.FB9bjxK3Wb7m1WZMwysFcAIE3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004196"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/etzXHI-28NW9GeRa0JFjJ-sDEXXXjGJhGh0S8z8TcQsZpn38F9DWKgVdWp3JjpWxB3",
+                    "display": "cetirizine (ZyrTEC) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/egK.k1Rdkijm.U1bwwTvVDA3",
+                    "display": "Platypus, Penelope OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eofAKsq1hHrfBnX5gmI9tew3",
+                    "display": "Appointment"
+                },
+                "authoredOn": "2024-07-19T17:46:49Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e0Jp3gj4FaIdH3TtBOvpIIA3",
+                    "type": "Practitioner",
+                    "display": "Pre Admission Testing Nurse, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 5 mg by mouth 1 (one) time each day., Historical Med",
+                        "patientInstruction": "Take 5 mg by mouth 1 (one) time each day.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ew9Jii34XitHYS8cXVCbi8BrZaMlsvHa8RLNj80PrN-s3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ew9Jii34XitHYS8cXVCbi8BrZaMlsvHa8RLNj80PrN-s3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ew9Jii34XitHYS8cXVCbi8BrZaMlsvHa8RLNj80PrN-s3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004194"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedReference": {
+                    "display": "Self"
+                },
+                "medicationReference": {
+                    "reference": "Medication/eyEuXUuDLzMYptywmLa3sfIqZ6Mvoog9i.WRAAsT85HVtc3EVduBhheTH88nFJDiD3",
+                    "display": "fluticasone (FLONASE) nasal spray"
+                },
+                "subject": {
+                    "reference": "Patient/egK.k1Rdkijm.U1bwwTvVDA3",
+                    "display": "Platypus, Penelope OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/eofAKsq1hHrfBnX5gmI9tew3",
+                    "display": "Appointment"
+                },
+                "authoredOn": "2024-07-19T17:46:49Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/e0Jp3gj4FaIdH3TtBOvpIIA3",
+                    "type": "Practitioner",
+                    "display": "Pre Admission Testing Nurse, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "continuous",
+                            "display": "Continuous long term therapy"
+                        }
+                    ],
+                    "text": "Continuous long term therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Administer 1 spray into each nostril 1 (one) time each day., Historical Med",
+                        "patientInstruction": "Administer 1 spray into each nostril 1 (one) time each day.",
+                        "timing": {
+                            "repeat": {
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "110",
+                                    "display": "Each Nostril"
+                                }
+                            ],
+                            "text": "Each Nostril"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "spray",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{spray}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 2,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest?_format=json&patient=eYgBfU.QGNE3Jy-cfr7hyrQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e8gneNfAK362h5xg1YdCeHQ3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/e8gneNfAK362h5xg1YdCeHQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e8gneNfAK362h5xg1YdCeHQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "850300"
+                    }
+                ],
+                "status": "active",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eQrUnelpNgzhMgQsYtRmwC.0126iQfmHAX6bX3ceoAIqJ.o0D3F-KWgkMOZVdeLw-3",
+                    "display": "ibuprofen (MOTRIN) chewable tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eYgBfU.QGNE3Jy-cfr7hyrQ3",
+                    "display": "Ambulatory, Richard Gi"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6090"
+                    },
+                    "display": "Surgical Consult"
+                },
+                "authoredOn": "2013-03-03T13:38:27Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/eWIbfgMpwsHwUkoWBcw7uAA3",
+                    "type": "Practitioner",
+                    "display": "Physician Gastroenterology, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Chew 100 mg by mouth every 8 (eight) hours as needed.  , Until Discontinued, Historical Med",
+                        "patientInstruction": "Chew 100 mg by mouth every 8 (eight) hours as needed.  ",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 8,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 8 hours as needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ecWkl9eZV6.i0xP0u6svhSw3"
+                }
+            ],
+            "fullUrl": "https://apporchard.epic.com/interconnect-aocurprd-oauth/api/FHIR/R4/MedicationRequest/ecWkl9eZV6.i0xP0u6svhSw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ecWkl9eZV6.i0xP0u6svhSw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "850304"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ewLNinhtS5nEqjN5shBD4Sj8epf8BXvpx6WgOA2czM3dLWXHPmTvbwkITBtSEz4WE3",
+                    "display": "midazolam (VERSED) injection 5 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/eYgBfU.QGNE3Jy-cfr7hyrQ3",
+                    "display": "Ambulatory, Richard Gi"
+                },
+                "encounter": {
+                    "reference": "Encounter/eu0k-WuiOeSABhhOMQ2uDig3",
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-03-03T14:28:21Z",
+                "requester": {
+                    "reference": "Practitioner/eWIbfgMpwsHwUkoWBcw7uAA3",
+                    "type": "Practitioner",
+                    "display": "Physician Gastroenterology, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eguDS6DqYgPhQFVwAaKfE-A3",
+                    "type": "Practitioner",
+                    "display": "Gi Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Starting Sun 3/3/13 at 0825, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-03-03T14:25:00Z"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

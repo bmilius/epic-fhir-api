@@ -1,0 +1,1168 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 10,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eAbI0d6yC.SCZGeF0ed6gGQ3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZF9gKv3f4jYc9ch6i9171w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZF9gKv3f4jYc9ch6i9171w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eZF9gKv3f4jYc9ch6i9171w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25669"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "40",
+                                "display": "Wait List"
+                            }
+                        ],
+                        "text": "Wait List"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "period": {
+                    "start": "2024-06-19",
+                    "end": "2024-06-19"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/euigSlcTr5tKd6d8COGSnBw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/euigSlcTr5tKd6d8COGSnBw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "euigSlcTr5tKd6d8COGSnBw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25679"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "117",
+                            "display": "Obstetrics"
+                        }
+                    ],
+                    "text": "Obstetrics"
+                },
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2023-09-13T18:08:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2023-09-13T18:08:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "2639"
+                        },
+                        "display": "ZZIPMASTER,APRIL"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2023-09-13T18:10:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        },
+                        {
+                            "valueDateTime": "2023-09-13T18:08:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        },
+                        "period": {
+                            "start": "2023-09-13T18:08:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e2Jfu2jCmQRHnPyFz4Oo0OH05YdUnzFB278Z1dUCIaYs3",
+                            "display": "EMH Postpartum"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eeKsanhyupLfllShU5pTMRQ3",
+                            "display": "PP - 343"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "418"
+                            },
+                            "display": "343-01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eblThx5gr7Qqn9iGt745eiw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eblThx5gr7Qqn9iGt745eiw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eblThx5gr7Qqn9iGt745eiw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25678"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2023-09-03",
+                    "end": "2023-09-03"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egvsqdcDZUfNyUc44aJA9bw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egvsqdcDZUfNyUc44aJA9bw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "egvsqdcDZUfNyUc44aJA9bw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25677"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2023-08-15",
+                    "end": "2023-08-15"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eBWIRTd6ixXkKalkuwgnEuA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eBWIRTd6ixXkKalkuwgnEuA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eBWIRTd6ixXkKalkuwgnEuA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25676"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2023-07-14",
+                    "end": "2023-07-14"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/esl9BjrVPVyyb0ZFJk1kOFw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/esl9BjrVPVyyb0ZFJk1kOFw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "esl9BjrVPVyyb0ZFJk1kOFw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25675"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2023-06-19",
+                    "end": "2023-06-19"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eE-91ZAmF7ClOlHfg0T8kcQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eE-91ZAmF7ClOlHfg0T8kcQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eE-91ZAmF7ClOlHfg0T8kcQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25674"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2023-05-20",
+                    "end": "2023-05-20"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eokEdZRai2tFLKwZK24eSMQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eokEdZRai2tFLKwZK24eSMQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eokEdZRai2tFLKwZK24eSMQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25672"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1201",
+                                "display": "Initial Prenatal"
+                            }
+                        ],
+                        "text": "Initial Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2023-04-13",
+                    "end": "2023-04-13"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "120001",
+                                "display": "Initial Prenatal Visit"
+                            }
+                        ],
+                        "text": "Initial Prenatal Visit"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewo4fAPvKWfz3i2p7PxwoRQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewo4fAPvKWfz3i2p7PxwoRQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ewo4fAPvKWfz3i2p7PxwoRQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "25671"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2023-01-15",
+                    "end": "2023-01-15"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eyMTG6.HRA3jQDEvWezVd8g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eyMTG6.HRA3jQDEvWezVd8g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eyMTG6.HRA3jQDEvWezVd8g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "38102"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "display": "Zzipmaster, April"
+                },
+                "period": {
+                    "start": "2022-02-18",
+                    "end": "2022-02-18"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/e.snVMen4jlXVlgdgKg6HHg3",
+            "resource": {
+                "resourceType": "EpisodeOfCare",
+                "id": "e.snVMen4jlXVlgdgKg6HHg3",
+                "extension": [
+                    {
+                        "valueString": "Pregnancy",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/episode-name"
+                    }
+                ],
+                "status": "active",
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726668",
+                                "code": "2",
+                                "display": "Pregnancy"
+                            },
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.726668.130",
+                                "code": "1",
+                                "display": "Obstetrics"
+                            }
+                        ],
+                        "text": "Pregnancy"
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+                    "type": "Patient",
+                    "display": "Zzipmaster, April"
+                },
+                "period": {
+                    "start": "2023-04-13"
+                },
+                "team": [
+                    {
+                        "reference": "CareTeam/erKazE9Wt51yD-4GMTSukx6fPfRNORibRA95pblt8jhM3",
+                        "type": "CareTeam"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eAbI0d6yC.SCZGeF0ed6gGQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eAbI0d6yC.SCZGeF0ed6gGQ3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eAbI0d6yC.SCZGeF0ed6gGQ3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "128-86-2589"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1MMNC2RBGH6RH"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E21591"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z5840"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TdFiLVs7iakHGUpzgkgmtq96rk5hwYrvhixRxk5XGrDMB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eAbI0d6yC.SCZGeF0ed6gGQ3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z5840"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "2021224"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "April Zzipmaster",
+                        "family": "Zzipmaster",
+                        "given": [
+                            "April"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "April Zzipmaster",
+                        "family": "Zzipmaster",
+                        "given": [
+                            "April"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-555-4567",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-555-6543",
+                        "use": "work"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1996-01-16",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "old",
+                        "line": [
+                            "1218 Main Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53711",
+                        "country": "US"
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "1218 Main Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53711",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Married"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "17",
+                                        "display": "Spouse"
+                                    }
+                                ],
+                                "text": "Spouse"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Johnson,Michael"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-555-4567",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "1218 Main Street"
+                            ],
+                            "city": "Madison",
+                            "state": "WI",
+                            "postalCode": "53711",
+                            "country": "US"
+                        }
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

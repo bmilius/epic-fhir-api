@@ -1,0 +1,3016 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 49,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eWbeXBJDWoKbzWvPH1Kv22A3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQCfYiau4KKTW.65t7gLbfA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQCfYiau4KKTW.65t7gLbfA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eQCfYiau4KKTW.65t7gLbfA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6111"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "10",
+                    "display": "Surgery Log"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2011-10-10",
+                    "end": "2011-10-10T06:15:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/ejUYQRPGtz3vxe3M8nYCttnPcG64r9.6UJkiszxIi9zo3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    }
+                ],
+                "partOf": {
+                    "reference": "Encounter/eu55.10Yj4bArt4bp3QvFrA3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6114"
+                    },
+                    "display": "Hospital Encounter"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eu55.10Yj4bArt4bp3QvFrA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eu55.10Yj4bArt4bp3QvFrA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eu55.10Yj4bArt4bp3QvFrA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6114"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "117",
+                            "display": "Obstetrics"
+                        }
+                    ],
+                    "text": "Obstetrics"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    },
+                    {
+                        "reference": "EpisodeOfCare/eMlPoDib6egaCVUerYZOQXQ3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy 2"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2010-04-04T21:02:35Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "22",
+                                            "display": "Obstetrics and Gynecology"
+                                        }
+                                    ],
+                                    "text": "Obstetrics and Gynecology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-11T22:01:19Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2010-04-04T21:02:35Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "577"
+                        },
+                        "display": "STORK,MEL E"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2010-04-17T22:06:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        },
+                        {
+                            "valueDateTime": "2010-04-04T21:02:35Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2010-04-04T21:02:00Z",
+                            "end": "2010-04-17T22:06:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2010-04-17T22:06:00Z",
+                            "end": "2014-04-18T13:57:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2014-04-18T13:57:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eyW.tjVUgJQl5ze6B4kzrJg3",
+                            "display": "L&D - 321"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "309"
+                            },
+                            "display": "321-01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ecDhq1vxHh4ztsSn4Ge3UsQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ecDhq1vxHh4ztsSn4Ge3UsQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ecDhq1vxHh4ztsSn4Ge3UsQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6115"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2010-04-04"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exvWvVI8-JURAm.wZ3qKx-g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exvWvVI8-JURAm.wZ3qKx-g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "exvWvVI8-JURAm.wZ3qKx-g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6116"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2010-04-04"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqYcnaf3waxkl2OcH-.ZVYA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqYcnaf3waxkl2OcH-.ZVYA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eqYcnaf3waxkl2OcH-.ZVYA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6117"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2010-04-04"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eniBBF6NJSq6iSk1OBs2qtA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eniBBF6NJSq6iSk1OBs2qtA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eniBBF6NJSq6iSk1OBs2qtA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6118"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2009-12-16",
+                    "end": "2009-12-16"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eMq2gJHYtYQQ-t945b157tg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eMq2gJHYtYQQ-t945b157tg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eMq2gJHYtYQQ-t945b157tg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6120"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2009-12-06",
+                    "end": "2009-12-06"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eYvDVu7c1D9k2ssrLRNdvlQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eYvDVu7c1D9k2ssrLRNdvlQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eYvDVu7c1D9k2ssrLRNdvlQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6122"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2009-11-22",
+                    "end": "2009-11-22"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7aPAa13ybxh7vsydamOynw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7aPAa13ybxh7vsydamOynw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7aPAa13ybxh7vsydamOynw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6123"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-11-11",
+                    "end": "2009-11-11"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eO63PWBD3v4t3DLj51NCCMA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eO63PWBD3v4t3DLj51NCCMA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eO63PWBD3v4t3DLj51NCCMA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6124"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-11-09",
+                    "end": "2009-11-09"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWm1wiXTUrJ5OQLQPLZscHQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWm1wiXTUrJ5OQLQPLZscHQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWm1wiXTUrJ5OQLQPLZscHQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6125"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-11-06",
+                    "end": "2009-11-06"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eCGA8yTAUbe2geN-rqRB-sg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eCGA8yTAUbe2geN-rqRB-sg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eCGA8yTAUbe2geN-rqRB-sg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6126"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-10-27",
+                    "end": "2009-10-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ePr4Jpy.lK1DSkKyXHWe0OQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ePr4Jpy.lK1DSkKyXHWe0OQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ePr4Jpy.lK1DSkKyXHWe0OQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6127"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-10-27",
+                    "end": "2009-10-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/extASO08dcio0bYkCF0JRUw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/extASO08dcio0bYkCF0JRUw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "extASO08dcio0bYkCF0JRUw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6128"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-10-27",
+                    "end": "2009-10-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eB15qYLbyuwBj3f76PZUQ9Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eB15qYLbyuwBj3f76PZUQ9Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eB15qYLbyuwBj3f76PZUQ9Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6129"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-10-27",
+                    "end": "2009-10-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eILawRCdO5V7tUeUceG5uqg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eILawRCdO5V7tUeUceG5uqg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eILawRCdO5V7tUeUceG5uqg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6131"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2009-09-26",
+                    "end": "2009-09-26"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ek-fQln3Y0t7Np2cYT9d8xQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ek-fQln3Y0t7Np2cYT9d8xQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ek-fQln3Y0t7Np2cYT9d8xQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6133"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2009-08-03",
+                    "end": "2009-08-03"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1vqCN.NW.PCSGnvIuAKM4Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e1vqCN.NW.PCSGnvIuAKM4Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e1vqCN.NW.PCSGnvIuAKM4Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6134"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-07-10",
+                    "end": "2009-07-10"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eML2ROw1CCtQkVx8wHXP1zg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eML2ROw1CCtQkVx8wHXP1zg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eML2ROw1CCtQkVx8wHXP1zg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6135"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-06-30",
+                    "end": "2009-06-30"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZny691kV5VuiW7DkKr.Z8g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZny691kV5VuiW7DkKr.Z8g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eZny691kV5VuiW7DkKr.Z8g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6136"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-06-30",
+                    "end": "2009-06-30"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eE0BB8Kz9P1YAcxpzLFfzCA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eE0BB8Kz9P1YAcxpzLFfzCA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eE0BB8Kz9P1YAcxpzLFfzCA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6137"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-06-16",
+                    "end": "2009-06-16"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7k571-3KM82.zjHFpXcBtg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e7k571-3KM82.zjHFpXcBtg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e7k571-3KM82.zjHFpXcBtg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6138"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-06-16",
+                    "end": "2009-06-16"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ea2iUpmyl7mMoVCwvd6nkPg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ea2iUpmyl7mMoVCwvd6nkPg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ea2iUpmyl7mMoVCwvd6nkPg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6140"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1201",
+                                "display": "Initial Prenatal"
+                            }
+                        ],
+                        "text": "Initial Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2009-05-29",
+                    "end": "2009-05-29"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "120001",
+                                "display": "Initial Prenatal Visit"
+                            }
+                        ],
+                        "text": "Initial Prenatal Visit"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDrrVph-lcIlpSNW2Q3KyWw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDrrVph-lcIlpSNW2Q3KyWw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eDrrVph-lcIlpSNW2Q3KyWw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6142"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-04-20",
+                    "end": "2009-04-20"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erzG.Orz.frYlpFb0jYagnw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erzG.Orz.frYlpFb0jYagnw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "erzG.Orz.frYlpFb0jYagnw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6143"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-04-20",
+                    "end": "2009-04-20"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eTaZDE9ghwwE5dyB0jodyvA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eTaZDE9ghwwE5dyB0jodyvA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eTaZDE9ghwwE5dyB0jodyvA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6144"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-03-10",
+                    "end": "2009-03-10"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAiP7cOsPsr9z9jMVMbTknQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAiP7cOsPsr9z9jMVMbTknQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eAiP7cOsPsr9z9jMVMbTknQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6145"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-03-08",
+                    "end": "2009-03-08"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eFdWAE6a2OMPK0TlbdDJSyA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eFdWAE6a2OMPK0TlbdDJSyA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eFdWAE6a2OMPK0TlbdDJSyA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6146"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-03-05",
+                    "end": "2009-03-05"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEhab6gB0WuqpHvpRTHC4yA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEhab6gB0WuqpHvpRTHC4yA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eEhab6gB0WuqpHvpRTHC4yA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6147"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-02-25",
+                    "end": "2009-02-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezfrrSbkuaesN6cEbhKbaBw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezfrrSbkuaesN6cEbhKbaBw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ezfrrSbkuaesN6cEbhKbaBw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6148"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-02-25",
+                    "end": "2009-02-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eiBj8xI8IY4hP6fZVPcTAxw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eiBj8xI8IY4hP6fZVPcTAxw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eiBj8xI8IY4hP6fZVPcTAxw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6149"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-02-23",
+                    "end": "2009-02-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3KoeFRQ1Vc8uyk9XOSFPtA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3KoeFRQ1Vc8uyk9XOSFPtA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3KoeFRQ1Vc8uyk9XOSFPtA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6150"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-02-23",
+                    "end": "2009-02-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebHh5BB6a5Kd8IUqiI1RklA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ebHh5BB6a5Kd8IUqiI1RklA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ebHh5BB6a5Kd8IUqiI1RklA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6151"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-02-23",
+                    "end": "2009-02-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eV5JykGeg.2d.7kMJLcwdjA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eV5JykGeg.2d.7kMJLcwdjA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eV5JykGeg.2d.7kMJLcwdjA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6152"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-02-23",
+                    "end": "2009-02-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eOkSYAFhQ-gBTriblzk-jsw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eOkSYAFhQ-gBTriblzk-jsw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eOkSYAFhQ-gBTriblzk-jsw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6153"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-12-21",
+                    "end": "2008-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-v5o0DguD2ijt0GjEH8ZkA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-v5o0DguD2ijt0GjEH8ZkA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e-v5o0DguD2ijt0GjEH8ZkA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6154"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-12-21",
+                    "end": "2008-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e0aS.eE3xYCWDjzP.nudP0w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e0aS.eE3xYCWDjzP.nudP0w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e0aS.eE3xYCWDjzP.nudP0w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6155"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-12-21",
+                    "end": "2008-12-21"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e0-Q0QCtfhsghNyvdigH7dA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e0-Q0QCtfhsghNyvdigH7dA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e0-Q0QCtfhsghNyvdigH7dA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6156"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-11-06",
+                    "end": "2008-11-06"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e0ImnYlQFAMUg5WUylfG0Ug3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e0ImnYlQFAMUg5WUylfG0Ug3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e0ImnYlQFAMUg5WUylfG0Ug3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6157"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-10-27",
+                    "end": "2008-10-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eorNN31q7PtrkhW1IiM029A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eorNN31q7PtrkhW1IiM029A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eorNN31q7PtrkhW1IiM029A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6158"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-10-27",
+                    "end": "2008-10-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etrf18U3K6MPK.dIpVsgSJA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etrf18U3K6MPK.dIpVsgSJA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "etrf18U3K6MPK.dIpVsgSJA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6159"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-10-13",
+                    "end": "2008-10-13"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAuMdOYzwQFCFYMYJ6RMJ.g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eAuMdOYzwQFCFYMYJ6RMJ.g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eAuMdOYzwQFCFYMYJ6RMJ.g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6160"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-10-13",
+                    "end": "2008-10-13"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eFDdAGAfKqJr2ehaEeyYn4g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eFDdAGAfKqJr2ehaEeyYn4g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eFDdAGAfKqJr2ehaEeyYn4g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6161"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-08-17",
+                    "end": "2008-08-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ePd3plhW6-4OoEr1Lc90BMw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ePd3plhW6-4OoEr1Lc90BMw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ePd3plhW6-4OoEr1Lc90BMw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6162"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-08-17",
+                    "end": "2008-08-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elAgjvLB45cX.0lqoodWI4g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elAgjvLB45cX.0lqoodWI4g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elAgjvLB45cX.0lqoodWI4g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6163"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-06-24",
+                    "end": "2008-06-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egVHRAUjkfhJNGN7zACBrPQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/egVHRAUjkfhJNGN7zACBrPQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "egVHRAUjkfhJNGN7zACBrPQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6164"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-06-24",
+                    "end": "2008-06-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqWjrXCCR5Fbx0yTBZJFvyg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eqWjrXCCR5Fbx0yTBZJFvyg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eqWjrXCCR5Fbx0yTBZJFvyg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6165"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-04-19",
+                    "end": "2008-04-19"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ensvS96KagFvbDvshdxubzw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ensvS96KagFvbDvshdxubzw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ensvS96KagFvbDvshdxubzw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6166"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-04-19",
+                    "end": "2008-04-19"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekuGrrm-f6kaOwpg2BJUhyQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekuGrrm-f6kaOwpg2BJUhyQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ekuGrrm-f6kaOwpg2BJUhyQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6167"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2008-04-19",
+                    "end": "2008-04-19"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+            "resource": {
+                "resourceType": "EpisodeOfCare",
+                "id": "e3kVmAdVLrXhHgaih7I3Haw3",
+                "extension": [
+                    {
+                        "valueString": "First Pregnancy",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/episode-name"
+                    }
+                ],
+                "status": "finished",
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726668",
+                                "code": "2",
+                                "display": "Pregnancy"
+                            },
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.726668.130",
+                                "code": "1",
+                                "display": "Obstetrics"
+                            }
+                        ],
+                        "text": "Pregnancy"
+                    }
+                ],
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/eJGSszPQGqe2tERqaF1fQCg3",
+                            "type": "Condition",
+                            "display": "Supervision of normal first pregnancy (Resolved)"
+                        }
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "type": "Patient",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2009-05-29",
+                    "end": "2022-10-15"
+                },
+                "team": [
+                    {
+                        "reference": "CareTeam/e-okWSsWLss7gw17w0cK4CykCjW7zuRA9q9IigY4iiW43",
+                        "type": "CareTeam"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/eMlPoDib6egaCVUerYZOQXQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/eMlPoDib6egaCVUerYZOQXQ3",
+            "resource": {
+                "resourceType": "EpisodeOfCare",
+                "id": "eMlPoDib6egaCVUerYZOQXQ3",
+                "extension": [
+                    {
+                        "valueString": "Pregnancy 2",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/episode-name"
+                    }
+                ],
+                "status": "finished",
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726668",
+                                "code": "2",
+                                "display": "Pregnancy"
+                            },
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.726668.130",
+                                "code": "1",
+                                "display": "Obstetrics"
+                            }
+                        ],
+                        "text": "Pregnancy"
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "type": "Patient",
+                    "display": "Stork, Mel E"
+                },
+                "period": {
+                    "start": "2010-04-14",
+                    "end": "2017-07-05"
+                },
+                "team": [
+                    {
+                        "reference": "CareTeam/e-okWSsWLss7gw17w0cK4C83rovgIdNMza6Rds46b5Ts3",
+                        "type": "CareTeam"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eWbeXBJDWoKbzWvPH1Kv22A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eWbeXBJDWoKbzWvPH1Kv22A3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "114-79-7716"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1LK8K2K67RSX9"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3003"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4938"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TxXsH3B0SRWxyqXHy8u4-KM-PMyarX-U63MA1efVFf6kB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eWbeXBJDWoKbzWvPH1Kv22A3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4938"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202753"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Mel E Stork",
+                        "family": "Stork",
+                        "given": [
+                            "Mel",
+                            "E"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Mel E Stork",
+                        "family": "Stork",
+                        "given": [
+                            "Mel",
+                            "E"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-555-4578",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-555-4785",
+                        "use": "work"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-555-7774",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1982-05-29",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "4563 Quartz Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53719",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Married"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "17",
+                                        "display": "Spouse"
+                                    }
+                                ],
+                                "text": "Spouse"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Michael Williams"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-555-4578",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "4563 Quartz Street"
+                            ],
+                            "city": "Madison",
+                            "state": "WI",
+                            "postalCode": "53719",
+                            "country": "US"
+                        }
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "organization": {
+                            "display": "Other"
+                        }
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eu55.10Yj4bArt4bp3QvFrA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eu55.10Yj4bArt4bp3QvFrA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eu55.10Yj4bArt4bp3QvFrA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6114"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "117",
+                            "display": "Obstetrics"
+                        }
+                    ],
+                    "text": "Obstetrics"
+                },
+                "subject": {
+                    "reference": "Patient/eWbeXBJDWoKbzWvPH1Kv22A3",
+                    "display": "Stork, Mel E"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/e3kVmAdVLrXhHgaih7I3Haw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    },
+                    {
+                        "reference": "EpisodeOfCare/eMlPoDib6egaCVUerYZOQXQ3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy 2"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2010-04-04T21:02:35Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "22",
+                                            "display": "Obstetrics and Gynecology"
+                                        }
+                                    ],
+                                    "text": "Obstetrics and Gynecology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-11T22:01:19Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2010-04-04T21:02:35Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "577"
+                        },
+                        "display": "STORK,MEL E"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2010-04-17T22:06:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        },
+                        {
+                            "valueDateTime": "2010-04-04T21:02:35Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2010-04-04T21:02:00Z",
+                            "end": "2010-04-17T22:06:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2010-04-17T22:06:00Z",
+                            "end": "2014-04-18T13:57:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2014-04-18T13:57:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eyW.tjVUgJQl5ze6B4kzrJg3",
+                            "display": "L&D - 321"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "309"
+                            },
+                            "display": "321-01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

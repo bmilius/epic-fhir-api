@@ -1,0 +1,1410 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 4,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest?_include=MedicationRequest:medicationReference&_include=MedicationRequest:encounter&_include=MedicationRequest:subject&_format=json&patient=eh0Qkxbc66q1wUpNtnJmX4w3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eNarulLs3PlvxKde-jYBFQ64cToZiWUr-raceyIqifWg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eNarulLs3PlvxKde-jYBFQ64cToZiWUr-raceyIqifWg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eNarulLs3PlvxKde-jYBFQ64cToZiWUr-raceyIqifWg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004271"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/erPDTHR6K2WA2zNgYrjQmNy1iW74lSMpAvrjGZmgjXK2.y5OcUxQjBaep0NfctAs13",
+                    "display": "ondansetron (ZOFRAN) 2 mg/mL injection"
+                },
+                "subject": {
+                    "reference": "Patient/eh0Qkxbc66q1wUpNtnJmX4w3",
+                    "display": "Walrus, Wilbur OpTime"
+                },
+                "encounter": {
+                    "extension": [
+                        {
+                            "valueIdentifier": {
+                                "use": "usual",
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                                "value": "26520"
+                            },
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ce-encounter-id"
+                        }
+                    ],
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26521"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-21T17:59:32Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, nausea, vomiting, Starting on Sun 7/21/24 at 1259, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T17:59:00Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eg-ax.Pq9n-17X3U7v2C7hKRKuV5bYxg16XdeG5D9Ygo3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eg-ax.Pq9n-17X3U7v2C7hKRKuV5bYxg16XdeG5D9Ygo3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eg-ax.Pq9n-17X3U7v2C7hKRKuV5bYxg16XdeG5D9Ygo3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004275"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e9Y4jqQD1pQtNjs.B8qO6422-E97zbvrDH48jYrIu5ppYAdbX3MEx4-nY1qQ677WB3",
+                    "display": "ceFAZolin (ANCEF) IV syringe 20 mg/mL in D5W (pediatric)"
+                },
+                "subject": {
+                    "reference": "Patient/eh0Qkxbc66q1wUpNtnJmX4w3",
+                    "display": "Walrus, Wilbur OpTime"
+                },
+                "encounter": {
+                    "reference": "Encounter/e28qvVXbKFBQtrpm44WIZ9g3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26519"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2024-07-21T17:02:40Z",
+                "requester": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/e7NvHbT1yipP-LcFkHyGq0g3",
+                    "type": "Practitioner",
+                    "display": "Pre-Procedure Nurse Optime, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "50 mg/kg/day, Intravenous, Administer over 30 Minutes, Every 8 hours scheduled, First dose on Sun 7/21/24 at 1400",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T18:33:19Z",
+                                    "end": "2024-07-21T18:33:19Z"
+                                },
+                                "duration": 30,
+                                "durationUnit": "min",
+                                "frequency": 3,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "0600, 1400, 2200"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 50,
+                                    "unit": "mg/kg/day",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/kg/d"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/euzkWnfCCX1xspzS1fLj86mdDy04u582vkloo60MTpn83"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/euzkWnfCCX1xspzS1fLj86mdDy04u582vkloo60MTpn83",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "euzkWnfCCX1xspzS1fLj86mdDy04u582vkloo60MTpn83",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004270"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eZdimPObjtapS4QjY3CoEi7f7wglW9fQvCCtX-0Tz-oQkzBsIeKzOtD4Ctwos0Rtq3",
+                    "display": "rocuronium (ZEMURON) 100 mg/10 mL injection"
+                },
+                "subject": {
+                    "reference": "Patient/eh0Qkxbc66q1wUpNtnJmX4w3",
+                    "display": "Walrus, Wilbur OpTime"
+                },
+                "encounter": {
+                    "extension": [
+                        {
+                            "valueIdentifier": {
+                                "use": "usual",
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                                "value": "26520"
+                            },
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ce-encounter-id"
+                        }
+                    ],
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26521"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-21T17:59:29Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Sun 7/21/24 at 1259, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T17:59:00Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ezECVR8K-7ycV4JnObaM8DPN-oopI1SUEg31uJwuGlyc3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ezECVR8K-7ycV4JnObaM8DPN-oopI1SUEg31uJwuGlyc3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ezECVR8K-7ycV4JnObaM8DPN-oopI1SUEg31uJwuGlyc3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "1004272"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eO6rurXS08-pwNx0ZTnB2VpJc4pxy5gnU1RlS5Q1pguK4iLOSk63GWm6oc2H.PyXO3",
+                    "display": "dexamethasone (DECADRON) injection 10 mg/mL"
+                },
+                "subject": {
+                    "reference": "Patient/eh0Qkxbc66q1wUpNtnJmX4w3",
+                    "display": "Walrus, Wilbur OpTime"
+                },
+                "encounter": {
+                    "extension": [
+                        {
+                            "valueIdentifier": {
+                                "use": "usual",
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                                "value": "26520"
+                            },
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ce-encounter-id"
+                        }
+                    ],
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26521"
+                    },
+                    "display": "Anesthesia"
+                },
+                "authoredOn": "2024-07-21T17:59:38Z",
+                "requester": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                    "type": "Practitioner",
+                    "display": "Anesthesiologist Anesthesia, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Intravenous, As needed, Starting on Sun 7/21/24 at 1259, Anesthesia Intra-op",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-07-21T17:59:00Z"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "As needed"
+                            }
+                        },
+                        "asNeededBoolean": true,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e28qvVXbKFBQtrpm44WIZ9g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e28qvVXbKFBQtrpm44WIZ9g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e28qvVXbKFBQtrpm44WIZ9g3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26519"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "108",
+                                "display": "Surgery Admit"
+                            }
+                        ],
+                        "text": "Surgery Admit"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "124",
+                            "display": "General Surgery"
+                        }
+                    ],
+                    "text": "General Surgery"
+                },
+                "subject": {
+                    "reference": "Patient/eh0Qkxbc66q1wUpNtnJmX4w3",
+                    "display": "Walrus, Wilbur OpTime"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e4mnGt8AoLN8TrqZFnsrvmg3",
+                            "type": "Practitioner",
+                            "display": "Physician Two Pediatrics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T16:57:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e4mnGt8AoLN8TrqZFnsrvmg3",
+                            "type": "Practitioner",
+                            "display": "Physician Two Pediatrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "32",
+                                            "display": "Pediatrics"
+                                        }
+                                    ],
+                                    "text": "Pediatrics"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T15:13:52Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e4mnGt8AoLN8TrqZFnsrvmg3",
+                            "type": "Practitioner",
+                            "display": "Physician Two Pediatrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "32",
+                                            "display": "Pediatrics"
+                                        }
+                                    ],
+                                    "text": "Pediatrics"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T15:20:37Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                            "type": "Practitioner",
+                            "display": "Physician Pediatrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "2",
+                                            "display": "Anesthesiology"
+                                        }
+                                    ],
+                                    "text": "Anesthesiology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Anesthesiolo",
+                                        "display": "Anesthesiologist"
+                                    }
+                                ],
+                                "text": "Anesthesiologist"
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-07-21T17:58:51Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                            "type": "Practitioner",
+                            "display": "Anesthesiologist Anesthesia, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2024-07-21T16:57:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "2733"
+                        },
+                        "display": "WALRUS,WILBUR OPTIME"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2024-07-21T16:57:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "1",
+                                "display": "Non-Healthcare Facility"
+                            }
+                        ],
+                        "text": "Non-Healthcare Facility"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eHeR2B2gdVSvTnVj1hBDiZYsgc-X0LxWezfOe.ofOWm03",
+                            "display": "EPH Main Operating Room"
+                        },
+                        "period": {
+                            "start": "2024-07-21T16:57:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+                            "display": "EMH Medical Surgical"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e0H0ArMvC5fkwO7XC2hyJ1Q3",
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "916"
+                            },
+                            "display": "Med/Surg"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e9Y4jqQD1pQtNjs.B8qO6422-E97zbvrDH48jYrIu5ppYAdbX3MEx4-nY1qQ677WB3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e9Y4jqQD1pQtNjs.B8qO6422-E97zbvrDH48jYrIu5ppYAdbX3MEx4-nY1qQ677WB3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e9Y4jqQD1pQtNjs.B8qO6422-E97zbvrDH48jYrIu5ppYAdbX3MEx4-nY1qQ677WB3",
+                "code": {
+                    "text": "ceFAZolin (ANCEF) IV syringe 20 mg/mL in D5W (pediatric)"
+                },
+                "ingredient": [
+                    {
+                        "itemReference": {
+                            "reference": "Medication/epXhrz-xPXTHx2jVyYKWIeQ3",
+                            "display": "ceFAZolin"
+                        }
+                    },
+                    {
+                        "itemReference": {
+                            "reference": "Medication/eHRsmnma.-rB.LRSnSQCG5w3",
+                            "display": "dextrose 5 %"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eO6rurXS08-pwNx0ZTnB2VpJc4pxy5gnU1RlS5Q1pguK4iLOSk63GWm6oc2H.PyXO3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eO6rurXS08-pwNx0ZTnB2VpJc4pxy5gnU1RlS5Q1pguK4iLOSk63GWm6oc2H.PyXO3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eO6rurXS08-pwNx0ZTnB2VpJc4pxy5gnU1RlS5Q1pguK4iLOSk63GWm6oc2H.PyXO3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "6314"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "22100020202010"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "00665"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "3264"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "48933"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "309696"
+                        }
+                    ],
+                    "text": "dexamethasone (DECADRON) injection 10 mg/mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "6314"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "22100020202010"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "00665"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "3264"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "48933"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "309696"
+                                }
+                            ],
+                            "text": "dexamethasone (DECADRON) injection 10 mg/mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 10,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            },
+                            "denominator": {
+                                "value": 10,
+                                "unit": "MG/ML",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg/mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZdimPObjtapS4QjY3CoEi7f7wglW9fQvCCtX-0Tz-oQkzBsIeKzOtD4Ctwos0Rtq3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eZdimPObjtapS4QjY3CoEi7f7wglW9fQvCCtX-0Tz-oQkzBsIeKzOtD4Ctwos0Rtq3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eZdimPObjtapS4QjY3CoEi7f7wglW9fQvCCtX-0Tz-oQkzBsIeKzOtD4Ctwos0Rtq3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "139817"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "74200047102030"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "72147"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "32521"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "68139"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1234995"
+                        }
+                    ],
+                    "text": "rocuronium (ZEMURON) 100 mg/10 mL injection"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "139817"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "74200047102030"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "72147"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "32521"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "68139"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1234995"
+                                }
+                            ],
+                            "text": "rocuronium (ZEMURON) 100 mg/10 mL injection"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 100,
+                                "unit": "MG/10ML"
+                            },
+                            "denominator": {
+                                "value": 100,
+                                "unit": "MG/10ML"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eh0Qkxbc66q1wUpNtnJmX4w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eh0Qkxbc66q1wUpNtnJmX4w3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eh0Qkxbc66q1wUpNtnJmX4w3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "201-35-5374"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1FQZ60W6TLTRD"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E7367"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z6029"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TkiiGp-OPh09jmluhIdEZhouaonIlpgme2OInVajUohcB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eh0Qkxbc66q1wUpNtnJmX4w3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z6029"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "207013"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Wilbur OpTime Walrus",
+                        "family": "Walrus",
+                        "given": [
+                            "Wilbur",
+                            "OpTime"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Wilbur OpTime Walrus",
+                        "family": "Walrus",
+                        "given": [
+                            "Wilbur",
+                            "OpTime"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-271-9000",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2020-10-15",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "1979 Milky Way"
+                        ],
+                        "city": "VERONA",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53593",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "3",
+                                        "display": "Father"
+                                    }
+                                ],
+                                "text": "Father"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Father,Bear"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "333-333-3333",
+                                "use": "home"
+                            },
+                            {
+                                "system": "phone",
+                                "value": "333-333-3333",
+                                "use": "work"
+                            },
+                            {
+                                "system": "phone",
+                                "value": "444-444-4444",
+                                "use": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/erPDTHR6K2WA2zNgYrjQmNy1iW74lSMpAvrjGZmgjXK2.y5OcUxQjBaep0NfctAs13"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/erPDTHR6K2WA2zNgYrjQmNy1iW74lSMpAvrjGZmgjXK2.y5OcUxQjBaep0NfctAs13",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "erPDTHR6K2WA2zNgYrjQmNy1iW74lSMpAvrjGZmgjXK2.y5OcUxQjBaep0NfctAs13",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "160719"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "50250065052024"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "71969"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "26225"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "203148"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "283504"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1314133"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1740467"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "2119176"
+                        }
+                    ],
+                    "text": "ondansetron (ZOFRAN) 2 mg/mL injection"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "160719"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "50250065052024"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "71969"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "26225"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "203148"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "283504"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1314133"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1740467"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "2119176"
+                                }
+                            ],
+                            "text": "ondansetron (ZOFRAN) 2 mg/mL injection"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 4,
+                                "unit": "MG/2ML"
+                            },
+                            "denominator": {
+                                "value": 4,
+                                "unit": "MG/2ML"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

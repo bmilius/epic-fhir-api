@@ -4,7 +4,17 @@ getmeds.py
 import uuid
 import json
 import requests
+import csv
 
+
+def getCodes():
+    code_file = "rxnorm_all.csv"
+    
+    codelist = []
+    with open(code_file,'r') as codefile:
+        codes = csv.DictReader(codefile, delimiter='\t')
+        for row in codes:
+            codelist.append(row['Code'])
 
 def getmeds(smart):
     '''

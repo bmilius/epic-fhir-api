@@ -1,0 +1,2574 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 8,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest?_include=MedicationRequest:medicationReference&_include=MedicationRequest:encounter&_include=MedicationRequest:subject&_format=json&patient=e6yWC6ESCs0SPJwwxq3lKsg3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e6wyavJEuJfY.EHErJTwWOw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/e6wyavJEuJfY.EHErJTwWOw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "e6wyavJEuJfY.EHErJTwWOw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796018"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/e.SHU0n2O8XiJK14kX8CpjBP5Y0FYcvwXB7lIRJwFPr5gO89LOR7MWQkclF7y80E03",
+                    "display": "amoxicillin (AMOXIL) suspension 400 mg/5mL"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2559"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2009-10-01",
+                "requester": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "16844001",
+                                "display": "Painful urging to urinate (finding)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "788.1",
+                                "display": "Spastic dysuria"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "R30.0",
+                                "display": "Spastic dysuria"
+                            }
+                        ],
+                        "text": "Spastic dysuria"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 3.3 mLs (264 mg total) by mouth 3 (three) times daily., Starting 10/1/2009, Until Sun 10/11/09, Print",
+                        "patientInstruction": "Take 3.3 mLs (264 mg total) by mouth 3 (three) times daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2009-10-01"
+                                },
+                                "count": 30,
+                                "timeOfDay": [
+                                    "09:00:00",
+                                    "16:00:00",
+                                    "21:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900, 1600, 2100"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 264,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 3.3,
+                                    "unit": "mL",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mL"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 45,
+                                    "unit": "mg/kg/day",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/kg/d"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2009-10-01"
+                    },
+                    "numberOfRepeatsAllowed": 0,
+                    "quantity": {
+                        "value": 100,
+                        "unit": "mL"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 10,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eBZge.D5Vs92lWZmh5Z5CSg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eBZge.D5Vs92lWZmh5Z5CSg3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eBZge.D5Vs92lWZmh5Z5CSg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796009"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ey7IWaAiyzOpcGGiO4TnPRQIlTJqMM4WB93e4OJMgjuicU4tZ4EHl-jcJ53gQj8Gy3",
+                    "display": "DOXOrubicin (ADRIAMYCIN) chemo IVPB"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eY31ZYXGTdSxgYjlOSGZm0A3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2556"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-11-17T00:14:14Z",
+                "requester": {
+                    "reference": "Practitioner/ec30Z4SAQpUQUkACxUZVihQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Beacon, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/ec30Z4SAQpUQUkACxUZVihQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Beacon, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "305058001",
+                                "display": "Patient encounter status (finding)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "V20.2",
+                                "display": "Health check for child over 28 days old"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "Z00.129",
+                                "display": "Health check for child over 28 days old"
+                            }
+                        ],
+                        "text": "Health check for child over 28 days old"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "CarePlan/eXvTSMWw7CEAdk6ulVjbE9oSjCH8OcqJGr1aBxJKQKQQ3",
+                        "type": "CarePlan",
+                        "display": "IP BMT BU / CY Myeloma Auto"
+                    },
+                    {
+                        "reference": "MedicationRequest/eKuNdIheJh.0wtQDez44guw3",
+                        "type": "MedicationRequest",
+                        "display": "DOXOrubicin (ADRIAMYCIN) 182 mg in sodium chloride (NS) 0.9 % 250 mL chemo infusion"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "182 mg (100 mg/m2 \u00d7 1.82 m2 Order-specific BSA), Intravenous, Every 24 hours, First dose on Sat 11/16/13 at 1815\nProtect from light.\n",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-11-17T00:15:00Z",
+                                    "end": "2014-10-09T17:09:57Z"
+                                },
+                                "frequency": 1,
+                                "period": 24,
+                                "periodUnit": "h"
+                            },
+                            "code": {
+                                "text": "Every 24 hours"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 182,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 182,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mg/m2",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/m2"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eN-M1RaVwH9Yp52daCYfX-g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eN-M1RaVwH9Yp52daCYfX-g3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eN-M1RaVwH9Yp52daCYfX-g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796008"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eQyRzzdd5dCMt84ZkKxmukwwMDaDXCYjl1k1HNg4CmpKflD2sDV3UQ0XgjEyCJId73",
+                    "display": "epiRUBicin (ELLENCE) chemo IVPB"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "reference": "Encounter/eY31ZYXGTdSxgYjlOSGZm0A3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2556"
+                    },
+                    "display": "Hospital Encounter"
+                },
+                "authoredOn": "2013-11-17T00:14:14Z",
+                "requester": {
+                    "reference": "Practitioner/ec30Z4SAQpUQUkACxUZVihQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Beacon, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/ec30Z4SAQpUQUkACxUZVihQ3",
+                    "type": "Practitioner",
+                    "display": "Physician Beacon, MD"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "305058001",
+                                "display": "Patient encounter status (finding)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm/diagnosis",
+                                "code": "V20.2",
+                                "display": "Health check for child over 28 days old"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "Z00.129",
+                                "display": "Health check for child over 28 days old"
+                            }
+                        ],
+                        "text": "Health check for child over 28 days old"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "CarePlan/eXvTSMWw7CEAdk6ulVjbE9oSjCH8OcqJGr1aBxJKQKQQ3",
+                        "type": "CarePlan",
+                        "display": "IP BMT BU / CY Myeloma Auto"
+                    },
+                    {
+                        "reference": "MedicationRequest/eiJSTSwvwbVptXPYKsc0pGw3",
+                        "type": "MedicationRequest",
+                        "display": "epirubicin (ELLENCE) 180 mg in sodium chloride (NS) 0.9 % 50 mL chemo infusion"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "180 mg (100 mg/m2 \u00d7 1.8 m2 Order-specific BSA), Intravenous, at 600 mL/hr, for 5 Minutes, Continuous, Starting Sat 11/16/13 at 1815",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-11-17T00:15:00Z",
+                                    "end": "2014-10-09T17:09:57Z"
+                                },
+                                "duration": 5,
+                                "durationUnit": "min"
+                            },
+                            "code": {
+                                "text": "Continuous"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "418114005",
+                                    "display": "Intravenous central route (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "11",
+                                    "display": "Intravenous"
+                                }
+                            ],
+                            "text": "Intravenous"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 180,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 180,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 100,
+                                    "unit": "mg/m2",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg/m2"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eR0YJkNgReCWoJN3Mb4sDRw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eR0YJkNgReCWoJN3Mb4sDRw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eR0YJkNgReCWoJN3Mb4sDRw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796029"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eKQqKi.JrU6YFHn56KMb8S6S8v8sD5MO24gboAAVzbd2AVzg.MtM4A3VeBOa89NVk3",
+                    "display": "sodium fluoride solution 125 mcg/drop"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2569"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2006-09-06T02:28:44Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/etgQZhmikSleXFaKH66blkQ3",
+                    "type": "Practitioner",
+                    "display": "Nurse Pediatrics, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 275 mcg by mouth daily.  , Until Tue 9/5/06, Historical Med",
+                        "patientInstruction": "Take 275 mcg by mouth daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "end": "2006-09-05"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 275,
+                                    "unit": "mcg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "ug"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eb3K4pFUPjbfbooKjCUKmiA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/eb3K4pFUPjbfbooKjCUKmiA3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eb3K4pFUPjbfbooKjCUKmiA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796017"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eJ7V74YxlRgF0UcGNfA1jB1mzox2wTt42zZ7apjZ3HOn.h37ti6YzxHLMgyU-9w.Z3",
+                    "display": "sodium fluoride (LURIDE) chewable tablet"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2559"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2009-10-01",
+                "requester": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Chew 1 tablet (1.1 mg total) by mouth daily., Starting 10/1/2009, Until Fri 10/1/10, Print",
+                        "patientInstruction": "Chew 1 tablet (1.1 mg total) by mouth daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2009-10-01"
+                                },
+                                "count": 365,
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1.1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1.1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2009-10-01"
+                    },
+                    "numberOfRepeatsAllowed": 8,
+                    "quantity": {
+                        "value": 30,
+                        "unit": "tablet"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 30,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/efjPBd-wikXvgLDQGChBjKQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/efjPBd-wikXvgLDQGChBjKQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "efjPBd-wikXvgLDQGChBjKQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796032"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eKQqKi.JrU6YFHn56KMb8S6jnPdqIwnuOB4Z-SsUv05cIREkCa50YlDODOq6Tj3o53",
+                    "display": "sodium fluoride solution 125 mcg/drop"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2569"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2006-09-05",
+                "requester": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 275 mcg by mouth daily., Starting 9/5/2006, Until Wed 9/5/07, Print",
+                        "patientInstruction": "Take 275 mcg by mouth daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2006-09-05"
+                                },
+                                "count": 365,
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 275,
+                                    "unit": "mcg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "ug"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2006-09-05"
+                    },
+                    "numberOfRepeatsAllowed": 6,
+                    "quantity": {
+                        "value": 120,
+                        "unit": "mL"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 365,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ejC3vyXt2cbb.eOEiMDXTxw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/ejC3vyXt2cbb.eOEiMDXTxw3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ejC3vyXt2cbb.eOEiMDXTxw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796020"
+                    }
+                ],
+                "status": "stopped",
+                "intent": "plan",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "reportedBoolean": true,
+                "medicationReference": {
+                    "reference": "Medication/eKQqKi.JrU6YFHn56KMb8SxqtUSaN9.8FmvSTeJVfqkK6PUQ4vDUFUdr-fCTDUe0l3",
+                    "display": "sodium fluoride solution 125 mcg/drop"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2562"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2007-09-08T03:26:04Z",
+                "requester": {
+                    "extension": [
+                        {
+                            "valueCode": "unknown",
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                        }
+                    ]
+                },
+                "recorder": {
+                    "reference": "Practitioner/etgQZhmikSleXFaKH66blkQ3",
+                    "type": "Practitioner",
+                    "display": "Nurse Pediatrics, RN"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Take 275 mcg by mouth daily.  , Starting 9/7/2007, Until Thu 10/1/09, Historical Med",
+                        "patientInstruction": "Take 275 mcg by mouth daily.  ",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2007-09-07",
+                                    "end": "2009-10-01"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 275,
+                                    "unit": "mcg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "ug"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/er4aZLnAmTlVGuS5iRo0aJQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/MedicationRequest/er4aZLnAmTlVGuS5iRo0aJQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "er4aZLnAmTlVGuS5iRo0aJQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+                        "value": "796010"
+                    }
+                ],
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/eJ7V74YxlRgF0UcGNfA1jB.fJR6GgvuQq5ZrQpTNqRRkB2OzbyLH54woPS30aYj5p3",
+                    "display": "sodium fluoride (LURIDE) chewable tablet"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "encounter": {
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2558"
+                    },
+                    "display": "Office Visit"
+                },
+                "authoredOn": "2011-10-01",
+                "requester": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                    "type": "Practitioner",
+                    "display": "Physician Pediatrics, MD"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "Chew 1 tablet (1.1 mg total) by mouth daily., Starting 10/1/2011, Until Sun 9/30/12, Print",
+                        "patientInstruction": "Chew 1 tablet (1.1 mg total) by mouth daily.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2011-10-01"
+                                },
+                                "count": 365,
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 1.1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 1.1,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2011-10-01"
+                    },
+                    "numberOfRepeatsAllowed": 3,
+                    "quantity": {
+                        "value": 30,
+                        "unit": "tablet"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 30,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e.SHU0n2O8XiJK14kX8CpjBP5Y0FYcvwXB7lIRJwFPr5gO89LOR7MWQkclF7y80E03"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/e.SHU0n2O8XiJK14kX8CpjBP5Y0FYcvwXB7lIRJwFPr5gO89LOR7MWQkclF7y80E03",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e.SHU0n2O8XiJK14kX8CpjBP5Y0FYcvwXB7lIRJwFPr5gO89LOR7MWQkclF7y80E03",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "60104"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "01200010101924"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "25720"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "723"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "308189"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "1297882"
+                        }
+                    ],
+                    "text": "amoxicillin (AMOXIL) suspension 400 mg/5mL"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SUSR",
+                            "display": "reconstituted suspension"
+                        }
+                    ],
+                    "text": "reconstituted suspension"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "60104"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "01200010101924"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "25720"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "723"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "308189"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "1297882"
+                                }
+                            ],
+                            "text": "amoxicillin (AMOXIL) suspension 400 mg/5mL"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 400,
+                                "unit": "MG/5ML"
+                            },
+                            "denominator": {
+                                "value": 400,
+                                "unit": "MG/5ML"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e6yWC6ESCs0SPJwwxq3lKsg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "e6yWC6ESCs0SPJwwxq3lKsg3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Not Hispanic or Latino",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "271-70-7877"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1S6670FBD9RCB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3389"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4601"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TPLFobeKXYmJnTdNT-k5ZIXLnjGwicDnlxCcHsPlpbhQB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "e6yWC6ESCs0SPJwwxq3lKsg3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4601"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "203143"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "BEACONCONNIE"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "81"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Connie Beacon",
+                        "family": "Beacon",
+                        "given": [
+                            "Connie"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Connie Beacon",
+                        "family": "Beacon",
+                        "given": [
+                            "Connie"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-555-3355",
+                        "use": "home"
+                    },
+                    {
+                        "system": "email",
+                        "value": "k@k.com"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2006-03-06",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "3355 Maple Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53711",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "8",
+                                        "display": "Mother"
+                                    }
+                                ],
+                                "text": "Mother"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Primary,Shelly"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-555-3355",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "3355 Maple Street"
+                            ],
+                            "city": "Madison",
+                            "state": "WI",
+                            "postalCode": "53711",
+                            "country": "US"
+                        }
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/eoScyX3bs1SY.2lMoHCGcVw3",
+                        "type": "Practitioner",
+                        "display": "Physician Pediatrics, MD"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eJ7V74YxlRgF0UcGNfA1jB.fJR6GgvuQq5ZrQpTNqRRkB2OzbyLH54woPS30aYj5p3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eJ7V74YxlRgF0UcGNfA1jB.fJR6GgvuQq5ZrQpTNqRRkB2OzbyLH54woPS30aYj5p3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eJ7V74YxlRgF0UcGNfA1jB.fJR6GgvuQq5ZrQpTNqRRkB2OzbyLH54woPS30aYj5p3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "19747"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "79300020000510"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "04410"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "9873"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "313036"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "347061"
+                        }
+                    ],
+                    "text": "sodium fluoride (LURIDE) chewable tablet"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "CHEW",
+                            "display": "chewable tablet"
+                        }
+                    ],
+                    "text": "chewable tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "19747"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "79300020000510"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "04410"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "9873"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "313036"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "347061"
+                                }
+                            ],
+                            "text": "sodium fluoride (LURIDE) chewable tablet"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eJ7V74YxlRgF0UcGNfA1jB1mzox2wTt42zZ7apjZ3HOn.h37ti6YzxHLMgyU-9w.Z3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eJ7V74YxlRgF0UcGNfA1jB1mzox2wTt42zZ7apjZ3HOn.h37ti6YzxHLMgyU-9w.Z3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eJ7V74YxlRgF0UcGNfA1jB1mzox2wTt42zZ7apjZ3HOn.h37ti6YzxHLMgyU-9w.Z3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "19747"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "79300020000510"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "04410"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "9873"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "313036"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "347061"
+                        }
+                    ],
+                    "text": "sodium fluoride (LURIDE) chewable tablet"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "CHEW",
+                            "display": "chewable tablet"
+                        }
+                    ],
+                    "text": "chewable tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "19747"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "79300020000510"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "04410"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "9873"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "313036"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "347061"
+                                }
+                            ],
+                            "text": "sodium fluoride (LURIDE) chewable tablet"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKQqKi.JrU6YFHn56KMb8S6S8v8sD5MO24gboAAVzbd2AVzg.MtM4A3VeBOa89NVk3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKQqKi.JrU6YFHn56KMb8S6S8v8sD5MO24gboAAVzbd2AVzg.MtM4A3VeBOa89NVk3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eKQqKi.JrU6YFHn56KMb8S6S8v8sD5MO24gboAAVzbd2AVzg.MtM4A3VeBOa89NVk3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "30914"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "79300020002030"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "04414"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "9873"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "544438"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "636724"
+                        }
+                    ],
+                    "text": "sodium fluoride solution 125 mcg/drop"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "30914"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "79300020002030"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "04414"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "9873"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "544438"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "636724"
+                                }
+                            ],
+                            "text": "sodium fluoride solution 125 mcg/drop"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKQqKi.JrU6YFHn56KMb8S6jnPdqIwnuOB4Z-SsUv05cIREkCa50YlDODOq6Tj3o53"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKQqKi.JrU6YFHn56KMb8S6jnPdqIwnuOB4Z-SsUv05cIREkCa50YlDODOq6Tj3o53",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eKQqKi.JrU6YFHn56KMb8S6jnPdqIwnuOB4Z-SsUv05cIREkCa50YlDODOq6Tj3o53",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "30914"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "79300020002030"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "04414"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "9873"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "544438"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "636724"
+                        }
+                    ],
+                    "text": "sodium fluoride solution 125 mcg/drop"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "30914"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "79300020002030"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "04414"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "9873"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "544438"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "636724"
+                                }
+                            ],
+                            "text": "sodium fluoride solution 125 mcg/drop"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKQqKi.JrU6YFHn56KMb8SxqtUSaN9.8FmvSTeJVfqkK6PUQ4vDUFUdr-fCTDUe0l3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eKQqKi.JrU6YFHn56KMb8SxqtUSaN9.8FmvSTeJVfqkK6PUQ4vDUFUdr-fCTDUe0l3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eKQqKi.JrU6YFHn56KMb8SxqtUSaN9.8FmvSTeJVfqkK6PUQ4vDUFUdr-fCTDUe0l3",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "30914"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "79300020002030"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "04414"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "9873"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "544438"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "636724"
+                        }
+                    ],
+                    "text": "sodium fluoride solution 125 mcg/drop"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+                            "code": "SOLN",
+                            "display": "solution"
+                        }
+                    ],
+                    "text": "solution"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "30914"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "79300020002030"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "04414"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "9873"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "544438"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "636724"
+                                }
+                            ],
+                            "text": "sodium fluoride solution 125 mcg/drop"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eQyRzzdd5dCMt84ZkKxmukwwMDaDXCYjl1k1HNg4CmpKflD2sDV3UQ0XgjEyCJId73"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/eQyRzzdd5dCMt84ZkKxmukwwMDaDXCYjl1k1HNg4CmpKflD2sDV3UQ0XgjEyCJId73",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "eQyRzzdd5dCMt84ZkKxmukwwMDaDXCYjl1k1HNg4CmpKflD2sDV3UQ0XgjEyCJId73",
+                "code": {
+                    "text": "epiRUBicin (ELLENCE) chemo IVPB"
+                },
+                "ingredient": [
+                    {
+                        "itemReference": {
+                            "reference": "Medication/emwfvSymFTVI7fV5gmTmUCQ3",
+                            "display": "epiRUBicin"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 180,
+                                "unit": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 50,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    },
+                    {
+                        "itemReference": {
+                            "reference": "Medication/etFljppYv7KjLyRuKqJ2ypw3",
+                            "display": "sodium chloride 0.9 %"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 50,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            },
+                            "denominator": {
+                                "value": 50,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eY31ZYXGTdSxgYjlOSGZm0A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eY31ZYXGTdSxgYjlOSGZm0A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eY31ZYXGTdSxgYjlOSGZm0A3",
+                "extension": [
+                    {
+                        "valueBoolean": false,
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/accidentrelated"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "2556"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "118",
+                            "display": "Oncology"
+                        }
+                    ],
+                    "text": "Oncology"
+                },
+                "subject": {
+                    "reference": "Patient/e6yWC6ESCs0SPJwwxq3lKsg3",
+                    "display": "Beacon, Connie"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eRfXMi8Dn6jxO4.zHcYD1tg3",
+                        "type": "EpisodeOfCare",
+                        "display": "ONCOLOGY TREATMENT"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/ec30Z4SAQpUQUkACxUZVihQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Beacon, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2012-04-21T18:36:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/ec30Z4SAQpUQUkACxUZVihQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Beacon, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-04-21T18:36:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "129"
+                        },
+                        "display": "BEACON,CONNIE"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2012-04-21T18:36:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/ejFM6PRzePc3tcQZGos1UH7YVnaTrTAtkIvPyFz3WtUQ3",
+                            "display": "EMH Hematology and Oncology"
+                        },
+                        "period": {
+                            "start": "2012-04-21T18:36:00Z",
+                            "end": "2012-04-21T18:37:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/ew6bRiiIcKbo9d2tQ4dyffWV6gsk8iSoKgmSUmFU7tc83",
+                            "display": "EMH GI Services"
+                        },
+                        "period": {
+                            "start": "2012-04-21T18:37:00Z",
+                            "end": "2012-04-21T19:00:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/ejFM6PRzePc3tcQZGos1UH7YVnaTrTAtkIvPyFz3WtUQ3",
+                            "display": "EMH Hematology and Oncology"
+                        },
+                        "period": {
+                            "start": "2012-04-21T19:00:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/ejFM6PRzePc3tcQZGos1UH7YVnaTrTAtkIvPyFz3WtUQ3",
+                            "display": "EMH Hematology and Oncology"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/ek9ha3apOcjpkNn-ocd.PQw3",
+                            "display": "143"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "476"
+                            },
+                            "display": "143-01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ey7IWaAiyzOpcGGiO4TnPRQIlTJqMM4WB93e4OJMgjuicU4tZ4EHl-jcJ53gQj8Gy3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Medication/ey7IWaAiyzOpcGGiO4TnPRQIlTJqMM4WB93e4OJMgjuicU4tZ4EHl-jcJ53gQj8Gy3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ey7IWaAiyzOpcGGiO4TnPRQIlTJqMM4WB93e4OJMgjuicU4tZ4EHl-jcJ53gQj8Gy3",
+                "code": {
+                    "text": "DOXOrubicin (ADRIAMYCIN) chemo IVPB"
+                },
+                "ingredient": [
+                    {
+                        "itemReference": {
+                            "reference": "Medication/eXbqy0.PNArtTIPEr77Z1uQ3",
+                            "display": "DOXOrubicin"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 182,
+                                "unit": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    },
+                    {
+                        "itemReference": {
+                            "reference": "Medication/etFljppYv7KjLyRuKqJ2ypw3",
+                            "display": "sodium chloride 0.9 %"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            },
+                            "denominator": {
+                                "value": 250,
+                                "unit": "mL",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mL"
+                            }
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2070 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 25,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eE.q.30L3HpL0f9hwfM7Cow3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWECFRbmXvol2qb1onlAKkg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWECFRbmXvol2qb1onlAKkg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWECFRbmXvol2qb1onlAKkg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "29867"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "40",
+                                "display": "Wait List"
+                            }
+                        ],
+                        "text": "Wait List"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2020-12-11",
+                    "end": "2020-12-11"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eLhKFc3iDeY6-hXf5i.OaMou5OzNHYkj.U615OO9oDD43",
+                            "display": "EMC X-Ray Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-sjx-WdGlExFNdlEIyYKhg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e-sjx-WdGlExFNdlEIyYKhg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e-sjx-WdGlExFNdlEIyYKhg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "29868"
+                    }
+                ],
+                "status": "arrived",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "5",
+                    "display": "Appointment"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "50",
+                                "display": "Appointment"
+                            }
+                        ],
+                        "text": "Appointment"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "1053001",
+                                "display": "X-Ray Exam"
+                            }
+                        ],
+                        "text": "X-Ray Exam"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/ePwlHXYFFHLNL9so.ugVNFQ3",
+                            "type": "Practitioner",
+                            "display": "Radiologist Radiology, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2019-12-11T21:25:00Z",
+                            "end": "2019-12-11T21:55:00Z"
+                        },
+                        "individual": {
+                            "display": "EMC X-RAY"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2019-12-11T21:25:00Z",
+                    "end": "2019-12-11T21:55:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eLhKFc3iDeY6-hXf5i.OaMou5OzNHYkj.U615OO9oDD43",
+                            "display": "EMC X-Ray Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eD3uT.w-hH4L8-d3yC1Wbmw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eD3uT.w-hH4L8-d3yC1Wbmw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eD3uT.w-hH4L8-d3yC1Wbmw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "29866"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2019-12-11",
+                    "end": "2019-12-11"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e7eNb7sQKvs6peR9.Ie5oau2gEc1rk3BunsIG-cF2mPQ3",
+                            "display": "EMC CT Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ed.-miVMp0hP-zHugX.w6HA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ed.-miVMp0hP-zHugX.w6HA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ed.-miVMp0hP-zHugX.w6HA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20299"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2015-02-23",
+                    "end": "2015-02-23"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eLhKFc3iDeY6-hXf5i.OaMou5OzNHYkj.U615OO9oDD43",
+                            "display": "EMC X-Ray Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eds576bjhGjz.j8bo5EmaCg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eds576bjhGjz.j8bo5EmaCg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eds576bjhGjz.j8bo5EmaCg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20266"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "111",
+                                "display": "Orders Only"
+                            }
+                        ],
+                        "text": "Orders Only"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2015-01-21",
+                    "end": "2015-01-21"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3JuicURavLGxRZju0bktyg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3JuicURavLGxRZju0bktyg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3JuicURavLGxRZju0bktyg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20252"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "1050643",
+                                "display": "Interventional Radiology Angiogram Carotid Cerebral Left"
+                            }
+                        ],
+                        "text": "Interventional Radiology Angiogram Carotid Cerebral Left"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2015-01-20T04:00:00Z",
+                            "end": "2015-01-20T05:00:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH IR 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2015-01-20T03:59:43Z"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "22253000",
+                                "display": "Pain (finding)"
+                            }
+                        ],
+                        "text": "Pain"
+                    }
+                ],
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "1000236"
+                        },
+                        "display": "RAD VALIDATE,BRANDON"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2015-01-20T03:59:43Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/ebMDkIoNMQln3iIzo3nwSkgNSuWNrpYgObEUVctbTF5s3",
+                            "display": "EMH IR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/ebMDkIoNMQln3iIzo3nwSkgNSuWNrpYgObEUVctbTF5s3",
+                            "display": "EMH IR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ejil6C-hfS9g6ORoqwIGlTw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ejil6C-hfS9g6ORoqwIGlTw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ejil6C-hfS9g6ORoqwIGlTw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20251"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "1050321",
+                                "display": "MRI Abdomen with & without Contrast"
+                            }
+                        ],
+                        "text": "MRI Abdomen with & without Contrast"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2015-01-20T05:00:00Z",
+                            "end": "2015-01-20T05:45:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH MRI 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2015-01-20T03:51:34Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "1000236"
+                        },
+                        "display": "RAD VALIDATE,BRANDON"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2015-01-20T03:51:34Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                                "code": "2",
+                                "display": "Physician or Clinic Office"
+                            }
+                        ],
+                        "text": "Physician or Clinic Office"
+                    }
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNs7bpD0pcJQwTPhqlbLLWQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eNs7bpD0pcJQwTPhqlbLLWQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eNs7bpD0pcJQwTPhqlbLLWQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "20250"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2015-01-19",
+                    "end": "2015-01-19"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eLhKFc3iDeY6-hXf5i.OaMou5OzNHYkj.U615OO9oDD43",
+                            "display": "EMC X-Ray Imaging"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehFxGWmCHmD2IWpT8KVBf-w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehFxGWmCHmD2IWpT8KVBf-w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ehFxGWmCHmD2IWpT8KVBf-w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12080"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "15110",
+                                "display": "Nuclear Medicine Injection"
+                            }
+                        ],
+                        "text": "Nuclear Medicine Injection"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/e8H1VVKo6zUlSPD.Z84J0lw3",
+                            "type": "Practitioner",
+                            "display": "Physician Allergy, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2013-11-08T17:45:00Z",
+                            "end": "2013-11-08T18:15:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH NM ADMIN ROOM 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-08T17:38:28Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "770"
+                        },
+                        "display": "RAD VALIDATE,BRANDON"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-11-08T17:38:28Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eY4V.u35c.fd.BxBTIDWtyLKeywLpZpg7HQ-UlaWFnnE3",
+                            "display": "EMH Nuclear Medicine Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eY4V.u35c.fd.BxBTIDWtyLKeywLpZpg7HQ-UlaWFnnE3",
+                            "display": "EMH Nuclear Medicine Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elcAmbBJWRzjprO8O57jQ5w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/elcAmbBJWRzjprO8O57jQ5w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "elcAmbBJWRzjprO8O57jQ5w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12081"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2013-11-08",
+                    "end": "2013-11-08"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eNjIaUUbSBZKd0GQCWZVdNyPXrJmj.a6QJ3n-4HFyzwk3",
+                            "display": "EMC Allergy"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eA0v7eaNT2ixVEYzWe8ZOmw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eA0v7eaNT2ixVEYzWe8ZOmw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eA0v7eaNT2ixVEYzWe8ZOmw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12083"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                                "code": "15110",
+                                "display": "Nuclear Medicine Injection"
+                            }
+                        ],
+                        "text": "Nuclear Medicine Injection"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eLQunVwBLYoyX6gbuawTJ8w3",
+                            "type": "Practitioner",
+                            "display": "Physician One Ent, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2013-10-25T12:55:00Z",
+                            "end": "2013-10-25T13:25:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH NM ADMIN ROOM 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-10-25T12:51:44Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "771"
+                        },
+                        "display": "RAD VALIDATE,BRANDON"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-10-25T12:51:44Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eY4V.u35c.fd.BxBTIDWtyLKeywLpZpg7HQ-UlaWFnnE3",
+                            "display": "EMH Nuclear Medicine Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eY4V.u35c.fd.BxBTIDWtyLKeywLpZpg7HQ-UlaWFnnE3",
+                            "display": "EMH Nuclear Medicine Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eL37FsZWHizdoOHOV8j9d8g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eL37FsZWHizdoOHOV8j9d8g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eL37FsZWHizdoOHOV8j9d8g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12084"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2013-10-25",
+                    "end": "2013-10-25"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eJG6Ep2t.iL-TuZXPPvfMozjm4V.Rj8vMBZZ8spBZ2BM3",
+                            "display": "EMH Pre-Admission Testing"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3J4JF5l3S5GdmEl3pXJP.A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3J4JF5l3S5GdmEl3pXJP.A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3J4JF5l3S5GdmEl3pXJP.A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12085"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2013-09-18",
+                    "end": "2013-09-18"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWcP62b2038dh3C5BIvITkQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eWcP62b2038dh3C5BIvITkQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eWcP62b2038dh3C5BIvITkQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12086"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "4",
+                    "display": "HOV"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "102",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "REF",
+                                        "display": "referrer"
+                                    }
+                                ],
+                                "text": "referrer"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    },
+                    {
+                        "period": {
+                            "start": "2013-09-05T19:00:00Z",
+                            "end": "2013-09-05T19:45:00Z"
+                        },
+                        "individual": {
+                            "display": "EMH MRI 1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-09-05T18:53:42Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "772"
+                        },
+                        "display": "RADIANT,BRANDON"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-09-05T18:53:42Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eHCWC7LIQ6IPu36toPQxm5lw17kNhJwtR7yToW55xD3U3",
+                            "display": "EMH MR Imaging"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e4CbjdssvLFozxfMkF2dO9A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e4CbjdssvLFozxfMkF2dO9A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e4CbjdssvLFozxfMkF2dO9A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12087"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2013-09-05",
+                    "end": "2013-09-05"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2cM1K7Nnhf-j-jzjMZjo2A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e2cM1K7Nnhf-j-jzjMZjo2A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e2cM1K7Nnhf-j-jzjMZjo2A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12088"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "117",
+                                "display": "Ancillary Orders"
+                            }
+                        ],
+                        "text": "Ancillary Orders"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2012-04-21",
+                    "end": "2012-04-21"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eA7SA6QUnj5R8GawO8wvnTg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eA7SA6QUnj5R8GawO8wvnTg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eA7SA6QUnj5R8GawO8wvnTg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12090"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "101",
+                                "display": "Office Visit"
+                            }
+                        ],
+                        "text": "Office Visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "text": "losAuthorizingPhysician"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eM5CWtq15N0WJeuCet5bJlQ3",
+                            "type": "Practitioner",
+                            "display": "Physician Family Medicine, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2011-03-24",
+                    "end": "2011-03-24"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "83",
+                                "display": "Annual Exam"
+                            }
+                        ],
+                        "text": "Annual Exam"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160302",
+                                "display": "Hypertension"
+                            }
+                        ],
+                        "text": "Hypertension"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "160690",
+                                "display": "Heartburn"
+                            }
+                        ],
+                        "text": "Heartburn"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "58",
+                                "display": "Immunizations"
+                            }
+                        ],
+                        "text": "Immunizations"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/enN4apToSZwA3vQBWICcsWA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/enN4apToSZwA3vQBWICcsWA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "enN4apToSZwA3vQBWICcsWA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12092"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2010-05-23",
+                    "end": "2010-05-23"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ey-BctAXoZjQsvJI6DuNylQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ey-BctAXoZjQsvJI6DuNylQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ey-BctAXoZjQsvJI6DuNylQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12093"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2009-10-03",
+                    "end": "2009-10-03"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDZiPf3lCh8meKOvbD.4-UA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eDZiPf3lCh8meKOvbD.4-UA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eDZiPf3lCh8meKOvbD.4-UA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12094"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2009-04-24",
+                    "end": "2009-04-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZh-YgEmQGQ3laXltPEdaVw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZh-YgEmQGQ3laXltPEdaVw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eZh-YgEmQGQ3laXltPEdaVw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12095"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2009-04-24",
+                    "end": "2009-04-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eM-qrPMW2cqD5g1DlGUsWLA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eM-qrPMW2cqD5g1DlGUsWLA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eM-qrPMW2cqD5g1DlGUsWLA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12096"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2009-04-24",
+                    "end": "2009-04-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/esjm299qOF8fMZdpYJLfzqQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/esjm299qOF8fMZdpYJLfzqQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "esjm299qOF8fMZdpYJLfzqQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12097"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2008-09-04",
+                    "end": "2008-09-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZYDWUsp3H6GnATd1G23hog3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eZYDWUsp3H6GnATd1G23hog3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eZYDWUsp3H6GnATd1G23hog3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12098"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2008-09-04",
+                    "end": "2008-09-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehPMCys3q0qIuTHNj-GNpCQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ehPMCys3q0qIuTHNj-GNpCQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ehPMCys3q0qIuTHNj-GNpCQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "12099"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+                    "display": "Radiant, Brandon"
+                },
+                "period": {
+                    "start": "2008-09-04",
+                    "end": "2008-09-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eE.q.30L3HpL0f9hwfM7Cow3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eE.q.30L3HpL0f9hwfM7Cow3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eE.q.30L3HpL0f9hwfM7Cow3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "M",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "701-55-1579"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO13L9K12MVLC2N"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E2749"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z5126"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TGIU11JA46jcp-mF9UMtfwp2VYM28jgJGcEvJw1bxOuMB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eE.q.30L3HpL0f9hwfM7Cow3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z5126"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202515"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "RADBRANDON"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "556"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Brandon Radiant",
+                        "family": "Radiant",
+                        "given": [
+                            "Brandon"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Brandon Radiant",
+                        "family": "Radiant",
+                        "given": [
+                            "Brandon"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-213-5806",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-272-5000",
+                        "use": "work"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1953-03-24",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "old",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "134 Elm Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53706",
+                        "country": "US"
+                    }
+                ],
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "14",
+                                        "display": "Sister"
+                                    }
+                                ],
+                                "text": "Sister"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Sally Tonga"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-921-8342",
+                                "use": "home"
+                            }
+                        ]
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "organization": {
+                            "display": "Ehs Generic Employer"
+                        }
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

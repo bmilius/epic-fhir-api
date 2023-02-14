@@ -1,0 +1,3076 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 47,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=e9wE9ZXqNWhOX7OEIlDYsAg3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eiYYazZqnhYpB3Y3Gsblxxg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eiYYazZqnhYpB3Y3Gsblxxg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eiYYazZqnhYpB3Y3Gsblxxg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6312"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "10",
+                    "display": "Surgery Log"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "51",
+                                "display": "Surgery"
+                            }
+                        ],
+                        "text": "Surgery"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2013-11-15T07:15:00Z",
+                    "end": "2013-11-15T08:30:00Z"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/ejUYQRPGtz3vxe3M8nYCttnPcG64r9.6UJkiszxIi9zo3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    }
+                ],
+                "partOf": {
+                    "reference": "Encounter/eUWwAypITJCThT8EFkK7jTw3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6315"
+                    },
+                    "display": "Hospital Encounter"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUWwAypITJCThT8EFkK7jTw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUWwAypITJCThT8EFkK7jTw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eUWwAypITJCThT8EFkK7jTw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6315"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "117",
+                            "display": "Obstetrics"
+                        }
+                    ],
+                    "text": "Obstetrics"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    },
+                    {
+                        "reference": "EpisodeOfCare/eTiTxVn2i9f43NGQfs9.WwA3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy 1"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-03-16T21:02:35Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Resident Blue Team",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/team-name"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Med Student",
+                                        "display": "Medical Student"
+                                    }
+                                ],
+                                "text": "Medical Student"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-09-08T21:45:37Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9JHy9e9SKfx3i7ddTvG9fQ3",
+                            "type": "Practitioner",
+                            "display": "Medical Student"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "22",
+                                            "display": "Obstetrics and Gynecology"
+                                        }
+                                    ],
+                                    "text": "Obstetrics and Gynecology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T09:47:50Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "17",
+                                            "display": "Internal Medicine"
+                                        }
+                                    ],
+                                    "text": "Internal Medicine"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            },
+                            {
+                                "valueString": "Resident Blue Team",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/team-name"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Resident",
+                                        "display": "Resident"
+                                    }
+                                ],
+                                "text": "Resident"
+                            }
+                        ],
+                        "period": {
+                            "start": "2022-02-10T19:33:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e91ZqN58jkVe5kU07NSAMbw3",
+                            "type": "Practitioner",
+                            "display": "Third Year Phys A Resident, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-03-16T21:02:35Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "585"
+                        },
+                        "display": "OBSTETRICS,MEL I"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-03-17T17:36:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        },
+                        {
+                            "valueDateTime": "2013-03-16T21:02:35Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2013-03-16T21:02:00Z",
+                            "end": "2013-03-17T17:39:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2013-03-17T17:39:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eed2W0i5ZGrUYGO409QrynQ3",
+                            "display": "L&D PACU"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "828"
+                            },
+                            "display": "L&D - PACU 2"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eRMW-TwbS-vfBt0ssRuj.PQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eRMW-TwbS-vfBt0ssRuj.PQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eRMW-TwbS-vfBt0ssRuj.PQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6316"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2013-03-16"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewkRo-kMsn9KerpwR7Q3ACg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewkRo-kMsn9KerpwR7Q3ACg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ewkRo-kMsn9KerpwR7Q3ACg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6317"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2013-03-16"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e104z74YruGz47f.6k0dDZg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e104z74YruGz47f.6k0dDZg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e104z74YruGz47f.6k0dDZg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6318"
+                    }
+                ],
+                "status": "planned",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2013-03-16"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eLRuMVt85q-HJKNev9WD1hA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eLRuMVt85q-HJKNev9WD1hA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eLRuMVt85q-HJKNev9WD1hA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6319"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2012-11-27",
+                    "end": "2012-11-27"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHcL-kZ4Esa7oN9aitxNauA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eHcL-kZ4Esa7oN9aitxNauA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eHcL-kZ4Esa7oN9aitxNauA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6321"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2012-11-17",
+                    "end": "2012-11-17"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eE-GN-0631Ww6QAro5ZHG6g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eE-GN-0631Ww6QAro5ZHG6g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eE-GN-0631Ww6QAro5ZHG6g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6323"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2012-11-03",
+                    "end": "2012-11-03"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ed6AGafTAtWArxMctlHkJQQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ed6AGafTAtWArxMctlHkJQQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ed6AGafTAtWArxMctlHkJQQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6325"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2012-09-07",
+                    "end": "2012-09-07"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezq.lz7m.VWPrV-KkSykYXg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ezq.lz7m.VWPrV-KkSykYXg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ezq.lz7m.VWPrV-KkSykYXg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6327"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1200",
+                                "display": "Routine Prenatal"
+                            }
+                        ],
+                        "text": "Routine Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2012-07-15",
+                    "end": "2012-07-15"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/edr.tpuhJpcAWkM-O4DLpIg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/edr.tpuhJpcAWkM-O4DLpIg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "edr.tpuhJpcAWkM-O4DLpIg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6329"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "1201",
+                                "display": "Initial Prenatal"
+                            }
+                        ],
+                        "text": "Initial Prenatal"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    }
+                ],
+                "period": {
+                    "start": "2012-05-10",
+                    "end": "2012-05-10"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                                "code": "120001",
+                                "display": "Initial Prenatal Visit"
+                            }
+                        ],
+                        "text": "Initial Prenatal Visit"
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eBDEYzYrPL0Gg9ikW76NBzgtwO-F2yBytQjo9cNTYfZ83",
+                            "display": "EMC OBGYN Clinic"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etb9EQv7cGFdSCBx33NqvZA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etb9EQv7cGFdSCBx33NqvZA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "etb9EQv7cGFdSCBx33NqvZA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6331"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-12-13",
+                    "end": "2011-12-13"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e60wsut2bVfJRXCEoFug2SA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e60wsut2bVfJRXCEoFug2SA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e60wsut2bVfJRXCEoFug2SA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6332"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-10-14",
+                    "end": "2011-10-14"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exN1IoP-M7g787CKdJd3BcQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exN1IoP-M7g787CKdJd3BcQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "exN1IoP-M7g787CKdJd3BcQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6333"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-10-04",
+                    "end": "2011-10-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e58FNun-nlc7hv8jz7jGRxg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e58FNun-nlc7hv8jz7jGRxg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e58FNun-nlc7hv8jz7jGRxg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6334"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-10-04",
+                    "end": "2011-10-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEaxPiqlOY.lDQsuS12V32w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eEaxPiqlOY.lDQsuS12V32w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eEaxPiqlOY.lDQsuS12V32w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6335"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-10-04",
+                    "end": "2011-10-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eIbfOYnDyvQeoYoasMv7F.w3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eIbfOYnDyvQeoYoasMv7F.w3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eIbfOYnDyvQeoYoasMv7F.w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6336"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-10-04",
+                    "end": "2011-10-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/er1c2QWCwdj5AXZcs-Reybg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/er1c2QWCwdj5AXZcs-Reybg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "er1c2QWCwdj5AXZcs-Reybg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6337"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-06-17",
+                    "end": "2011-06-17"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQ3ZhxDKC5AfO8CISDGAKVA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eQ3ZhxDKC5AfO8CISDGAKVA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eQ3ZhxDKC5AfO8CISDGAKVA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6338"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-06-07",
+                    "end": "2011-06-07"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eq4nZTe.IfNPTgDbOODBEvg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eq4nZTe.IfNPTgDbOODBEvg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eq4nZTe.IfNPTgDbOODBEvg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6339"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-06-07",
+                    "end": "2011-06-07"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekN8vVVegAcRPlKephqbvrg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ekN8vVVegAcRPlKephqbvrg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ekN8vVVegAcRPlKephqbvrg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6340"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-05-24",
+                    "end": "2011-05-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eY-XUkJFlylGD2v.ovr0kWw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eY-XUkJFlylGD2v.ovr0kWw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eY-XUkJFlylGD2v.ovr0kWw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6341"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-05-24",
+                    "end": "2011-05-24"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erMsIEOpdQL44plNZcvk9xw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erMsIEOpdQL44plNZcvk9xw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "erMsIEOpdQL44plNZcvk9xw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6342"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-04-11",
+                    "end": "2011-04-11"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exM3eEUOL.2a-8TUNNd-TGg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/exM3eEUOL.2a-8TUNNd-TGg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "exM3eEUOL.2a-8TUNNd-TGg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6343"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-03-28",
+                    "end": "2011-03-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eBmDdS8U74JB6AFdrtxdytg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eBmDdS8U74JB6AFdrtxdytg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eBmDdS8U74JB6AFdrtxdytg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6344"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-03-28",
+                    "end": "2011-03-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ep6Skn-RHSLErZQaC96uffA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ep6Skn-RHSLErZQaC96uffA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ep6Skn-RHSLErZQaC96uffA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6345"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-02-10",
+                    "end": "2011-02-10"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/edtmO9ZF-mHYTKSjfdHCTrA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/edtmO9ZF-mHYTKSjfdHCTrA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "edtmO9ZF-mHYTKSjfdHCTrA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6346"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-02-02",
+                    "end": "2011-02-02"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eIbO6Lnwm81G.lpkJMHJtgg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eIbO6Lnwm81G.lpkJMHJtgg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eIbO6Lnwm81G.lpkJMHJtgg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6347"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-02-02",
+                    "end": "2011-02-02"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eCukPQ5frolcD0f1Vd2nKeQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eCukPQ5frolcD0f1Vd2nKeQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eCukPQ5frolcD0f1Vd2nKeQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6348"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-01-31",
+                    "end": "2011-01-31"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eb3Bf9G3mGOxrYywpBXaRTg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eb3Bf9G3mGOxrYywpBXaRTg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eb3Bf9G3mGOxrYywpBXaRTg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6349"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-01-31",
+                    "end": "2011-01-31"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erMVbZnIHE61fIDU.BKDVZQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/erMVbZnIHE61fIDU.BKDVZQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "erMVbZnIHE61fIDU.BKDVZQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6350"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-01-31",
+                    "end": "2011-01-31"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/estVNmrdxNu5f4xeXP2bbBg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/estVNmrdxNu5f4xeXP2bbBg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "estVNmrdxNu5f4xeXP2bbBg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6351"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2011-01-31",
+                    "end": "2011-01-31"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etBDUi7tfdDnTLsG9pn0akw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/etBDUi7tfdDnTLsG9pn0akw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "etBDUi7tfdDnTLsG9pn0akw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6352"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-11-28",
+                    "end": "2010-11-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6pAE9HfRGQWQ60MpZLt0QQ3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e6pAE9HfRGQWQ60MpZLt0QQ3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e6pAE9HfRGQWQ60MpZLt0QQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6353"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-11-28",
+                    "end": "2010-11-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eOdXb004syiIqbA.wbIioMw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eOdXb004syiIqbA.wbIioMw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eOdXb004syiIqbA.wbIioMw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6354"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-11-28",
+                    "end": "2010-11-28"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eLJaAJ0yTRuuDzjCMSkisxA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eLJaAJ0yTRuuDzjCMSkisxA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eLJaAJ0yTRuuDzjCMSkisxA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6355"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-10-14",
+                    "end": "2010-10-14"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewTW5hVzYyICE2UDCf8uP1A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewTW5hVzYyICE2UDCf8uP1A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ewTW5hVzYyICE2UDCf8uP1A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6356"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-10-04",
+                    "end": "2010-10-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eK-j.KCcoKUe-t1RCQLN7UA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eK-j.KCcoKUe-t1RCQLN7UA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eK-j.KCcoKUe-t1RCQLN7UA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6357"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-10-04",
+                    "end": "2010-10-04"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eIBrjtOY-nyEg-R9fXNbVdA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eIBrjtOY-nyEg-R9fXNbVdA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eIBrjtOY-nyEg-R9fXNbVdA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6358"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-09-20",
+                    "end": "2010-09-20"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e4pkVqPsa2DXhib9Dm.EZ.A3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e4pkVqPsa2DXhib9Dm.EZ.A3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e4pkVqPsa2DXhib9Dm.EZ.A3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6359"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-09-20",
+                    "end": "2010-09-20"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eMZ7umnjMa0TT.ve247Olkw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eMZ7umnjMa0TT.ve247Olkw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eMZ7umnjMa0TT.ve247Olkw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6360"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-07-25",
+                    "end": "2010-07-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/efiPzBXWz-FUYoywrPYSm0g3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/efiPzBXWz-FUYoywrPYSm0g3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "efiPzBXWz-FUYoywrPYSm0g3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6361"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-07-25",
+                    "end": "2010-07-25"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ei.lMGp6iEqbcxhUDFoY1KA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ei.lMGp6iEqbcxhUDFoY1KA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ei.lMGp6iEqbcxhUDFoY1KA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6362"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-06-01",
+                    "end": "2010-06-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewNRqiO-zFsX6Uah1GMJQHw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/ewNRqiO-zFsX6Uah1GMJQHw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "ewNRqiO-zFsX6Uah1GMJQHw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6363"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-06-01",
+                    "end": "2010-06-01"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eGE1zLw-NaPKzjN7Ozr2B-Q3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eGE1zLw-NaPKzjN7Ozr2B-Q3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eGE1zLw-NaPKzjN7Ozr2B-Q3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6364"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-03-27",
+                    "end": "2010-03-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e14KGueQxwJBREwhbhlfPbg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e14KGueQxwJBREwhbhlfPbg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e14KGueQxwJBREwhbhlfPbg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6365"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-03-27",
+                    "end": "2010-03-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUk.pThHypLWRxmhc0K8ALA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUk.pThHypLWRxmhc0K8ALA3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eUk.pThHypLWRxmhc0K8ALA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6366"
+                    }
+                ],
+                "status": "unknown",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2010-03-27",
+                    "end": "2010-03-27"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e9wE9ZXqNWhOX7OEIlDYsAg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "e9wE9ZXqNWhOX7OEIlDYsAg3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "value": "884-97-9091"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO18JJ88Z9JBBF5"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3248"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4943"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TysbVUuxjHcrLPvYz.4jLEQS9lLCB5BHUtmAEITo4.z4B"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "e9wE9ZXqNWhOX7OEIlDYsAg3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4943"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "202998"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "OBMELI"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "470"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Mel I Obstetrics",
+                        "family": "Obstetrics",
+                        "given": [
+                            "Mel",
+                            "I"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Mel I Obstetrics",
+                        "family": "Obstetrics",
+                        "given": [
+                            "Mel",
+                            "I"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-555-4578",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-555-4785",
+                        "use": "work"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-555-7774",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1985-05-10",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "4563 Quartz Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53719",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Married"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "C",
+                                        "display": "Emergency Contact"
+                                    },
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                                        "code": "17",
+                                        "display": "Spouse"
+                                    }
+                                ],
+                                "text": "Spouse"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Michael Williams"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-555-4578",
+                                "use": "home"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "line": [
+                                "4563 Quartz Street"
+                            ],
+                            "city": "Madison",
+                            "state": "WI",
+                            "postalCode": "53719",
+                            "country": "US"
+                        }
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "E",
+                                        "display": "Employer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "organization": {
+                            "display": "Other"
+                        }
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/eTiTxVn2i9f43NGQfs9.WwA3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/eTiTxVn2i9f43NGQfs9.WwA3",
+            "resource": {
+                "resourceType": "EpisodeOfCare",
+                "id": "eTiTxVn2i9f43NGQfs9.WwA3",
+                "extension": [
+                    {
+                        "valueString": "Pregnancy 1",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/episode-name"
+                    }
+                ],
+                "status": "finished",
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726668",
+                                "code": "2",
+                                "display": "Pregnancy"
+                            },
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.726668.130",
+                                "code": "1",
+                                "display": "Obstetrics"
+                            }
+                        ],
+                        "text": "Pregnancy"
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "type": "Patient",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2013-05-25",
+                    "end": "2017-07-05"
+                },
+                "team": [
+                    {
+                        "reference": "CareTeam/e9FvygFgHprJC0dms3pWo.y8NwllGwj8bIhgNz03i3bA3",
+                        "type": "CareTeam"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUWwAypITJCThT8EFkK7jTw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eUWwAypITJCThT8EFkK7jTw3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eUWwAypITJCThT8EFkK7jTw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "6315"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "117",
+                            "display": "Obstetrics"
+                        }
+                    ],
+                    "text": "Obstetrics"
+                },
+                "subject": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "display": "Obstetrics, Mel I"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+                        "type": "EpisodeOfCare",
+                        "display": "First Pregnancy"
+                    },
+                    {
+                        "reference": "EpisodeOfCare/eTiTxVn2i9f43NGQfs9.WwA3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy 1"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-03-16T21:02:35Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Resident Blue Team",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/team-name"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Med Student",
+                                        "display": "Medical Student"
+                                    }
+                                ],
+                                "text": "Medical Student"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-09-08T21:45:37Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e9JHy9e9SKfx3i7ddTvG9fQ3",
+                            "type": "Practitioner",
+                            "display": "Medical Student"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "22",
+                                            "display": "Obstetrics and Gynecology"
+                                        }
+                                    ],
+                                    "text": "Obstetrics and Gynecology"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Surgeon",
+                                        "display": "Surgeon"
+                                    }
+                                ],
+                                "text": "Surgeon"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T09:47:50Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698084.18832",
+                                            "code": "17",
+                                            "display": "Internal Medicine"
+                                        }
+                                    ],
+                                    "text": "Internal Medicine"
+                                },
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/specialty"
+                            },
+                            {
+                                "valueString": "Resident Blue Team",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/team-name"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18869",
+                                        "code": "Resident",
+                                        "display": "Resident"
+                                    }
+                                ],
+                                "text": "Resident"
+                            }
+                        ],
+                        "period": {
+                            "start": "2022-02-10T19:33:00Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/e91ZqN58jkVe5kU07NSAMbw3",
+                            "type": "Practitioner",
+                            "display": "Third Year Phys A Resident, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-03-16T21:02:35Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "585"
+                        },
+                        "display": "OBSTETRICS,MEL I"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-03-17T17:36:00Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+                        },
+                        {
+                            "valueDateTime": "2013-03-16T21:02:35Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2013-03-16T21:02:00Z",
+                            "end": "2013-03-17T17:39:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        },
+                        "period": {
+                            "start": "2013-03-17T17:39:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/etk-blkZr.2.mHyBW6isfhjiMf0FMRauHE.XP765i1rY3",
+                            "display": "EMH Labor and Delivery"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eed2W0i5ZGrUYGO409QrynQ3",
+                            "display": "L&D PACU"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "828"
+                            },
+                            "display": "L&D - PACU 2"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/eXAtu0TVC36RR1M3U3acXbw3",
+            "resource": {
+                "resourceType": "EpisodeOfCare",
+                "id": "eXAtu0TVC36RR1M3U3acXbw3",
+                "extension": [
+                    {
+                        "valueString": "First Pregnancy",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/episode-name"
+                    }
+                ],
+                "status": "finished",
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726668",
+                                "code": "2",
+                                "display": "Pregnancy"
+                            },
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.726668.130",
+                                "code": "1",
+                                "display": "Obstetrics"
+                            }
+                        ],
+                        "text": "Pregnancy"
+                    }
+                ],
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "Condition/ebRbh3fvViisWo6KRk80wTA3",
+                            "type": "Condition",
+                            "display": "Supervision of normal first pregnancy (Resolved)"
+                        }
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/e9wE9ZXqNWhOX7OEIlDYsAg3",
+                    "type": "Patient",
+                    "display": "Obstetrics, Mel I"
+                },
+                "period": {
+                    "start": "2012-05-10",
+                    "end": "2013-03-26"
+                },
+                "team": [
+                    {
+                        "reference": "CareTeam/e9FvygFgHprJC0dms3pWo.97PasRIuk.7rCsINL0eLfk3",
+                        "type": "CareTeam"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}

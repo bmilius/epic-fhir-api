@@ -1,0 +1,640 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 3,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter?_include=Encounter:condition&_include=Encounter:episodeOfCare&_include=Encounter:partOf&_include=Encounter:subject&_format=json&patient=eTmzfp9VArAI4RQvIi0OBCg3"
+        }
+    ],
+    "entry": [
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eTucXIzvXQ6xwWlUa24yHmg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eTucXIzvXQ6xwWlUa24yHmg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eTucXIzvXQ6xwWlUa24yHmg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "26564"
+                    }
+                ],
+                "status": "cancelled",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "101",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eTmzfp9VArAI4RQvIi0OBCg3",
+                    "display": "Allergy, Deana A"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/ecWv380hagRz9kLRlgswC3g3",
+                            "type": "Practitioner",
+                            "display": "Physician Gynecology, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2016-09-17",
+                    "end": "2016-09-17"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eyrexAtnEBxE-N8Ni278Uig3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/eyrexAtnEBxE-N8Ni278Uig3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "eyrexAtnEBxE-N8Ni278Uig3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3564"
+                    }
+                ],
+                "status": "in-progress",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "3",
+                    "display": "Admission"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                                "code": "104",
+                                "display": "Observation"
+                            }
+                        ],
+                        "text": "Observation"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "3",
+                                "display": "Hospital Encounter"
+                            }
+                        ],
+                        "text": "Hospital Encounter"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                                "code": "3",
+                                "display": "Elective"
+                            }
+                        ],
+                        "text": "Elective"
+                    }
+                ],
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+                            "code": "117",
+                            "display": "Obstetrics"
+                        }
+                    ],
+                    "text": "Obstetrics"
+                },
+                "subject": {
+                    "reference": "Patient/eTmzfp9VArAI4RQvIi0OBCg3",
+                    "display": "Allergy, Deana A"
+                },
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/ejEdGLWBRLhuv6Hz6z-Likw3",
+                        "type": "EpisodeOfCare",
+                        "display": "Pregnancy Episode"
+                    }
+                ],
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ],
+                                "text": "admitter"
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ],
+                                "text": "attender"
+                            }
+                        ],
+                        "period": {
+                            "start": "2013-11-15T19:41:43Z"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/eHdBpsN5eOyFCM2cUPgGuTw3",
+                            "type": "Practitioner",
+                            "display": "Physician Obstetrics, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2013-11-16T19:41:00Z"
+                },
+                "account": [
+                    {
+                        "identifier": {
+                            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+                            "value": "323"
+                        },
+                        "display": "ALLERGY,DEANA A"
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "valueDateTime": "2013-11-16T19:41:43Z",
+                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+                        }
+                    ]
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e5TZFMkavPzEcPvQ5amUH-tHdmNmmHTyEE6LR5y3ZbYA3",
+                            "display": "EMH Antepartum"
+                        },
+                        "period": {
+                            "start": "2013-11-16T19:41:00Z"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/e5TZFMkavPzEcPvQ5amUH-tHdmNmmHTyEE6LR5y3ZbYA3",
+                            "display": "EMH Antepartum"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+                            "display": "Epic Hospital System"
+                        }
+                    },
+                    {
+                        "location": {
+                            "reference": "Location/eoi4HnH3PmL2enJPXsMrs-g3",
+                            "display": "AP - 301"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "ro",
+                                    "display": "Room"
+                                }
+                            ],
+                            "text": "Room"
+                        }
+                    },
+                    {
+                        "location": {
+                            "identifier": {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                                "value": "374"
+                            },
+                            "display": "301-01"
+                        },
+                        "physicalType": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                                    "code": "bd",
+                                    "display": "Bed"
+                                }
+                            ],
+                            "text": "Bed"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3M6TGYvltVs8VS2VpmWTZg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Encounter/e3M6TGYvltVs8VS2VpmWTZg3",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "e3M6TGYvltVs8VS2VpmWTZg3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                        "value": "3568"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+                    "code": "13",
+                    "display": "Support OP Encounter"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                                "code": "150",
+                                "display": "Abstract"
+                            }
+                        ],
+                        "text": "Abstract"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/eTmzfp9VArAI4RQvIi0OBCg3",
+                    "display": "Allergy, Deana A"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/ecWv380hagRz9kLRlgswC3g3",
+                            "type": "Practitioner",
+                            "display": "Physician Gynecology, MD"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2012-08-15",
+                    "end": "2012-08-15"
+                },
+                "location": [
+                    {
+                        "location": {
+                            "reference": "Location/e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+                            "display": "EMC Family Medicine"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eTmzfp9VArAI4RQvIi0OBCg3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/Patient/eTmzfp9VArAI4RQvIi0OBCg3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eTmzfp9VArAI4RQvIi0OBCg3",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "valueCode": "F",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:epic:apporchard.curprod",
+                        "value": "AO1PQLK8HNB85BJ"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPIC"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "E3252"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "Z4711"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "T3e3f92ObXPxheiU1OLFY41DhWI7Put8mDJDkjxkFyWwB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eTmzfp9VArAI4RQvIi0OBCg3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+                        "value": "     Z4711"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+                        "value": "203002"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "MYCHARTLOGIN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+                        "value": "ALLERGYDEANAA"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+                        "value": "34"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Deana A Allergy",
+                        "family": "Allergy",
+                        "given": [
+                            "Deana",
+                            "A"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Deana A Allergy",
+                        "family": "Allergy",
+                        "given": [
+                            "Deana",
+                            "A"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "608-555-3523",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "608-550-3523",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1976-02-03",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "3523 Maple Street"
+                        ],
+                        "city": "Madison",
+                        "state": "WI",
+                        "postalCode": "53711",
+                        "country": "US"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "name": {
+                            "use": "usual",
+                            "text": "Williams,George"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "608-555-3523",
+                                "use": "home"
+                            }
+                        ]
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/ecWv380hagRz9kLRlgswC3g3",
+                        "type": "Practitioner",
+                        "display": "Physician Gynecology, MD"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+                    "display": "Epic Hospital System"
+                }
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/ejEdGLWBRLhuv6Hz6z-Likw3"
+                }
+            ],
+            "fullUrl": "https://appmarket.epic.com/interconnect-amcurprd-oauth/api/FHIR/R4/EpisodeOfCare/ejEdGLWBRLhuv6Hz6z-Likw3",
+            "resource": {
+                "resourceType": "EpisodeOfCare",
+                "id": "ejEdGLWBRLhuv6Hz6z-Likw3",
+                "extension": [
+                    {
+                        "valueString": "Pregnancy Episode",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/episode-name"
+                    },
+                    {
+                        "valueString": "Episode created by system 4/27/12  1:41 PM",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/episode-comments"
+                    }
+                ],
+                "status": "finished",
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726668",
+                                "code": "2",
+                                "display": "Pregnancy"
+                            },
+                            {
+                                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.726668.130",
+                                "code": "1",
+                                "display": "Obstetrics"
+                            }
+                        ],
+                        "text": "Pregnancy"
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/eTmzfp9VArAI4RQvIi0OBCg3",
+                    "type": "Patient",
+                    "display": "Allergy, Deana A"
+                },
+                "period": {
+                    "start": "2013-11-15",
+                    "end": "2017-07-05"
+                },
+                "team": [
+                    {
+                        "reference": "CareTeam/ecaCAZsIdjDP5TeLmvfQOG7kUdqSGklZGSEkBTxI3n1I3",
+                        "type": "CareTeam"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "include"
+            }
+        }
+    ]
+}
